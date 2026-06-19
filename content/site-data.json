@@ -83,15 +83,15 @@
         "question": "Can the raw data become trustworthy enough to support basketball claims?",
         "metrics": [
           {
-            "value": "5",
+            "value": "7+",
             "label": "data layers"
           },
           {
-            "value": "3",
+            "value": "2",
             "label": "report files"
           },
           {
-            "value": "5",
+            "value": "10",
             "label": "chart assets"
           },
           {
@@ -313,7 +313,7 @@
       "label": "web articles"
     },
     {
-      "value": "8",
+      "value": "10",
       "label": "chart assets"
     },
     {
@@ -836,6 +836,3117 @@
         "pipeline",
         "validation"
       ]
+    },
+    {
+      "slug": "alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model",
+      "category": "team",
+      "badge": "Team Analysis",
+      "badgeClass": "team",
+      "title": "Alabama’s 2026–27 Reset: What the 2025–26 Season Reveals About the Next Version of the Oats Model",
+      "subtitle": "",
+      "summary": "Alabama’s 2025–26 season was easy to describe at first glance. The Crimson Tide played fast, averaged more than 91 points per game, attempted an enormous number of threes, and again operated one of the most dangerous offenses in college basketball.",
+      "date": "2026-06-19",
+      "readTime": "12 min",
+      "tags": [
+        "team",
+        "article",
+        "analysis"
+      ],
+      "data": "NCAA box score, play-by-play, shot locations, lineup estimates",
+      "skills": "Data Storytelling, Analytical Writing, Data Interpretation, Visual Communication, Basketball Analysis.",
+      "linkLabel": "Read Article",
+      "media": [
+        {
+          "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-1.png",
+          "alt": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics.",
+          "caption": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-2.png",
+          "alt": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining.",
+          "caption": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-3.png",
+          "alt": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure.",
+          "caption": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-4.png",
+          "alt": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles.",
+          "caption": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-5.png",
+          "alt": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions.",
+          "caption": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions."
+        }
+      ],
+      "content": {
+        "sections": [
+          {
+            "heading": "Overview",
+            "body": "Alabama’s 2025–26 season was easy to describe at first glance. The Crimson Tide played fast, averaged more than 91 points per game, attempted an enormous number of threes, and again operated one of the most dangerous offenses in college basketball.\n\nBut the deeper question is not whether Alabama had an elite offense. It did.\n\nThe more important question is why that offense did not produce the same level of dominance against stronger defensive and rebounding opponents — and what that reveals about the program’s 2026–27 roster reset.\n\nAlabama finished 25–10, went 13–5 in SEC play, and reached the Sweet 16. On a possession basis, the team played at approximately 74.7 possessions per game, produced a 122.1 offensive rating, allowed a 110.7 defensive rating, and finished with a raw net rating around +11.3.\n\nIts opponent-adjusted profile was also positive. Alabama’s net versus expected was approximately +20.2, meaning that the combined difference between its game offense relative to opponent defensive baselines and its game defense relative to opponent offensive baselines was positive on average.\n\nSo this was not a team whose statistical profile existed only because of pace or weak competition.\n\nAlabama was genuinely strong.\n\nThe issue was that its dominance became much less stable when opponents could remove the first offensive advantage, compete physically, and extend possessions on the glass.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama’s 2025–26 season was easy to describe at first glance. The Crimson Tide played fast, averaged more than 91 points per game, attempted an enormous number of threes, and again operated one of the most dangerous offenses in college basketball."
+              },
+              {
+                "type": "paragraph",
+                "text": "But the deeper question is not whether Alabama had an elite offense. It did."
+              },
+              {
+                "type": "paragraph",
+                "text": "The more important question is why that offense did not produce the same level of dominance against stronger defensive and rebounding opponents — and what that reveals about the program’s 2026–27 roster reset."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama finished 25–10, went 13–5 in SEC play, and reached the Sweet 16. On a possession basis, the team played at approximately 74.7 possessions per game, produced a 122.1 offensive rating, allowed a 110.7 defensive rating, and finished with a raw net rating around +11.3."
+              },
+              {
+                "type": "paragraph",
+                "text": "Its opponent-adjusted profile was also positive. Alabama’s net versus expected was approximately +20.2, meaning that the combined difference between its game offense relative to opponent defensive baselines and its game defense relative to opponent offensive baselines was positive on average."
+              },
+              {
+                "type": "paragraph",
+                "text": "So this was not a team whose statistical profile existed only because of pace or weak competition."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama was genuinely strong."
+              },
+              {
+                "type": "paragraph",
+                "text": "The issue was that its dominance became much less stable when opponents could remove the first offensive advantage, compete physically, and extend possessions on the glass."
+              }
+            ]
+          },
+          {
+            "heading": "Alabama’s Offense Was More Than Pace",
+            "body": "The Four Factors explain why Alabama’s offense was sustainable.\n\nThe Crimson Tide produced:\n\nThis was a clear Nate Oats offensive profile: fast, spaced, aggressive, and analytically optimized.\n\nAlabama did not simply increase scoring by creating more possessions. It also scored efficiently within those possessions.\n\nThe low turnover rate was particularly important. High-paced teams often lose some control because they attack before the defense is organized. Alabama combined speed with possession security, allowing it to generate high shot volume without wasting an excessive number of trips.\n\nThe offensive rebound rate gave the team another layer of stability. When first-shot efficiency declined, Alabama could extend possessions and create additional opportunities.\n\nThat happened late in the season. Over the final five games, the team’s eFG fell to 53.2%, but its offensive rebound rate increased to 37.1% and its turnover rate improved to 12.2%.\n\nThe offense did not collapse when shooting efficiency declined. It compensated by protecting the ball and generating more chances.\n\nThat is the difference between a real offensive structure and a team depending only on hot shooting.",
+            "bullets": [
+              "a 55.2% effective field-goal percentage,",
+              "a 13.1% turnover rate,",
+              "a 32.4% offensive rebound rate,",
+              "a 0.360 free throw rate,",
+              "and a 54.3% three-point attempt rate."
+            ],
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-1.png",
+                "alt": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics.",
+                "caption": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics."
+              }
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "The Four Factors explain why Alabama’s offense was sustainable."
+              },
+              {
+                "type": "paragraph",
+                "text": "The Crimson Tide produced:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a 55.2% effective field-goal percentage,",
+                  "a 13.1% turnover rate,",
+                  "a 32.4% offensive rebound rate,",
+                  "a 0.360 free throw rate,",
+                  "and a 54.3% three-point attempt rate."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "This was a clear Nate Oats offensive profile: fast, spaced, aggressive, and analytically optimized."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama did not simply increase scoring by creating more possessions. It also scored efficiently within those possessions."
+              },
+              {
+                "type": "paragraph",
+                "text": "The low turnover rate was particularly important. High-paced teams often lose some control because they attack before the defense is organized. Alabama combined speed with possession security, allowing it to generate high shot volume without wasting an excessive number of trips."
+              },
+              {
+                "type": "paragraph",
+                "text": "The offensive rebound rate gave the team another layer of stability. When first-shot efficiency declined, Alabama could extend possessions and create additional opportunities."
+              },
+              {
+                "type": "paragraph",
+                "text": "That happened late in the season. Over the final five games, the team’s eFG fell to 53.2%, but its offensive rebound rate increased to 37.1% and its turnover rate improved to 12.2%."
+              },
+              {
+                "type": "paragraph",
+                "text": "The offense did not collapse when shooting efficiency declined. It compensated by protecting the ball and generating more chances."
+              },
+              {
+                "type": "paragraph",
+                "text": "That is the difference between a real offensive structure and a team depending only on hot shooting."
+              },
+              {
+                "type": "image",
+                "image": {
+                  "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-1.png",
+                  "alt": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics.",
+                  "caption": "Alabama’s offense combined strong shooting efficiency, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume. Lower is better for turnover rate; higher is better for the other metrics."
+                }
+              }
+            ]
+          },
+          {
+            "heading": "The Shot Profile Was Almost Completely Optimized",
+            "body": "Alabama’s shot distribution followed a clear value-based philosophy.\n\nApproximately:\n\nAlabama almost completely removed traditional midrange attempts from its normal offensive diet.\n\nThe offense wanted rim attempts, threes, free throws, and offensive rebounds.\n\nIt also converted approximately 67.1% of its attempts at the rim and 35.8% from three. That combination prevented the team from becoming only a perimeter offense.\n\nThe rim pressure and three-point volume supported each other. When defenders stayed attached to shooters, Alabama attacked the available space toward the basket. When defenders helped into the paint, the ball could move back to the perimeter.\n\nThe issue was not shot selection.\n\nThe issue was whether Alabama could continue creating those preferred shots after the first action had been defended.",
+            "bullets": [
+              "27.4% of its attempts came at the rim,",
+              "15.9% came from the paint outside the rim,",
+              "only 2.4% came from midrange,",
+              "and 54.3% came from three."
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama’s shot distribution followed a clear value-based philosophy."
+              },
+              {
+                "type": "paragraph",
+                "text": "Approximately:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "27.4% of its attempts came at the rim,",
+                  "15.9% came from the paint outside the rim,",
+                  "only 2.4% came from midrange,",
+                  "and 54.3% came from three."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama almost completely removed traditional midrange attempts from its normal offensive diet."
+              },
+              {
+                "type": "paragraph",
+                "text": "The offense wanted rim attempts, threes, free throws, and offensive rebounds."
+              },
+              {
+                "type": "paragraph",
+                "text": "It also converted approximately 67.1% of its attempts at the rim and 35.8% from three. That combination prevented the team from becoming only a perimeter offense."
+              },
+              {
+                "type": "paragraph",
+                "text": "The rim pressure and three-point volume supported each other. When defenders stayed attached to shooters, Alabama attacked the available space toward the basket. When defenders helped into the paint, the ball could move back to the perimeter."
+              },
+              {
+                "type": "paragraph",
+                "text": "The issue was not shot selection."
+              },
+              {
+                "type": "paragraph",
+                "text": "The issue was whether Alabama could continue creating those preferred shots after the first action had been defended."
+              }
+            ]
+          },
+          {
+            "heading": "The Late-Clock Drop Explains Part of the Ceiling",
+            "body": "Alabama had recorded shot-clock information for 2,311 of its 2,312 field-goal attempts.\n\nThe results were one of the clearest findings of the season.\n\nWith at least 20 seconds remaining, Alabama produced a 56.8% eFG. With 11–19 seconds remaining, it remained almost equally efficient at 56.3%.\n\nWith 10 or fewer seconds remaining, the figure fell to 47.5%.\n\nThe shot distribution also became less favorable.\n\nThe rim rate fell from 30.8% early in the clock to 23.0% late. The three-point attempt rate declined from 54.5% to 48.3%.\n\nAlabama was therefore not simply missing more late-clock shots. It was creating fewer of the shots the system was designed to produce.\n\nThat matters against elite defenses.\n\nThe best opponents do not always need to completely stop an offense. Sometimes they only need to contain the first drive, recover to shooters, disrupt the opening action, and force another decision.\n\nAlabama remained elite when it found an advantage before the final 10 seconds.\n\nWhen the possession stalled, the offense became much more dependent on an individual player producing something outside the original structure.\n\nThat player was usually Labaron Philon.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-2.png",
+                "alt": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining.",
+                "caption": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining."
+              }
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama had recorded shot-clock information for 2,311 of its 2,312 field-goal attempts."
+              },
+              {
+                "type": "paragraph",
+                "text": "The results were one of the clearest findings of the season."
+              },
+              {
+                "type": "paragraph",
+                "text": "With at least 20 seconds remaining, Alabama produced a 56.8% eFG. With 11–19 seconds remaining, it remained almost equally efficient at 56.3%."
+              },
+              {
+                "type": "paragraph",
+                "text": "With 10 or fewer seconds remaining, the figure fell to 47.5%."
+              },
+              {
+                "type": "paragraph",
+                "text": "The shot distribution also became less favorable."
+              },
+              {
+                "type": "paragraph",
+                "text": "The rim rate fell from 30.8% early in the clock to 23.0% late. The three-point attempt rate declined from 54.5% to 48.3%."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama was therefore not simply missing more late-clock shots. It was creating fewer of the shots the system was designed to produce."
+              },
+              {
+                "type": "paragraph",
+                "text": "That matters against elite defenses."
+              },
+              {
+                "type": "paragraph",
+                "text": "The best opponents do not always need to completely stop an offense. Sometimes they only need to contain the first drive, recover to shooters, disrupt the opening action, and force another decision."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama remained elite when it found an advantage before the final 10 seconds."
+              },
+              {
+                "type": "paragraph",
+                "text": "When the possession stalled, the offense became much more dependent on an individual player producing something outside the original structure."
+              },
+              {
+                "type": "paragraph",
+                "text": "That player was usually Labaron Philon."
+              },
+              {
+                "type": "image",
+                "image": {
+                  "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-2.png",
+                  "alt": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining.",
+                  "caption": "Alabama remained highly efficient through the first 19 seconds of the possession, but its shooting efficiency, rim rate, and three-point rate all declined sharply with 10 or fewer seconds remaining."
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Philon Was the Player Who Protected the Offense",
+            "body": "Philon averaged 22.0 points, 5.0 assists, and shot 50.1% from the field and 39.9% from three.\n\nHis scoring came from multiple areas. He attacked the rim, produced in the paint, shot from the perimeter, and created for teammates.\n\nBut his most important value appeared late in possessions.\n\nOn 80 attempts with 10 or fewer seconds remaining, Philon produced a 59.4% eFG.\n\nThe team as a whole was at 47.5%.\n\nThat gap explains why his departure is more significant than simply losing 22 points and five assists.\n\nPhilon was the player who could still create acceptable offense after Alabama’s normal system had failed to produce an early advantage.\n\nHis 74.1% unassisted make rate also supports the idea that he carried a large individual-creation burden. That number is only a proxy — it depends on whether a made shot in the feed had a recorded assister — but it fits the broader basketball picture.\n\nReplacing Philon means replacing the team’s lead creator and its most reliable late-clock solution.\n\nThat is the biggest offensive question entering 2026–27.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Philon averaged 22.0 points, 5.0 assists, and shot 50.1% from the field and 39.9% from three."
+              },
+              {
+                "type": "paragraph",
+                "text": "His scoring came from multiple areas. He attacked the rim, produced in the paint, shot from the perimeter, and created for teammates."
+              },
+              {
+                "type": "paragraph",
+                "text": "But his most important value appeared late in possessions."
+              },
+              {
+                "type": "paragraph",
+                "text": "On 80 attempts with 10 or fewer seconds remaining, Philon produced a 59.4% eFG."
+              },
+              {
+                "type": "paragraph",
+                "text": "The team as a whole was at 47.5%."
+              },
+              {
+                "type": "paragraph",
+                "text": "That gap explains why his departure is more significant than simply losing 22 points and five assists."
+              },
+              {
+                "type": "paragraph",
+                "text": "Philon was the player who could still create acceptable offense after Alabama’s normal system had failed to produce an early advantage."
+              },
+              {
+                "type": "paragraph",
+                "text": "His 74.1% unassisted make rate also supports the idea that he carried a large individual-creation burden. That number is only a proxy — it depends on whether a made shot in the feed had a recorded assister — but it fits the broader basketball picture."
+              },
+              {
+                "type": "paragraph",
+                "text": "Replacing Philon means replacing the team’s lead creator and its most reliable late-clock solution."
+              },
+              {
+                "type": "paragraph",
+                "text": "That is the biggest offensive question entering 2026–27."
+              }
+            ]
+          },
+          {
+            "heading": "Sherrell Was a Structural Piece, Not Just a Productive Center",
+            "body": "Aiden Sherrell’s value was different.\n\nHe averaged 11.1 points and 6.2 rebounds, blocked 76 shots, converted 70.0% of his rim attempts, and attempted enough threes to affect spacing.\n\nHe gave Alabama:\n\nThe reconstructed pairing data repeatedly placed Sherrell in Alabama’s strongest functional groups.\n\nThe Crimson Tide produced a +22.9 net rating with Holloway and Sherrell together, +23.3 with Allen and Sherrell, and +32.7 with Holloway and Sherrell in minutes without Philon.\n\nBy contrast, Philon’s minutes without Sherrell were almost neutral at +0.4.\n\nThese figures should not be treated as isolated experiments. The samples overlap and are affected by teammates, opponents, substitutions, and game context.\n\nBut the directional signal is meaningful.\n\nSherrell’s skill set helped Alabama maintain the structure around its guards and wings.\n\nThe strongest four-player group was Philon, Holloway, Sherrell, and Amari Allen. That combination produced a +31.9 net rating over an estimated 366.8 possessions.\n\nIt represented the clearest version of Alabama’s identity:\n\nWhen those functions worked together, Alabama produced stretches with a Final Four-caliber statistical profile.",
+            "bullets": [
+              "finishing,",
+              "rim protection,",
+              "rebounding,",
+              "screening,",
+              "and frontcourt spacing.",
+              "Philon creating,",
+              "Holloway shooting and organizing,",
+              "Allen connecting,",
+              "Sherrell anchoring the frontcourt,",
+              "and space for another perimeter shooter."
+            ],
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-3.png",
+                "alt": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure.",
+                "caption": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure."
+              }
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Aiden Sherrell’s value was different."
+              },
+              {
+                "type": "paragraph",
+                "text": "He averaged 11.1 points and 6.2 rebounds, blocked 76 shots, converted 70.0% of his rim attempts, and attempted enough threes to affect spacing."
+              },
+              {
+                "type": "paragraph",
+                "text": "He gave Alabama:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "finishing,",
+                  "rim protection,",
+                  "rebounding,",
+                  "screening,",
+                  "and frontcourt spacing."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "The reconstructed pairing data repeatedly placed Sherrell in Alabama’s strongest functional groups."
+              },
+              {
+                "type": "paragraph",
+                "text": "The Crimson Tide produced a +22.9 net rating with Holloway and Sherrell together, +23.3 with Allen and Sherrell, and +32.7 with Holloway and Sherrell in minutes without Philon."
+              },
+              {
+                "type": "paragraph",
+                "text": "By contrast, Philon’s minutes without Sherrell were almost neutral at +0.4."
+              },
+              {
+                "type": "paragraph",
+                "text": "These figures should not be treated as isolated experiments. The samples overlap and are affected by teammates, opponents, substitutions, and game context."
+              },
+              {
+                "type": "paragraph",
+                "text": "But the directional signal is meaningful."
+              },
+              {
+                "type": "paragraph",
+                "text": "Sherrell’s skill set helped Alabama maintain the structure around its guards and wings."
+              },
+              {
+                "type": "paragraph",
+                "text": "The strongest four-player group was Philon, Holloway, Sherrell, and Amari Allen. That combination produced a +31.9 net rating over an estimated 366.8 possessions."
+              },
+              {
+                "type": "paragraph",
+                "text": "It represented the clearest version of Alabama’s identity:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Philon creating,",
+                  "Holloway shooting and organizing,",
+                  "Allen connecting,",
+                  "Sherrell anchoring the frontcourt,",
+                  "and space for another perimeter shooter."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "When those functions worked together, Alabama produced stretches with a Final Four-caliber statistical profile."
+              },
+              {
+                "type": "image",
+                "image": {
+                  "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-3.png",
+                  "alt": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure.",
+                  "caption": "Sherrell appeared in several of Alabama’s strongest reconstructed combinations, supporting the view that his frontcourt role was an important part of the team’s functional structure."
+                }
+              }
+            ]
+          },
+          {
+            "heading": "The Spacing Losses Matter Almost as Much as the Scoring Losses",
+            "body": "Latrell Wrightsell and Houston Mallette did not carry the same creation burden, but they were essential to the geometry of the offense.\n\nApproximately 72.8% of Wrightsell’s attempts came from three. For Mallette, the figure was 88.3%.\n\nMore than 92% of Wrightsell’s made threes and 96% of Mallette’s were assisted.\n\nThey were not primary creators. They were high-level spacing targets.\n\nTheir shooting gravity forced defenders to remain attached, widened driving lanes, punished help rotations, and made life easier for Philon, Holloway, Allen, and Sherrell.\n\nReplacing their points is not enough.\n\nAlabama must replace their willingness to shoot, their movement without the ball, and the credibility that prevented defenders from loading the paint.\n\nA bigger roster can solve some physical problems. But if the new wings do not provide enough shooting, the offense could become stronger physically while also becoming easier to defend.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Latrell Wrightsell and Houston Mallette did not carry the same creation burden, but they were essential to the geometry of the offense."
+              },
+              {
+                "type": "paragraph",
+                "text": "Approximately 72.8% of Wrightsell’s attempts came from three. For Mallette, the figure was 88.3%."
+              },
+              {
+                "type": "paragraph",
+                "text": "More than 92% of Wrightsell’s made threes and 96% of Mallette’s were assisted."
+              },
+              {
+                "type": "paragraph",
+                "text": "They were not primary creators. They were high-level spacing targets."
+              },
+              {
+                "type": "paragraph",
+                "text": "Their shooting gravity forced defenders to remain attached, widened driving lanes, punished help rotations, and made life easier for Philon, Holloway, Allen, and Sherrell."
+              },
+              {
+                "type": "paragraph",
+                "text": "Replacing their points is not enough."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama must replace their willingness to shoot, their movement without the ball, and the credibility that prevented defenders from loading the paint."
+              },
+              {
+                "type": "paragraph",
+                "text": "A bigger roster can solve some physical problems. But if the new wings do not provide enough shooting, the offense could become stronger physically while also becoming easier to defend."
+              }
+            ]
+          },
+          {
+            "heading": "The Defense Controlled Some Things but Did Not Create Enough Advantage",
+            "body": "Alabama’s defense was not poor across every area.\n\nOpponents produced a 49.2% eFG, shot 33.8% from three, and attempted only 35.4% of their shots from behind the arc.\n\nThose numbers suggest that Alabama could control parts of opponent shot quality.\n\nThe larger weaknesses were disruption and possession completion.\n\nOpponents turned the ball over on only approximately 12.8% of possessions. Alabama also recovered about 67.2% of available defensive rebounds.\n\nThat implies opponents collected roughly one-third of available offensive rebounds.\n\nFor a team that wants to play fast, both problems are important.\n\nLive-ball turnovers create the cleanest transition opportunities. Defensive rebounds end possessions and allow the offense to attack before the opponent is organized.\n\nAlabama did not force enough turnovers and did not consistently close enough possessions on the glass.\n\nThe defense could survive possessions.\n\nIt did not dictate enough of them.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama’s defense was not poor across every area."
+              },
+              {
+                "type": "paragraph",
+                "text": "Opponents produced a 49.2% eFG, shot 33.8% from three, and attempted only 35.4% of their shots from behind the arc."
+              },
+              {
+                "type": "paragraph",
+                "text": "Those numbers suggest that Alabama could control parts of opponent shot quality."
+              },
+              {
+                "type": "paragraph",
+                "text": "The larger weaknesses were disruption and possession completion."
+              },
+              {
+                "type": "paragraph",
+                "text": "Opponents turned the ball over on only approximately 12.8% of possessions. Alabama also recovered about 67.2% of available defensive rebounds."
+              },
+              {
+                "type": "paragraph",
+                "text": "That implies opponents collected roughly one-third of available offensive rebounds."
+              },
+              {
+                "type": "paragraph",
+                "text": "For a team that wants to play fast, both problems are important."
+              },
+              {
+                "type": "paragraph",
+                "text": "Live-ball turnovers create the cleanest transition opportunities. Defensive rebounds end possessions and allow the offense to attack before the opponent is organized."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama did not force enough turnovers and did not consistently close enough possessions on the glass."
+              },
+              {
+                "type": "paragraph",
+                "text": "The defense could survive possessions."
+              },
+              {
+                "type": "paragraph",
+                "text": "It did not dictate enough of them."
+              }
+            ]
+          },
+          {
+            "heading": "Better Defenses and Rebounders Reduced the Margin",
+            "body": "Alabama’s overall profile was strong, but its opponent splits show where the team became less dominant.\n\nAgainst top-quartile defenses, Alabama went 8–6 and produced:\n\nAgainst the rest of the schedule, it went 17–4 and produced:\n\nThe offense did not become ineffective against top defenses. A 116.8 offensive rating was still functional.\n\nThe difference was the margin.\n\nAlabama scored almost nine fewer points per 100 possessions and also defended almost nine points worse.\n\nA similar pattern appeared against elite rebounding teams.\n\nAgainst that group, Alabama produced a +7.6 net rating and recovered only 62.5% of available defensive rebounds. Against non-elite rebounding opponents, it produced a +16.9 net rating and a 74.6% defensive rebound rate.\n\nThe opponent groups overlap, so they should not be treated as separate independent samples. But the direction is consistent.\n\nAlabama’s advantage became less stable against teams capable of reducing shot quality and extending possessions on the offensive glass.\n\nThat was the real championship concern.",
+            "bullets": [
+              "a 116.8 offensive rating,",
+              "a 116.0 defensive rating,",
+              "and a +0.8 net rating.",
+              "a 125.5 offensive rating,",
+              "a 107.2 defensive rating,",
+              "and a +18.3 net rating."
+            ],
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-4.png",
+                "alt": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles.",
+                "caption": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles."
+              }
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama’s overall profile was strong, but its opponent splits show where the team became less dominant."
+              },
+              {
+                "type": "paragraph",
+                "text": "Against top-quartile defenses, Alabama went 8–6 and produced:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a 116.8 offensive rating,",
+                  "a 116.0 defensive rating,",
+                  "and a +0.8 net rating."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Against the rest of the schedule, it went 17–4 and produced:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "a 125.5 offensive rating,",
+                  "a 107.2 defensive rating,",
+                  "and a +18.3 net rating."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "The offense did not become ineffective against top defenses. A 116.8 offensive rating was still functional."
+              },
+              {
+                "type": "paragraph",
+                "text": "The difference was the margin."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama scored almost nine fewer points per 100 possessions and also defended almost nine points worse."
+              },
+              {
+                "type": "paragraph",
+                "text": "A similar pattern appeared against elite rebounding teams."
+              },
+              {
+                "type": "paragraph",
+                "text": "Against that group, Alabama produced a +7.6 net rating and recovered only 62.5% of available defensive rebounds. Against non-elite rebounding opponents, it produced a +16.9 net rating and a 74.6% defensive rebound rate."
+              },
+              {
+                "type": "paragraph",
+                "text": "The opponent groups overlap, so they should not be treated as separate independent samples. But the direction is consistent."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama’s advantage became less stable against teams capable of reducing shot quality and extending possessions on the offensive glass."
+              },
+              {
+                "type": "paragraph",
+                "text": "That was the real championship concern."
+              },
+              {
+                "type": "image",
+                "image": {
+                  "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-4.png",
+                  "alt": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles.",
+                  "caption": "Alabama was strong overall, but its net margin narrowed substantially against top defenses and elite rebounding teams, showing why its dominance was not equally stable across opponent profiles."
+                }
+              }
+            ]
+          },
+          {
+            "heading": "What the Reset Is Trying to Change",
+            "body": "The 2026–27 transition is not an attempt to abandon the Oats model.\n\nThe offense was Alabama’s greatest strength.\n\nThe program should continue prioritizing pace, threes, rim pressure, low turnovers, free throws, and offensive rebounding.\n\nThe goal is to make those strengths more durable.\n\nAlabama needs more size, better defensive rebounding, stronger rim protection, and more lineup flexibility.\n\nThe challenge is adding those qualities without damaging spacing.\n\nThe incoming frontcourt offers different possibilities.\n\nDrew Fielder brings the most proven offensive production. He averaged 14.7 points and 5.7 rebounds while shooting 54.7% from the field and 40.9% from three.\n\nHe could provide pick-and-pop spacing, trail threes, and skilled frontcourt scoring.\n\nBrandon Garrison offers a more traditional interior profile built around size, screening, paint finishing, and physicality.\n\nJamarion Davis-Fleming adds length, rebounding, and rim-protection potential.\n\nTogether, they do not need to become identical replacements for Sherrell. Their value may come from giving Alabama different frontcourt answers depending on the matchup.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "The 2026–27 transition is not an attempt to abandon the Oats model."
+              },
+              {
+                "type": "paragraph",
+                "text": "The offense was Alabama’s greatest strength."
+              },
+              {
+                "type": "paragraph",
+                "text": "The program should continue prioritizing pace, threes, rim pressure, low turnovers, free throws, and offensive rebounding."
+              },
+              {
+                "type": "paragraph",
+                "text": "The goal is to make those strengths more durable."
+              },
+              {
+                "type": "paragraph",
+                "text": "Alabama needs more size, better defensive rebounding, stronger rim protection, and more lineup flexibility."
+              },
+              {
+                "type": "paragraph",
+                "text": "The challenge is adding those qualities without damaging spacing."
+              },
+              {
+                "type": "paragraph",
+                "text": "The incoming frontcourt offers different possibilities."
+              },
+              {
+                "type": "paragraph",
+                "text": "Drew Fielder brings the most proven offensive production. He averaged 14.7 points and 5.7 rebounds while shooting 54.7% from the field and 40.9% from three."
+              },
+              {
+                "type": "paragraph",
+                "text": "He could provide pick-and-pop spacing, trail threes, and skilled frontcourt scoring."
+              },
+              {
+                "type": "paragraph",
+                "text": "Brandon Garrison offers a more traditional interior profile built around size, screening, paint finishing, and physicality."
+              },
+              {
+                "type": "paragraph",
+                "text": "Jamarion Davis-Fleming adds length, rebounding, and rim-protection potential."
+              },
+              {
+                "type": "paragraph",
+                "text": "Together, they do not need to become identical replacements for Sherrell. Their value may come from giving Alabama different frontcourt answers depending on the matchup."
+              }
+            ]
+          },
+          {
+            "heading": "The New Roster Has More Size Than Proven Creation",
+            "body": "Amari Allen is the most important confirmed returner.\n\nHe averaged 11.4 points, 6.9 rebounds, and 3.1 assists while functioning as a connective forward rather than a pure lead creator.\n\nHis return gives Alabama size, rebounding, passing, and continuity.\n\nThe next question is whether he can take on more offensive responsibility without losing the all-around role that made him valuable.\n\nAden Holloway would be the most natural returning guard organizer, but his status remains unresolved. He is suspended and is not currently confirmed as active for 2026–27.\n\nHis basketball role must therefore remain conditional.\n\nIf reinstated and available, he could provide elite shooting, ball handling, and shared creation. Alabama cannot yet build its entire offensive projection around that outcome.\n\nThe seven confirmed newcomers add size and depth:\n\nCloer, Bouie, Richardson, and Samuels increase Alabama’s perimeter size and developmental upside. They may provide shooting, athleticism, transition value, and defensive versatility.\n\nBut those are still projections.\n\nThe new group has more physical options than proven role clarity.\n\nWho begins possessions?\n\nWho finishes difficult possessions?\n\nWho provides enough shooting gravity?\n\nWhich frontcourt combinations can rebound and defend without reducing spacing?\n\nThose questions will determine whether the reset produces a more complete team.",
+            "bullets": [
+              "Cole Cloer,",
+              "Jamarion Davis-Fleming,",
+              "Drew Fielder,",
+              "Brandon Garrison,",
+              "Tarris Bouie,",
+              "Jaxon Richardson,",
+              "Qayden Samuels."
+            ],
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-5.png",
+                "alt": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions.",
+                "caption": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions."
+              }
+            ],
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Amari Allen is the most important confirmed returner."
+              },
+              {
+                "type": "paragraph",
+                "text": "He averaged 11.4 points, 6.9 rebounds, and 3.1 assists while functioning as a connective forward rather than a pure lead creator."
+              },
+              {
+                "type": "paragraph",
+                "text": "His return gives Alabama size, rebounding, passing, and continuity."
+              },
+              {
+                "type": "paragraph",
+                "text": "The next question is whether he can take on more offensive responsibility without losing the all-around role that made him valuable."
+              },
+              {
+                "type": "paragraph",
+                "text": "Aden Holloway would be the most natural returning guard organizer, but his status remains unresolved. He is suspended and is not currently confirmed as active for 2026–27."
+              },
+              {
+                "type": "paragraph",
+                "text": "His basketball role must therefore remain conditional."
+              },
+              {
+                "type": "paragraph",
+                "text": "If reinstated and available, he could provide elite shooting, ball handling, and shared creation. Alabama cannot yet build its entire offensive projection around that outcome."
+              },
+              {
+                "type": "paragraph",
+                "text": "The seven confirmed newcomers add size and depth:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Cole Cloer,",
+                  "Jamarion Davis-Fleming,",
+                  "Drew Fielder,",
+                  "Brandon Garrison,",
+                  "Tarris Bouie,",
+                  "Jaxon Richardson,",
+                  "Qayden Samuels."
+                ]
+              },
+              {
+                "type": "paragraph",
+                "text": "Cloer, Bouie, Richardson, and Samuels increase Alabama’s perimeter size and developmental upside. They may provide shooting, athleticism, transition value, and defensive versatility."
+              },
+              {
+                "type": "paragraph",
+                "text": "But those are still projections."
+              },
+              {
+                "type": "paragraph",
+                "text": "The new group has more physical options than proven role clarity."
+              },
+              {
+                "type": "paragraph",
+                "text": "Who begins possessions?"
+              },
+              {
+                "type": "paragraph",
+                "text": "Who finishes difficult possessions?"
+              },
+              {
+                "type": "paragraph",
+                "text": "Who provides enough shooting gravity?"
+              },
+              {
+                "type": "paragraph",
+                "text": "Which frontcourt combinations can rebound and defend without reducing spacing?"
+              },
+              {
+                "type": "paragraph",
+                "text": "Those questions will determine whether the reset produces a more complete team."
+              },
+              {
+                "type": "image",
+                "image": {
+                  "src": "assets/images/alabamas-202627-reset-what-the-202526-season-reveals-about-the-next-version-of-the-oats-model-media-5.png",
+                  "alt": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions.",
+                  "caption": "Alabama’s 2026–27 reset adds size and frontcourt optionality, but lead creation, shooting gravity, role hierarchy, and confirmed availability remain the main unresolved questions."
+                }
+              }
+            ]
+          },
+          {
+            "heading": "Final Read",
+            "body": "Alabama’s 2025–26 team was not simply a fast team with inflated scoring.\n\nThe offense was real.\n\nIt generated efficient shots, protected the ball, attacked the offensive glass, and forced opponents to defend an enormous amount of space.\n\nThe problem appeared when elite defenses removed the first advantage and when stronger rebounders prevented Alabama from finishing possessions.\n\nPhilon was the late-clock solution. Sherrell supplied frontcourt structure. Wrightsell and Mallette created spacing. Holloway provided shooting and secondary creation. Allen connected the pieces.\n\nThe 2026–27 roster must rebuild those functions with different personnel.\n\nThe upside is a team that is bigger, more versatile, stronger on the glass, and less vulnerable to physical frontcourts.\n\nThe risk is that Alabama improves its size while losing some of the creation and shooting that made the previous offense special.\n\nThe central question is therefore simple:\n\nCan Alabama build a stronger possession-control foundation without losing the spacing, pace, and decision-making that define the Oats model?\n\nIf the answer is yes, the Crimson Tide could become more complete than last season.\n\nIf the answer is no, the offense may remain highly productive while the same limitations return against the most difficult March opponents.\n\nThis article is the short version of a longer Alabama team analysis. The full report includes the complete methodology, formulas, data-validation results, shot-zone classification, player shot-clock profiles, opponent archetype definitions, lineup estimates, and a deeper roster-transition breakdown.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Alabama’s 2025–26 team was not simply a fast team with inflated scoring."
+              },
+              {
+                "type": "paragraph",
+                "text": "The offense was real."
+              },
+              {
+                "type": "paragraph",
+                "text": "It generated efficient shots, protected the ball, attacked the offensive glass, and forced opponents to defend an enormous amount of space."
+              },
+              {
+                "type": "paragraph",
+                "text": "The problem appeared when elite defenses removed the first advantage and when stronger rebounders prevented Alabama from finishing possessions."
+              },
+              {
+                "type": "paragraph",
+                "text": "Philon was the late-clock solution. Sherrell supplied frontcourt structure. Wrightsell and Mallette created spacing. Holloway provided shooting and secondary creation. Allen connected the pieces."
+              },
+              {
+                "type": "paragraph",
+                "text": "The 2026–27 roster must rebuild those functions with different personnel."
+              },
+              {
+                "type": "paragraph",
+                "text": "The upside is a team that is bigger, more versatile, stronger on the glass, and less vulnerable to physical frontcourts."
+              },
+              {
+                "type": "paragraph",
+                "text": "The risk is that Alabama improves its size while losing some of the creation and shooting that made the previous offense special."
+              },
+              {
+                "type": "paragraph",
+                "text": "The central question is therefore simple:"
+              },
+              {
+                "type": "paragraph",
+                "text": "Can Alabama build a stronger possession-control foundation without losing the spacing, pace, and decision-making that define the Oats model?"
+              },
+              {
+                "type": "paragraph",
+                "text": "If the answer is yes, the Crimson Tide could become more complete than last season."
+              },
+              {
+                "type": "paragraph",
+                "text": "If the answer is no, the offense may remain highly productive while the same limitations return against the most difficult March opponents."
+              },
+              {
+                "type": "paragraph",
+                "text": "This article is the short version of a longer Alabama team analysis. The full report includes the complete methodology, formulas, data-validation results, shot-zone classification, player shot-clock profiles, opponent archetype definitions, lineup estimates, and a deeper roster-transition breakdown."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "alabamas-202627-reset",
+      "category": "team",
+      "badge": "Full Report",
+      "badgeClass": "team",
+      "title": "Alabama’s 2026–27 Reset",
+      "subtitle": "What the 2025–26 Season Reveals About the Next Version of the Oats Model",
+      "summary": "This report evaluates Alabama’s 2025–26 season through a possession-based and scouting-oriented framework, then uses that analysis to understand the program’s 2026–27 roster reset.",
+      "date": "2026-06-19",
+      "readTime": "37 min",
+      "tags": [
+        "team",
+        "full report",
+        "analysis"
+      ],
+      "data": "NCAA box score, play-by-play, shot locations, lineup estimates",
+      "skills": "Python, pandas, Data Analysis, Data Validation, Data Visualization, Statistical Analysis, Play-by-Play Analysis, Shot Profile Analysis, Lineup/On-Off Analysis, Technical Report Writing.",
+      "linkLabel": "Read Full Report",
+      "media": [
+        {
+          "src": "assets/images/alabamas-202627-reset-media-1.png",
+          "alt": "Alabama’s offensive foundation combined strong shooting value, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume.",
+          "caption": "Alabama’s offensive foundation combined strong shooting value, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-2.png",
+          "alt": "Alabama concentrated its field-goal attempts at the rim and from three while almost completely removing traditional midrange volume from its normal offensive profile.",
+          "caption": "Alabama concentrated its field-goal attempts at the rim and from three while almost completely removing traditional midrange volume from its normal offensive profile."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-3.png",
+          "alt": "Alabama’s preferred shot profile remained effective through the first 19 seconds, but both efficiency and shot quality deteriorated when possessions reached the final 10 seconds.",
+          "caption": "Alabama’s preferred shot profile remained effective through the first 19 seconds, but both efficiency and shot quality deteriorated when possessions reached the final 10 seconds."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-4.png",
+          "alt": "Philon maintained elite late-clock efficiency while the other key players experienced larger declines relative to their overall shooting profiles.",
+          "caption": "Philon maintained elite late-clock efficiency while the other key players experienced larger declines relative to their overall shooting profiles."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-5.png",
+          "alt": "Sherrell appeared across several of Alabama’s strongest reconstructed pairings and multi-player groups, although the overlapping samples should be interpreted as directional team-function signals rather than independent experiments.",
+          "caption": "Sherrell appeared across several of Alabama’s strongest reconstructed pairings and multi-player groups, although the overlapping samples should be interpreted as directional team-function signals rather than independent experiments."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-6.png",
+          "alt": "Alabama limited some opponent shooting value, but low turnover creation and inconsistent defensive rebounding reduced its ability to finish possessions and generate transition offense.",
+          "caption": "Alabama limited some opponent shooting value, but low turnover creation and inconsistent defensive rebounding reduced its ability to finish possessions and generate transition offense."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-7.png",
+          "alt": "Alabama’s net margin became substantially smaller against top defenses and elite rebounding teams, even though its offense remained functional in both contexts.",
+          "caption": "Alabama’s net margin became substantially smaller against top defenses and elite rebounding teams, even though its offense remained functional in both contexts."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-8.png",
+          "alt": "As Alabama’s shooting efficiency declined late in the season, the offense maintained production through stronger offensive rebounding and slightly improved possession security.",
+          "caption": "As Alabama’s shooting efficiency declined late in the season, the offense maintained production through stronger offensive rebounding and slightly improved possession security."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-9.png",
+          "alt": "Alabama’s departures remove distinct basketball functions—lead creation, modern-big structure, shooting gravity, and lineup versatility—not merely individual scoring totals.",
+          "caption": "Alabama’s departures remove distinct basketball functions—lead creation, modern-big structure, shooting gravity, and lineup versatility—not merely individual scoring totals."
+        },
+        {
+          "src": "assets/images/alabamas-202627-reset-media-10.png",
+          "alt": "The 2026–27 roster provides greater size and optionality, but its creation hierarchy, shooting reliability, and several availability questions remain unresolved.",
+          "caption": "The 2026–27 roster provides greater size and optionality, but its creation hierarchy, shooting reliability, and several availability questions remain unresolved."
+        }
+      ],
+      "content": {
+        "sections": [
+          {
+            "heading": "Report Purpose",
+            "body": "This report evaluates Alabama’s 2025–26 season through a possession-based and scouting-oriented framework, then uses that analysis to understand the program’s 2026–27 roster reset.\n\nThe central question is not whether Alabama had a good offense. The data answers that clearly. The more important question is whether the team had a complete championship profile, or whether its ceiling remained dependent on offensive rhythm, specific lineup functions, and the ability to create an advantage before the shot clock became late."
+          },
+          {
+            "heading": "The analysis separates three levels of evidence:",
+            "body": "Findings strongly supported by official box-score and play-by-play data.\n\nFindings supported by shot-feed data, reconstructed lineups, or clearly defined analytical proxies.\n\nRoster and role projections that should be treated as informed interpretation rather than guaranteed future outcomes."
+          },
+          {
+            "heading": "Executive Summary",
+            "body": "Alabama’s 2025–26 team had a genuine elite offensive profile. The Crimson Tide averaged 91.2 points per game, played at approximately 74.7 possessions per game, produced an offensive rating of about 122.1, and finished with a raw net rating of roughly +11.3.\n\nThe Four Factors explain why the offense was sustainable. Alabama combined a 55.2% effective field-goal percentage with a low 13.1% turnover rate, a 32.4% offensive rebound rate, a 0.360 free throw rate, and a 54.3% three-point attempt rate. The offense was built around spacing, quick decisions, rim pressure, threes, free throws, and possession extension rather than raw pace alone.\n\nThe opponent-adjusted layer was also positive. Alabama produced an overall net-versus-expected figure of approximately +20.2, meaning that the combined difference between its game offense relative to opponent defensive baselines and its game defense relative to opponent offensive baselines was positive on average.\n\nThe limitation appeared against specific opponent profiles. Alabama produced only a +0.8 raw net rating in 14 games against top-quartile defenses, compared with +18.3 against other opponents. Its net rating also declined from +16.9 against non-elite rebounding teams to +7.6 against elite rebounding teams, while its defensive rebound rate fell sharply.\n\nShot-clock data provides the clearest offensive explanation. Alabama recorded a 56.8% eFG with at least 20 seconds remaining and 56.3% with 11–19 seconds remaining, but only 47.5% with 10 or fewer seconds remaining. The team also reached the rim less often and attempted fewer threes late in the clock.\n\nLabaron Philon was the primary solution when the first advantage disappeared. He produced a 59.4% eFG on 80 late-clock attempts. Aiden Sherrell supplied much of the frontcourt structure, while Aden Holloway, Amari Allen, Latrell Wrightsell, and Houston Mallette filled distinct creation, connection, and spacing functions.\n\nThe 2026–27 reset is therefore not simply about replacing points. Alabama must replace Philon’s lead and late-clock creation, Sherrell’s modern-big function, and the spacing provided by Wrightsell and Mallette while improving defensive rebounding, size, and physical reliability.\n\nAmari Allen is now a confirmed returner and the most important continuity piece. Aden Holloway’s status remains unresolved: he is suspended and is not currently confirmed as active for 2026–27. Alabama has officially added seven newcomers, but the new roster contains more proven size than proven lead creation.\n\nThe defining question is whether Alabama can preserve the offensive advantages of the Oats model while building a more durable defensive, rebounding, and late-clock structure."
+          },
+          {
+            "heading": "One-Sentence Thesis",
+            "body": "Alabama’s 2025–26 team had a genuine elite offensive structure, but its championship ceiling was limited by reduced late-clock shot quality, insufficient defensive disruption, and weaker possession control against top defensive and rebounding opponents; the 2026–27 reset is an attempt to preserve the Oats model while rebuilding it with more size and physical durability."
+          },
+          {
+            "heading": "Key Findings",
+            "body": ""
+          },
+          {
+            "heading": "1. The offense was structurally elite",
+            "body": "Alabama combined elite possession efficiency with low turnovers, offensive rebounding, free throw pressure, extreme three-point volume, and a highly optimized shot profile."
+          },
+          {
+            "heading": "2. The opponent-adjusted results supported the overall quality",
+            "body": "The team’s approximately +20.2 net-versus-expected figure indicates that the combined offense-versus-opponent-defense and defense-versus-opponent-offense difference was positive on average."
+          },
+          {
+            "heading": "3. Stronger opponent profiles reduced Alabama’s margin",
+            "body": "The offense remained functional against top defenses and elite rebounders, but the overall net advantage became much smaller."
+          },
+          {
+            "heading": "4. Late-clock shot creation was the clearest offensive weakness",
+            "body": "The team’s shot efficiency and preferred shot distribution declined sharply with 10 or fewer seconds remaining."
+          },
+          {
+            "heading": "5. Philon was the primary creation and late-clock engine",
+            "body": "His departure removes the player most capable of producing efficient offense after the first action failed."
+          },
+          {
+            "heading": "6. Sherrell was a structural frontcourt piece",
+            "body": "His finishing, rim protection, spacing, and pairing results were connected to many of Alabama’s strongest combinations."
+          },
+          {
+            "heading": "7. The roster reset improves size but creates a new hierarchy question",
+            "body": "The incoming group addresses frontcourt depth and physicality, but lead creation, shooting gravity, and confirmed availability remain major variables."
+          },
+          {
+            "heading": "Report Structure",
+            "body": ""
+          },
+          {
+            "heading": "Part I — 2025–26 Team Identity",
+            "body": ""
+          },
+          {
+            "heading": "Introduction",
+            "body": ""
+          },
+          {
+            "heading": "Overall Team Profile",
+            "body": ""
+          },
+          {
+            "heading": "Offensive Foundation",
+            "body": ""
+          },
+          {
+            "heading": "Shot Profile",
+            "body": ""
+          },
+          {
+            "heading": "Shot-Clock Analysis",
+            "body": ""
+          },
+          {
+            "heading": "Player Creation and Shot Quality",
+            "body": ""
+          },
+          {
+            "heading": "Player Pairings and Functional Lineups",
+            "body": ""
+          },
+          {
+            "heading": "Defensive Profile",
+            "body": ""
+          },
+          {
+            "heading": "Opponent Archetype Splits",
+            "body": ""
+          },
+          {
+            "heading": "Rolling Trends and Possession Control",
+            "body": ""
+          },
+          {
+            "heading": "Team Identity Conclusion",
+            "body": ""
+          },
+          {
+            "heading": "Part II — Refining the Oats Model",
+            "body": ""
+          },
+          {
+            "heading": "What the 2025–26 Season Revealed About the System",
+            "body": ""
+          },
+          {
+            "heading": "Part III — Roster Reset",
+            "body": ""
+          },
+          {
+            "heading": "Departures and Lost Functions",
+            "body": ""
+          },
+          {
+            "heading": "The 2026–27 Roster Profile",
+            "body": ""
+          },
+          {
+            "heading": "Part IV — Final Scouting Read",
+            "body": ""
+          },
+          {
+            "heading": "Final Conclusion",
+            "body": ""
+          },
+          {
+            "heading": "Methodology and Limitations",
+            "body": ""
+          },
+          {
+            "heading": "Source Notes",
+            "body": ""
+          },
+          {
+            "heading": "Portfolio Note",
+            "body": ""
+          },
+          {
+            "heading": "Part I — 2025–26 Team Identity",
+            "body": ""
+          },
+          {
+            "heading": "1. Introduction: What This Analysis Is Trying to Answer",
+            "body": "Alabama entered the 2025–26 season as an established national program with a recognizable basketball philosophy."
+          },
+          {
+            "heading": "Under Nate Oats, Alabama’s identity has been built around:",
+            "body": "pace,"
+          },
+          {
+            "heading": "wide spacing,",
+            "body": ""
+          },
+          {
+            "heading": "early offense,",
+            "body": ""
+          },
+          {
+            "heading": "aggressive three-point volume,",
+            "body": ""
+          },
+          {
+            "heading": "rim pressure,",
+            "body": "and a preference for high-value attempts over traditional midrange scoring.\n\nThe 2025–26 season again demonstrated the ceiling of that approach. Alabama finished 25–10, went 13–5 in SEC play, reached the Sweet 16, and finished No. 16 in the final AP Poll.\n\nThose results establish the team as high-level, but they do not explain how it functioned."
+          },
+          {
+            "heading": "The purpose of this report is to examine:",
+            "body": ""
+          },
+          {
+            "heading": "whether Alabama’s scoring translated into elite per-possession offense,",
+            "body": ""
+          },
+          {
+            "heading": "how stable that offense remained against stronger opponents,",
+            "body": ""
+          },
+          {
+            "heading": "what changed when possessions reached late-clock situations,",
+            "body": ""
+          },
+          {
+            "heading": "which players carried specific structural functions,",
+            "body": "why the defense did not reach the same level as the offense,\n\nand how those findings should shape the interpretation of the 2026–27 roster.\n\nPossession-based analysis is essential because raw scoring can be distorted by tempo. A team playing approximately 75 possessions per game will naturally score more than a team playing 65.\n\nOffensive rating, defensive rating, Four Factors, shot distribution, shot-clock splits, and opponent context provide a more useful evaluation.\n\nThe report also avoids reducing player value to points per game. A player may score efficiently while the team functions worse in his minutes. Another may have limited scoring production but improve spacing, defensive organization, or lineup balance."
+          },
+          {
+            "heading": "For that reason, the analysis combines traditional production with:",
+            "body": ""
+          },
+          {
+            "heading": "shot-location data,",
+            "body": ""
+          },
+          {
+            "heading": "shot timing,",
+            "body": ""
+          },
+          {
+            "heading": "assisted and unassisted makes,",
+            "body": ""
+          },
+          {
+            "heading": "reconstructed lineup combinations,",
+            "body": ""
+          },
+          {
+            "heading": "player pairings,",
+            "body": "and opponent-profile splits."
+          },
+          {
+            "heading": "The central analytical question is:",
+            "body": "Was Alabama’s 2025–26 team a complete championship profile, or an elite offense attached to a less reliable defensive and physical structure?\n\nThe data supports the second interpretation."
+          },
+          {
+            "heading": "2. The Overall Picture: A Strong Team With an Uneven Championship Profile",
+            "body": "Alabama’s season-level performance was clearly positive."
+          },
+          {
+            "heading": "Across 35 games, the team produced:",
+            "body": ""
+          },
+          {
+            "heading": "91.2 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "approximately 74.7 possessions per game,",
+            "body": ""
+          },
+          {
+            "heading": "a 122.1 offensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "a 110.7 defensive rating,",
+            "body": "and a +11.3 raw net rating.\n\nA +11.3 net rating represents a strong team. The main separation between Alabama and a more complete contender was not its ability to score. It was the difference between its offensive and defensive levels.\n\nThe offense performed at an elite rate. The defense was closer to functional than dominant.\n\nThe opponent-adjusted layer strengthens the conclusion that Alabama’s quality was real."
+          },
+          {
+            "heading": "The current model calculates:",
+            "body": "Net Versus Expected = (Alabama Game ORtg − Opponent Season DRtg) + (Opponent Season ORtg − Alabama Game DRtg)\n\nAlabama’s average net versus expected was approximately +20.2.\n\nThat means the combined difference between Alabama’s game offense relative to opponent defensive baselines and Alabama’s game defense relative to opponent offensive baselines was positive on average.\n\nIt does not prove that the offensive and defensive components were each positive when evaluated separately. One component could theoretically compensate for a weaker or negative result in the other.\n\nThis is also not the same as saying that Alabama was 20.2 points per 100 possessions better than a neutral national-average opponent. It is an internal comparison against opponent season baselines.\n\nThe metric supports a clear conclusion: Alabama’s combined performance relative to opponent context was positive.\n\nThe main limitation emerged when the schedule was divided by opponent profile.\n\nAgainst most opponents, Alabama generated large margins. Against top defenses and elite rebounding teams, those margins became substantially smaller.\n\nThat distinction matters.\n\nA team can be excellent overall while still having structural vulnerabilities that become more relevant in a single-elimination tournament. Alabama had multiple ways to score, but its overall stability declined when opponents could:"
+          },
+          {
+            "heading": "remove early advantages,",
+            "body": ""
+          },
+          {
+            "heading": "keep the ball out of the preferred shot zones,",
+            "body": ""
+          },
+          {
+            "heading": "compete on the glass,",
+            "body": "and force longer possessions."
+          },
+          {
+            "heading": "The most accurate season-level evaluation is therefore:",
+            "body": "Alabama was a legitimate high-level team with an elite offense, but its performance was not equally stable against every type of opponent."
+          },
+          {
+            "heading": "3. The Offensive Foundation: Pace, Efficiency, and Possession Value",
+            "body": "Alabama’s Four Factors demonstrate the quality of the offense."
+          },
+          {
+            "heading": "The team produced:",
+            "body": ""
+          },
+          {
+            "heading": "55.2% effective field-goal percentage,",
+            "body": ""
+          },
+          {
+            "heading": "13.1% turnover rate,",
+            "body": ""
+          },
+          {
+            "heading": "32.4% offensive rebound rate,",
+            "body": ""
+          },
+          {
+            "heading": "0.360 free throw rate,",
+            "body": "and a 54.3% three-point attempt rate.\n\nEach number explains a different part of the offensive model."
+          },
+          {
+            "heading": "Shooting value",
+            "body": "The 55.2% eFG indicates that Alabama generated strong value from its attempts. Effective field-goal percentage accounts for the additional value of made threes, making it more informative than standard field-goal percentage for a team with Alabama’s shot distribution."
+          },
+          {
+            "heading": "Ball security",
+            "body": "A 13.1% turnover rate was a major strength.\n\nFast teams often sacrifice some possession security because they play before the defense is organized. Alabama combined high pace with a low turnover rate, allowing it to create more total shot opportunities without wasting an excessive number of possessions."
+          },
+          {
+            "heading": "Offensive rebounding",
+            "body": "The 32.4% offensive rebound rate gave Alabama another method of maintaining offensive production.\n\nThe team did not need every first shot to fall. Offensive rebounds created additional attempts and helped protect the offense during periods when shooting efficiency declined."
+          },
+          {
+            "heading": "Free throw pressure",
+            "body": "A 0.360 free throw rate shows that Alabama was not only a perimeter offense.\n\nThe spacing and three-point volume opened driving lanes, while creators and frontcourt players generated contact and foul pressure."
+          },
+          {
+            "heading": "Three-point volume",
+            "body": "The 54.3% three-point attempt rate was the most visible part of the system.\n\nMore than half of Alabama’s field-goal attempts came from three. That volume forced opponents to cover a large area of the floor and made help decisions more difficult.\n\nThe offense was effective because these components supported one another.\n\nSpacing created rim opportunities. Rim pressure created kick-out threes. Three-point gravity created driving lanes. Offensive rebounds protected missed shots. Low turnovers ensured that the system generated enough attempts.\n\nThe result was not simply a fast offense. It was a high-efficiency possession model.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-1.png",
+                "alt": "Alabama’s offensive foundation combined strong shooting value, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume.",
+                "caption": "Alabama’s offensive foundation combined strong shooting value, low turnovers, offensive rebounding, free-throw pressure, and extreme three-point volume."
+              }
+            ]
+          },
+          {
+            "heading": "4. Shot Profile: A Highly Optimized Distribution",
+            "body": ""
+          },
+          {
+            "heading": "Alabama’s shot distribution was approximately:",
+            "body": ""
+          },
+          {
+            "heading": "27.4% at the rim,",
+            "body": ""
+          },
+          {
+            "heading": "15.9% from paint non-rim areas,",
+            "body": ""
+          },
+          {
+            "heading": "2.4% from midrange,",
+            "body": ""
+          },
+          {
+            "heading": "24.6% from corner three,",
+            "body": "29.7% from above-the-break three.\n\nThe overall three-point rate was 54.3%.\n\nThe 2.4% midrange rate is particularly important. Alabama almost completely removed traditional midrange attempts from its normal offensive profile."
+          },
+          {
+            "heading": "The preferred outcomes were:",
+            "body": ""
+          },
+          {
+            "heading": "rim attempts,",
+            "body": ""
+          },
+          {
+            "heading": "paint pressure,",
+            "body": ""
+          },
+          {
+            "heading": "corner threes,",
+            "body": ""
+          },
+          {
+            "heading": "above-the-break threes,",
+            "body": ""
+          },
+          {
+            "heading": "free throws,",
+            "body": "and offensive-rebound extensions.\n\nThis distribution reflects an intentional shot-value philosophy.\n\nAlabama also converted approximately 67.1% of its rim attempts. That interior efficiency prevented the offense from becoming one-dimensional.\n\nThe team’s three-point percentage was approximately 35.8%. Combined with the extreme volume, that was enough to create major offensive value.\n\nThe relationship between rim attempts and threes was the central mechanism.\n\nWhen defenders remained attached to shooters, Alabama could attack open lanes. When help defenders moved toward the ball, Alabama could generate threes. When those attempts missed, the team had a strong offensive rebound rate.\n\nThe shot distribution was therefore one of Alabama’s greatest strengths.\n\nIts limitation was not primarily where the team wanted to shoot. It was whether it could still create those shots when the possession became difficult.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-2.png",
+                "alt": "Alabama concentrated its field-goal attempts at the rim and from three while almost completely removing traditional midrange volume from its normal offensive profile.",
+                "caption": "Alabama concentrated its field-goal attempts at the rim and from three while almost completely removing traditional midrange volume from its normal offensive profile."
+              }
+            ]
+          },
+          {
+            "heading": "5. Shot-Clock Analysis: The Difference Between Early Advantage and Late Creation",
+            "body": "The shot feed contained a recorded shot-clock value for 2,311 of Alabama’s 2,312 field-goal attempts."
+          },
+          {
+            "heading": "The shot-clock categories are defined as:",
+            "body": "Early clock: at least 20 seconds remaining.\n\nMiddle clock: 11–19 seconds remaining.\n\nLate clock: 10 or fewer seconds remaining."
+          },
+          {
+            "heading": "The results were:",
+            "body": ""
+          },
+          {
+            "heading": "Shot-clock period",
+            "body": "FGA\n\neFG%"
+          },
+          {
+            "heading": "Three-point rate",
+            "body": ""
+          },
+          {
+            "heading": "Rim rate",
+            "body": ""
+          },
+          {
+            "heading": "Early clock",
+            "body": "1,076\n\n56.8%\n\n54.5%\n\n30.8%"
+          },
+          {
+            "heading": "Middle clock",
+            "body": "891\n\n56.3%\n\n56.6%\n\n25.0%"
+          },
+          {
+            "heading": "Late clock",
+            "body": "344\n\n47.5%\n\n48.3%\n\n23.0%\n\nThe early- and middle-clock results were almost identical in efficiency.\n\nThis shows that Alabama did not have to score in the opening seconds of every possession. The offense could continue functioning effectively after the initial transition phase.\n\nThe major decline came with 10 or fewer seconds remaining.\n\nLate-clock eFG fell by approximately nine percentage points. The preferred shot distribution also deteriorated:"
+          },
+          {
+            "heading": "rim rate declined from 30.8% to 23.0%,",
+            "body": "three-point rate declined from 54.5% to 48.3%.\n\nThe team was not merely missing the same quality of attempts. It was creating fewer of the attempts the offense was designed to produce.\n\nThis is important for tournament-level evaluation.\n\nStronger defenses are more likely to contain the first drive, recover to shooters, disrupt screening actions, and force an offense to make a second or third decision.\n\nAlabama remained highly efficient when it found an advantage with at least 11 seconds remaining. Once the possession entered its final 10 seconds, the offense became more dependent on individual shot creation.\n\nThat explains why Philon’s role was so important.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-3.png",
+                "alt": "Alabama’s preferred shot profile remained effective through the first 19 seconds, but both efficiency and shot quality deteriorated when possessions reached the final 10 seconds.",
+                "caption": "Alabama’s preferred shot profile remained effective through the first 19 seconds, but both efficiency and shot quality deteriorated when possessions reached the final 10 seconds."
+              }
+            ]
+          },
+          {
+            "heading": "6. Player Creation and Shot Quality",
+            "body": ""
+          },
+          {
+            "heading": "Labaron Philon: Primary Engine and Late-Clock Solution",
+            "body": ""
+          },
+          {
+            "heading": "Philon produced:",
+            "body": ""
+          },
+          {
+            "heading": "22.0 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "5.0 assists per game,",
+            "body": ""
+          },
+          {
+            "heading": "3.5 rebounds per game,",
+            "body": ""
+          },
+          {
+            "heading": "50.1% field-goal shooting,",
+            "body": ""
+          },
+          {
+            "heading": "39.9% three-point shooting,",
+            "body": "and 485 field-goal attempts."
+          },
+          {
+            "heading": "His shot distribution included:",
+            "body": ""
+          },
+          {
+            "heading": "27.2% rim attempts,",
+            "body": ""
+          },
+          {
+            "heading": "26.6% paint non-rim attempts,",
+            "body": "41.9% three-point attempts.\n\nHe converted approximately 70.5% at the rim.\n\nThe shot profile demonstrates scoring versatility. Philon could create pressure at the basket, finish in the paint, shoot from three, and generate opportunities for teammates.\n\nHis late-clock production separated him from the rest of the team.\n\nOn 80 attempts with 10 or fewer seconds remaining, Philon recorded a 59.4% eFG. His overall eFG was 58.5%.\n\nWhile the team’s efficiency declined late in the clock, Philon maintained elite efficiency.\n\nHis 74.1% unassisted make rate is used only as an individual-creation proxy. It does not represent official tracking of self-created attempts."
+          },
+          {
+            "heading": "Even with that limitation, the combination of:",
+            "body": ""
+          },
+          {
+            "heading": "high usage,",
+            "body": ""
+          },
+          {
+            "heading": "shot diversity,",
+            "body": "playmaking,"
+          },
+          {
+            "heading": "unassisted makes,",
+            "body": ""
+          },
+          {
+            "heading": "and late-clock efficiency",
+            "body": "supports the conclusion that he carried Alabama’s largest creation burden.\n\nHis departure is therefore the most important roster loss.\n\nAlabama is not only replacing 22 points and five assists. It is replacing the player who protected the offense when the possession no longer produced its preferred structure.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-4.png",
+                "alt": "Philon maintained elite late-clock efficiency while the other key players experienced larger declines relative to their overall shooting profiles.",
+                "caption": "Philon maintained elite late-clock efficiency while the other key players experienced larger declines relative to their overall shooting profiles."
+              }
+            ]
+          },
+          {
+            "heading": "Aden Holloway: Shooting Gravity and Conditional Lead-Guard Value",
+            "body": ""
+          },
+          {
+            "heading": "Holloway produced:",
+            "body": ""
+          },
+          {
+            "heading": "16.8 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "3.8 assists per game,",
+            "body": ""
+          },
+          {
+            "heading": "43.8% three-point shooting,",
+            "body": ""
+          },
+          {
+            "heading": "314 total attempts,",
+            "body": "and a 53.8% three-point attempt rate.\n\nHe combined shooting gravity with secondary creation.\n\nHis 66.2% unassisted make rate is consistent with meaningful individual creation, although it carries the same assist-recording limitations as Philon’s figure.\n\nHolloway recorded a 59.9% overall eFG but a 48.8% eFG on 42 late-clock attempts.\n\nThat does not eliminate him as a possible larger creator. It does show that the 2025–26 data does not justify assuming that he can directly inherit Philon’s full late-clock role.\n\nHis basketball projection for 2026–27 is also conditional.\n\nHolloway’s status remains unresolved. He is suspended and is not currently confirmed as active for 2026–27."
+          },
+          {
+            "heading": "The roster analysis should therefore separate two questions:",
+            "body": "What role could Holloway fill if reinstated and available?\n\nCan Alabama build a functional creation hierarchy without counting on his availability?\n\nIf available, he would be the most natural returning guard organizer. Until his status is resolved, Alabama cannot treat that role as secured."
+          },
+          {
+            "heading": "Aiden Sherrell: Structural Modern-Big Value",
+            "body": ""
+          },
+          {
+            "heading": "Sherrell produced:",
+            "body": ""
+          },
+          {
+            "heading": "11.1 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "6.2 rebounds per game,",
+            "body": ""
+          },
+          {
+            "heading": "76 blocks,",
+            "body": ""
+          },
+          {
+            "heading": "241 field-goal attempts,",
+            "body": ""
+          },
+          {
+            "heading": "53.9% rim attempt rate,",
+            "body": ""
+          },
+          {
+            "heading": "70.0% rim shooting,",
+            "body": ""
+          },
+          {
+            "heading": "33.2% three-point attempt rate,",
+            "body": "and 33.8% three-point shooting.\n\nHe combined traditional center responsibilities with enough shooting to affect spacing."
+          },
+          {
+            "heading": "Sherrell could:",
+            "body": ""
+          },
+          {
+            "heading": "finish above and around the rim,",
+            "body": ""
+          },
+          {
+            "heading": "protect the basket,",
+            "body": "rebound,\n\nscreen,\n\nand move outside the paint without completely collapsing the offense’s geometry.\n\nApproximately 74.6% of his makes were assisted, and all of his made threes were assisted. His role was primarily structural and finishing-oriented rather than based on individual isolation creation.\n\nHis value becomes clearer in the pairing data, where lineups involving Sherrell repeatedly produced strong results."
+          },
+          {
+            "heading": "Amari Allen: Confirmed Returner and Continuity Piece",
+            "body": ""
+          },
+          {
+            "heading": "Allen produced:",
+            "body": ""
+          },
+          {
+            "heading": "11.4 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "6.9 rebounds per game,",
+            "body": ""
+          },
+          {
+            "heading": "3.1 assists per game,",
+            "body": ""
+          },
+          {
+            "heading": "a 32.1% rim rate,",
+            "body": ""
+          },
+          {
+            "heading": "a 50.9% three-point attempt rate,",
+            "body": "and 34.1% three-point shooting.\n\nHe functioned as a connector rather than a pure primary creator."
+          },
+          {
+            "heading": "His value came from:",
+            "body": ""
+          },
+          {
+            "heading": "rebounding and initiating,",
+            "body": ""
+          },
+          {
+            "heading": "secondary passing,",
+            "body": "size,"
+          },
+          {
+            "heading": "positional flexibility,",
+            "body": "and the ability to contribute without controlling every possession.\n\nAllen withdrew from the 2026 NBA Draft and returns as Alabama’s most important confirmed continuity piece.\n\nThe 2026–27 challenge is whether he can expand his offensive responsibility without losing the efficient connective role that made him valuable."
+          },
+          {
+            "heading": "Latrell Wrightsell and Houston Mallette: Spacing Infrastructure",
+            "body": ""
+          },
+          {
+            "heading": "Wrightsell’s shot profile included:",
+            "body": ""
+          },
+          {
+            "heading": "290 total attempts,",
+            "body": ""
+          },
+          {
+            "heading": "72.8% three-point attempt rate,",
+            "body": ""
+          },
+          {
+            "heading": "32.4% corner-three rate,",
+            "body": ""
+          },
+          {
+            "heading": "40.3% above-the-break-three rate,",
+            "body": "92.1% assisted three-point make rate."
+          },
+          {
+            "heading": "Mallette’s profile was even more specialized:",
+            "body": ""
+          },
+          {
+            "heading": "188 total attempts,",
+            "body": ""
+          },
+          {
+            "heading": "88.3% three-point attempt rate,",
+            "body": ""
+          },
+          {
+            "heading": "46.8% corner-three rate,",
+            "body": ""
+          },
+          {
+            "heading": "41.5% above-the-break-three rate,",
+            "body": "96.6% assisted three-point make rate.\n\nThese players were not lead creators. Their value came from how their presence affected the other four players.\n\nThey:"
+          },
+          {
+            "heading": "widened driving lanes,",
+            "body": ""
+          },
+          {
+            "heading": "punished help rotations,",
+            "body": ""
+          },
+          {
+            "heading": "relocated around penetration,",
+            "body": ""
+          },
+          {
+            "heading": "forced defenders to remain attached,",
+            "body": "and gave creators clearer space.\n\nReplacing their scoring totals is not enough. Alabama must replace their willingness, volume, and credibility as shooters."
+          },
+          {
+            "heading": "7. Player Pairings and Functional Lineups",
+            "body": "The pairing data was reconstructed from substitution and play-by-play sequences."
+          },
+          {
+            "heading": "The main results were:",
+            "body": ""
+          },
+          {
+            "heading": "Pairing or group",
+            "body": "Minutes"
+          },
+          {
+            "heading": "Estimated possessions",
+            "body": "ORtg\n\nDRtg\n\nNet"
+          },
+          {
+            "heading": "Philon + Holloway",
+            "body": "492.1\n\n918.1\n\n127.4\n\n114.9\n\n+12.5"
+          },
+          {
+            "heading": "Philon + Sherrell",
+            "body": "612.7\n\n1,126.2\n\n123.6\n\n109.0\n\n+14.6"
+          },
+          {
+            "heading": "Holloway + Sherrell",
+            "body": "467.8\n\n865.5\n\n130.6\n\n107.7\n\n+22.9"
+          },
+          {
+            "heading": "Allen + Sherrell",
+            "body": "522.3\n\n955.7\n\n129.7\n\n106.4\n\n+23.3"
+          },
+          {
+            "heading": "Philon without Sherrell",
+            "body": "380.1\n\n707.0\n\n118.2\n\n117.8\n\n+0.4"
+          },
+          {
+            "heading": "Holloway without Philon",
+            "body": "279.0\n\n518.9\n\n125.9\n\n102.0\n\n+23.9"
+          },
+          {
+            "heading": "Sherrell without Philon",
+            "body": "184.0\n\n334.9\n\n132.0\n\n102.1\n\n+29.9"
+          },
+          {
+            "heading": "Holloway + Sherrell without Philon",
+            "body": "146.1\n\n266.4\n\n133.3\n\n100.6\n\n+32.7"
+          },
+          {
+            "heading": "Philon + Holloway + Sherrell",
+            "body": "321.7\n\n599.1\n\n129.4\n\n110.8\n\n+18.5"
+          },
+          {
+            "heading": "Philon + Holloway + Sherrell + Allen",
+            "body": "198.4\n\n366.8\n\n139.3\n\n107.4\n\n+31.9\n\nThe project labels a lineup or group as a reliable sample when it reaches:"
+          },
+          {
+            "heading": "at least 100 estimated possessions,",
+            "body": "or:\n\nat least 50 minutes across at least five games.\n\nAll the main combinations above exceed the 100-possession threshold.\n\nHowever, these samples are not independent."
+          },
+          {
+            "heading": "The Philon–Sherrell sample overlaps with possessions included in:",
+            "body": "Philon–Holloway–Sherrell,\n\nPhilon–Holloway–Sherrell–Allen,\n\nand other groups containing both players.\n\nPairing and multi-player group samples overlap and should not be interpreted as independent experiments.\n\nThe results are most useful as directional signals about team function.\n\nThe strongest signal is Sherrell’s repeated presence in effective combinations."
+          },
+          {
+            "heading": "Philon without Sherrell was almost neutral at +0.4, while:",
+            "body": ""
+          },
+          {
+            "heading": "Holloway–Sherrell was +22.9,",
+            "body": ""
+          },
+          {
+            "heading": "Allen–Sherrell was +23.3,",
+            "body": ""
+          },
+          {
+            "heading": "Sherrell without Philon was +29.9,",
+            "body": "Holloway–Sherrell without Philon was +32.7.\n\nThat does not prove that Sherrell was more valuable than Philon.\n\nIt indicates that Sherrell’s combination of rim protection, screening, finishing, rebounding, and spacing may have supplied important lineup structure.\n\nThe four-man group of Philon, Holloway, Sherrell, and Allen produced a +31.9 net rating.\n\nWhen those functions worked together, Alabama produced stretches with a Final Four-caliber statistical profile."
+          },
+          {
+            "heading": "That group represented:",
+            "body": ""
+          },
+          {
+            "heading": "primary creation,",
+            "body": ""
+          },
+          {
+            "heading": "secondary creation and shooting,",
+            "body": ""
+          },
+          {
+            "heading": "connective size,",
+            "body": ""
+          },
+          {
+            "heading": "frontcourt structure,",
+            "body": "and space for an additional shooter.\n\nThe roster reset must reproduce those functions through a different collection of players.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-5.png",
+                "alt": "Sherrell appeared across several of Alabama’s strongest reconstructed pairings and multi-player groups, although the overlapping samples should be interpreted as directional team-function signals rather than independent experiments.",
+                "caption": "Sherrell appeared across several of Alabama’s strongest reconstructed pairings and multi-player groups, although the overlapping samples should be interpreted as directional team-function signals rather than independent experiments."
+              }
+            ]
+          },
+          {
+            "heading": "8. Defensive Profile: Control Without Enough Disruption",
+            "body": ""
+          },
+          {
+            "heading": "Alabama allowed:",
+            "body": ""
+          },
+          {
+            "heading": "49.2% opponent eFG,",
+            "body": ""
+          },
+          {
+            "heading": "12.8% opponent turnover rate,",
+            "body": ""
+          },
+          {
+            "heading": "67.2% defensive rebound rate,",
+            "body": "0.320 opponent free throw rate."
+          },
+          {
+            "heading": "The opponent shooting profile was:",
+            "body": ""
+          },
+          {
+            "heading": "31.2% rim attempt rate,",
+            "body": ""
+          },
+          {
+            "heading": "22.1% paint non-rim rate,",
+            "body": ""
+          },
+          {
+            "heading": "11.3% midrange rate,",
+            "body": ""
+          },
+          {
+            "heading": "35.4% three-point attempt rate,",
+            "body": ""
+          },
+          {
+            "heading": "58.3% rim shooting,",
+            "body": "33.8% three-point shooting.\n\nThese numbers do not describe a defense that failed in every area.\n\nThe team showed some ability to control opponent shooting efficiency and did not allow an extreme three-point profile.\n\nThe larger weaknesses were turnover creation and possession completion.\n\nAlabama forced turnovers on only approximately 12.8% of opponent possessions.\n\nFor a team whose offense benefits from pace and early-clock opportunities, that limited the number of possessions beginning with a live-ball advantage."
+          },
+          {
+            "heading": "Alabama’s defense generated fewer:",
+            "body": ""
+          },
+          {
+            "heading": "transition opportunities,",
+            "body": ""
+          },
+          {
+            "heading": "broken-floor situations,",
+            "body": "and possessions before the opposing defense could organize.\n\nThe 67.2% defensive rebound rate also created problems.\n\nA 67.2% defensive rebound rate implies that Alabama allowed opponents to recover roughly one-third of available offensive rebounds.\n\nThat is more precise than treating every missed shot as an identical rebounding opportunity.\n\nThe combination of low turnover creation and inconsistent defensive rebounding prevented Alabama from consistently converting defense into offensive rhythm.\n\nThe defense could survive many possessions. It did not dictate enough of them.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-6.png",
+                "alt": "Alabama limited some opponent shooting value, but low turnover creation and inconsistent defensive rebounding reduced its ability to finish possessions and generate transition offense.",
+                "caption": "Alabama limited some opponent shooting value, but low turnover creation and inconsistent defensive rebounding reduced its ability to finish possessions and generate transition offense."
+              }
+            ]
+          },
+          {
+            "heading": "9. Opponent Archetype Splits",
+            "body": "The archetype splits are internal analytical buckets rather than official AP, NET, or KenPom categories.\n\nTop defenses are opponents in the best quartile of full-season defensive rating across the complete NCAA dataset.\n\nThe threshold is not based on the best 25% of Alabama’s own schedule. Repeat matchups are counted as separate games.\n\nOpponent archetype buckets are also not mutually exclusive."
+          },
+          {
+            "heading": "The same opponent may qualify simultaneously as:",
+            "body": ""
+          },
+          {
+            "heading": "a top defense,",
+            "body": ""
+          },
+          {
+            "heading": "an elite rebounding team,",
+            "body": "and a physical-frontcourt proxy team.\n\nThe samples should therefore not be added together or treated as independent opponent groups."
+          },
+          {
+            "heading": "Against top defenses",
+            "body": ""
+          },
+          {
+            "heading": "Alabama produced:",
+            "body": ""
+          },
+          {
+            "heading": "14 games,",
+            "body": ""
+          },
+          {
+            "heading": "an 8–6 record,",
+            "body": ""
+          },
+          {
+            "heading": "116.8 offensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "116.0 defensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "+0.8 net rating,",
+            "body": ""
+          },
+          {
+            "heading": "53.0% eFG,",
+            "body": ""
+          },
+          {
+            "heading": "31.7% offensive rebound rate,",
+            "body": "13.9% turnover rate."
+          },
+          {
+            "heading": "Against non-top defenses",
+            "body": ""
+          },
+          {
+            "heading": "Alabama produced:",
+            "body": ""
+          },
+          {
+            "heading": "21 games,",
+            "body": ""
+          },
+          {
+            "heading": "a 17–4 record,",
+            "body": ""
+          },
+          {
+            "heading": "125.5 offensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "107.2 defensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "+18.3 net rating,",
+            "body": ""
+          },
+          {
+            "heading": "56.8% eFG,",
+            "body": ""
+          },
+          {
+            "heading": "32.6% offensive rebound rate,",
+            "body": "12.5% turnover rate.\n\nAlabama did not become a poor offensive team against top defenses. A 116.8 offensive rating remained functional.\n\nThe larger problem was the combined margin.\n\nThe offensive rating fell by almost nine points per 100 possessions, while the defensive rating became almost nine points worse.\n\nThe net difference declined from +18.3 to +0.8.\n\nThis is evidence that top defenses affected more than Alabama’s shooting. They also forced a game environment in which Alabama’s defense and possession control were less able to compensate."
+          },
+          {
+            "heading": "Against elite rebounding teams",
+            "body": ""
+          },
+          {
+            "heading": "Alabama produced:",
+            "body": ""
+          },
+          {
+            "heading": "21 games,",
+            "body": ""
+          },
+          {
+            "heading": "a 14–7 record,",
+            "body": ""
+          },
+          {
+            "heading": "121.0 offensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "113.4 defensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "+7.6 net rating,",
+            "body": "62.5% defensive rebound rate."
+          },
+          {
+            "heading": "Against non-elite rebounding teams",
+            "body": ""
+          },
+          {
+            "heading": "Alabama produced:",
+            "body": ""
+          },
+          {
+            "heading": "14 games,",
+            "body": ""
+          },
+          {
+            "heading": "an 11–3 record,",
+            "body": ""
+          },
+          {
+            "heading": "123.5 offensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "106.6 defensive rating,",
+            "body": ""
+          },
+          {
+            "heading": "+16.9 net rating,",
+            "body": "74.6% defensive rebound rate.\n\nThe offense remained strong in both groups.\n\nThe largest difference appeared in defensive performance and defensive rebounding.\n\nAgainst elite rebounders, Alabama recovered only 62.5% of available defensive rebounds. Against the rest of the schedule, it recovered 74.6%.\n\nThat difference extended opponent possessions and reduced Alabama’s ability to turn stops into pace."
+          },
+          {
+            "heading": "The physical-frontcourt proxy showed a similar directional pattern:",
+            "body": ""
+          },
+          {
+            "heading": "+8.9 net inside the bucket,",
+            "body": ""
+          },
+          {
+            "heading": "+21.2 outside the bucket,",
+            "body": ""
+          },
+          {
+            "heading": "64.4% defensive rebounding inside,",
+            "body": "79.1% outside.\n\nThe physical-frontcourt classification uses available rebounding and block indicators. It does not directly measure size, strength, contact, or true physicality.\n\nIt should therefore be used only as supporting evidence."
+          },
+          {
+            "heading": "Together, the splits support a consistent conclusion:",
+            "body": "Alabama’s margin became less stable against opponents capable of reducing shot quality and extending possessions on the offensive glass.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-7.png",
+                "alt": "Alabama’s net margin became substantially smaller against top defenses and elite rebounding teams, even though its offense remained functional in both contexts.",
+                "caption": "Alabama’s net margin became substantially smaller against top defenses and elite rebounding teams, even though its offense remained functional in both contexts."
+              }
+            ]
+          },
+          {
+            "heading": "10. Rolling Trends and Possession Control",
+            "body": ""
+          },
+          {
+            "heading": "Alabama’s season and late-season profiles were:",
+            "body": "Period\n\nORtg\n\nDRtg\n\nNet\n\neFG%\n\nORB%\n\nTOV%"
+          },
+          {
+            "heading": "Full season",
+            "body": "122.0\n\n110.7\n\n+11.3\n\n55.3%\n\n32.3%\n\n13.1%"
+          },
+          {
+            "heading": "Last 10 games",
+            "body": "123.2\n\n113.5\n\n+9.7\n\n55.0%\n\n35.6%\n\n13.2%"
+          },
+          {
+            "heading": "Last 5 games",
+            "body": "121.9\n\n109.5\n\n+12.4\n\n53.2%\n\n37.1%\n\n12.2%\n\nThe offense did not collapse late in the season.\n\nThe last-10 offensive rating was slightly higher than the season average. The last-five offensive rating remained close to the full-season level.\n\nHowever, the method of maintaining that output changed."
+          },
+          {
+            "heading": "During the final five games:",
+            "body": ""
+          },
+          {
+            "heading": "eFG fell to 53.2%,",
+            "body": ""
+          },
+          {
+            "heading": "offensive rebound rate increased to 37.1%,",
+            "body": "turnover rate improved to 12.2%."
+          },
+          {
+            "heading": "Alabama offset lower first-shot efficiency by:",
+            "body": ""
+          },
+          {
+            "heading": "protecting the ball,",
+            "body": ""
+          },
+          {
+            "heading": "extending possessions,",
+            "body": "and creating more attempts.\n\nThis demonstrates offensive resilience, but it also underlines the importance of physical frontcourt activity.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-8.png",
+                "alt": "As Alabama’s shooting efficiency declined late in the season, the offense maintained production through stronger offensive rebounding and slightly improved possession security.",
+                "caption": "As Alabama’s shooting efficiency declined late in the season, the offense maintained production through stronger offensive rebounding and slightly improved possession security."
+              }
+            ]
+          },
+          {
+            "heading": "Offensive-rebound-extended possessions",
+            "body": "The current parser identifies a parsed possession as offensive_rebound_extended when at least one offensive rebound occurs before the possession ends."
+          },
+          {
+            "heading": "The identified unit:",
+            "body": ""
+          },
+          {
+            "heading": "begins at the original parsed possession start,",
+            "body": ""
+          },
+          {
+            "heading": "includes the offensive rebound,",
+            "body": "and ends when the possession parser determines that possession has ended.\n\nIt does not begin at the offensive rebound and does not isolate only the points scored after the rebound.\n\nFor that reason, point totals and scoring conversion rates from the current layer are not used in this report as second-chance efficiency metrics."
+          },
+          {
+            "heading": "The frequency counts show:",
+            "body": ""
+          },
+          {
+            "heading": "124 Alabama offensive possessions flagged as containing an offensive-rebound extension,",
+            "body": "133 opponent offensive possessions flagged as containing an offensive-rebound extension.\n\nThese counts support the conclusion that opponents created slightly more rebound-extended possessions than Alabama."
+          },
+          {
+            "heading": "The main evaluation therefore relies on:",
+            "body": ""
+          },
+          {
+            "heading": "standard offensive rebound rate,",
+            "body": ""
+          },
+          {
+            "heading": "standard defensive rebound rate,",
+            "body": ""
+          },
+          {
+            "heading": "opponent-profile splits,",
+            "body": "and flagged extension frequency.\n\nIt does not use second-chance PPP or post-rebound scoring efficiency."
+          },
+          {
+            "heading": "11. Overall Basketball Conclusion About the 2025–26 Team",
+            "body": "Alabama’s 2025–26 team had a sophisticated and highly efficient offensive design."
+          },
+          {
+            "heading": "The offense created value through:",
+            "body": ""
+          },
+          {
+            "heading": "optimized shot selection,",
+            "body": ""
+          },
+          {
+            "heading": "low turnovers,",
+            "body": ""
+          },
+          {
+            "heading": "rim pressure,",
+            "body": ""
+          },
+          {
+            "heading": "three-point volume,",
+            "body": ""
+          },
+          {
+            "heading": "offensive rebounding,",
+            "body": "and clear functional roles.\n\nThe shot-clock data shows that the structure remained strong through the first 19 seconds of the possession.\n\nThe main offensive weakness appeared when opponents forced the team into the final 10 seconds. That increased the importance of individual creation, especially Philon’s.\n\nThe defense was capable of limiting some shot quality but did not force enough turnovers or consistently finish possessions on the glass.\n\nThat gap explains why Alabama could dominate many opponents while producing much narrower margins against top defenses and elite rebounders."
+          },
+          {
+            "heading": "The team’s strongest basketball required a specific functional balance:",
+            "body": ""
+          },
+          {
+            "heading": "Philon creating,",
+            "body": ""
+          },
+          {
+            "heading": "Holloway shooting and organizing,",
+            "body": ""
+          },
+          {
+            "heading": "Allen connecting,",
+            "body": ""
+          },
+          {
+            "heading": "Sherrell anchoring the frontcourt,",
+            "body": "Wrightsell and Mallette spacing the floor.\n\nThe 2026–27 challenge is to reconstruct that balance without the same personnel."
+          },
+          {
+            "heading": "Part II — Refining the Oats Model",
+            "body": ""
+          },
+          {
+            "heading": "12. What the 2025–26 Season Revealed About the System",
+            "body": "The 2026–27 transition is not a coaching reset.\n\nNate Oats remains the coach, and Alabama is not abandoning the principles that made the 2025–26 offense effective.\n\nThe data suggests three areas of refinement."
+          },
+          {
+            "heading": "1. Preserve the offensive shot-value structure",
+            "body": ""
+          },
+          {
+            "heading": "Alabama should continue prioritizing:",
+            "body": "pace,\n\nthrees,"
+          },
+          {
+            "heading": "rim attempts,",
+            "body": ""
+          },
+          {
+            "heading": "free throws,",
+            "body": ""
+          },
+          {
+            "heading": "low turnovers,",
+            "body": "and offensive rebounding.\n\nThere is no statistical reason to replace that philosophy with a slower or more midrange-heavy model."
+          },
+          {
+            "heading": "2. Create a more durable late-clock hierarchy",
+            "body": "The offense needs a clearer plan when the first action fails.\n\nThat does not necessarily require one player to duplicate Philon’s role. It may require:"
+          },
+          {
+            "heading": "conditional Holloway creation,",
+            "body": ""
+          },
+          {
+            "heading": "a larger Allen role,",
+            "body": ""
+          },
+          {
+            "heading": "skilled frontcourt involvement,",
+            "body": ""
+          },
+          {
+            "heading": "more actions producing second-side advantages,",
+            "body": "and multiple players capable of attacking a closeout or finishing a late possession."
+          },
+          {
+            "heading": "3. Improve defensive possession control without damaging spacing",
+            "body": ""
+          },
+          {
+            "heading": "Alabama needs more:",
+            "body": ""
+          },
+          {
+            "heading": "defensive rebounding,",
+            "body": ""
+          },
+          {
+            "heading": "point-of-attack size,",
+            "body": ""
+          },
+          {
+            "heading": "rim protection,",
+            "body": ""
+          },
+          {
+            "heading": "lineup flexibility,",
+            "body": "and physical resilience.\n\nThe challenge is to add those qualities without placing too many non-shooters on the floor.\n\nThe incoming roster appears designed to give Oats more frontcourt and wing options. The question is whether those options can preserve enough spacing and decision-making to maintain the offensive ceiling.\n\nThe intended evolution is not from fast to slow.\n\nIt is from an offensively explosive team with structural vulnerabilities to a larger team capable of sustaining the same principles against more physical opponents."
+          },
+          {
+            "heading": "Part III — Roster Reset",
+            "body": ""
+          },
+          {
+            "heading": "13. Departures and the Basketball Functions Alabama Must Replace",
+            "body": "Alabama is losing more than statistical production.\n\nThe departures remove specific functions that shaped the 2025–26 team."
+          },
+          {
+            "heading": "Labaron Philon: Lead and late-clock creation",
+            "body": ""
+          },
+          {
+            "heading": "Philon’s departure removes:",
+            "body": ""
+          },
+          {
+            "heading": "primary scoring,",
+            "body": ""
+          },
+          {
+            "heading": "lead ball handling,",
+            "body": ""
+          },
+          {
+            "heading": "late-clock efficiency,",
+            "body": ""
+          },
+          {
+            "heading": "rim pressure,",
+            "body": "passing,\n\nand foul generation.\n\nThis is the most difficult function to replace."
+          },
+          {
+            "heading": "Latrell Wrightsell and Houston Mallette: Veteran shooting gravity",
+            "body": "Both players completed their eligibility."
+          },
+          {
+            "heading": "Their departure removes:",
+            "body": ""
+          },
+          {
+            "heading": "high-volume three-point shooting,",
+            "body": ""
+          },
+          {
+            "heading": "off-ball relocation,",
+            "body": ""
+          },
+          {
+            "heading": "veteran spacing discipline,",
+            "body": "and immediate punishment of defensive help."
+          },
+          {
+            "heading": "Aiden Sherrell: Modern-big structure",
+            "body": "Sherrell transferred to Indiana."
+          },
+          {
+            "heading": "His departure removes:",
+            "body": ""
+          },
+          {
+            "heading": "rim protection,",
+            "body": "finishing,\n\nrebounding,\n\nscreening,\n\nand frontcourt spacing."
+          },
+          {
+            "heading": "Taylor Bol Bowen: Forward length and lineup versatility",
+            "body": "Bol Bowen entered the transfer portal.\n\nHis departure reduces defensive and positional flexibility among Alabama’s larger forwards."
+          },
+          {
+            "heading": "Jalil Bethea and Davion Hannah: Perimeter depth and developmental scoring",
+            "body": "Bethea transferred to Pittsburgh. Hannah entered the transfer portal and was expected to pursue a medical redshirt.\n\nThese moves reduce bench creation and developmental perimeter depth."
+          },
+          {
+            "heading": "Noah Williamson: Reserve center depth",
+            "body": "Williamson completed his eligibility, removing another experienced interior option."
+          },
+          {
+            "heading": "Lost-Function Summary",
+            "body": ""
+          },
+          {
+            "heading": "Lost function",
+            "body": ""
+          },
+          {
+            "heading": "Main departure",
+            "body": ""
+          },
+          {
+            "heading": "Why it mattered",
+            "body": ""
+          },
+          {
+            "heading": "Possible replacement path",
+            "body": ""
+          },
+          {
+            "heading": "Lead and late-clock creation",
+            "body": ""
+          },
+          {
+            "heading": "Labaron Philon",
+            "body": ""
+          },
+          {
+            "heading": "Best individual solution after the first action failed",
+            "body": ""
+          },
+          {
+            "heading": "Allen growth, conditional Holloway role, creation by committee",
+            "body": ""
+          },
+          {
+            "heading": "High-volume off-ball spacing",
+            "body": ""
+          },
+          {
+            "heading": "Wrightsell and Mallette",
+            "body": ""
+          },
+          {
+            "heading": "Opened lanes and punished help",
+            "body": ""
+          },
+          {
+            "heading": "Incoming wing shooting and internal development",
+            "body": ""
+          },
+          {
+            "heading": "Modern-big structure",
+            "body": ""
+          },
+          {
+            "heading": "Aiden Sherrell",
+            "body": ""
+          },
+          {
+            "heading": "Rim protection, finishing, spacing, lineup balance",
+            "body": ""
+          },
+          {
+            "heading": "Fielder, Garrison, Davis-Fleming",
+            "body": ""
+          },
+          {
+            "heading": "Switchable forward length",
+            "body": ""
+          },
+          {
+            "heading": "Taylor Bol Bowen",
+            "body": ""
+          },
+          {
+            "heading": "Defensive flexibility and weak-side size",
+            "body": ""
+          },
+          {
+            "heading": "Cloer, Bouie, and potential continuity forwards",
+            "body": ""
+          },
+          {
+            "heading": "Reserve perimeter creation",
+            "body": ""
+          },
+          {
+            "heading": "Bethea and Hannah",
+            "body": ""
+          },
+          {
+            "heading": "Bench scoring and development",
+            "body": ""
+          },
+          {
+            "heading": "Richardson, Samuels, Bouie",
+            "body": ""
+          },
+          {
+            "heading": "Interior depth",
+            "body": ""
+          },
+          {
+            "heading": "Noah Williamson",
+            "body": ""
+          },
+          {
+            "heading": "Supplemental center minutes",
+            "body": ""
+          },
+          {
+            "heading": "Garrison, Davis-Fleming, Fielder",
+            "body": "The roster has to replace these functions collectively rather than finding direct statistical replicas.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-9.png",
+                "alt": "Alabama’s departures remove distinct basketball functions—lead creation, modern-big structure, shooting gravity, and lineup versatility—not merely individual scoring totals.",
+                "caption": "Alabama’s departures remove distinct basketball functions—lead creation, modern-big structure, shooting gravity, and lineup versatility—not merely individual scoring totals."
+              }
+            ]
+          },
+          {
+            "heading": "14. The 2026–27 Roster Profile",
+            "body": ""
+          },
+          {
+            "heading": "Alabama officially announced seven newcomers for 2026–27:",
+            "body": ""
+          },
+          {
+            "heading": "Cole Cloer,",
+            "body": ""
+          },
+          {
+            "heading": "Jamarion Davis-Fleming,",
+            "body": ""
+          },
+          {
+            "heading": "Drew Fielder,",
+            "body": ""
+          },
+          {
+            "heading": "Brandon Garrison,",
+            "body": ""
+          },
+          {
+            "heading": "Tarris Bouie,",
+            "body": ""
+          },
+          {
+            "heading": "Jaxon Richardson,",
+            "body": "Qayden Samuels.\n\nThe roster status must be separated into confirmed, unresolved, medical, and potential continuity categories."
+          },
+          {
+            "heading": "Amari Allen: Confirmed returner",
+            "body": "Allen withdrew from the 2026 NBA Draft and returns as Alabama’s most important continuity piece."
+          },
+          {
+            "heading": "His projected role includes:",
+            "body": ""
+          },
+          {
+            "heading": "connective playmaking,",
+            "body": "rebounding,"
+          },
+          {
+            "heading": "secondary initiation,",
+            "body": ""
+          },
+          {
+            "heading": "positional size,",
+            "body": "and potentially increased scoring responsibility.\n\nThe central question is whether he can become a more reliable primary offensive option while preserving his all-around value."
+          },
+          {
+            "heading": "Aden Holloway: Status unresolved",
+            "body": "Aden Holloway remains suspended and is not currently confirmed as active for 2026–27.\n\nAlabama reportedly has scholarship flexibility if his legal and university processes are resolved positively, but the report should not count him as an active returner.\n\nHis projected basketball role applies only if he is reinstated and available."
+          },
+          {
+            "heading": "That possible role would include:",
+            "body": ""
+          },
+          {
+            "heading": "guard organization,",
+            "body": ""
+          },
+          {
+            "heading": "high-level shooting,",
+            "body": ""
+          },
+          {
+            "heading": "secondary or shared creation,",
+            "body": "and late-clock shot-making.\n\nUntil his status is resolved, Alabama must build a roster model that does not depend on his presence."
+          },
+          {
+            "heading": "Drew Fielder: Projected stretch-big offensive value",
+            "body": ""
+          },
+          {
+            "heading": "Fielder’s previous profile included:",
+            "body": ""
+          },
+          {
+            "heading": "14.7 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "5.7 rebounds per game,",
+            "body": ""
+          },
+          {
+            "heading": "54.7% field-goal shooting,",
+            "body": "40.9% three-point shooting."
+          },
+          {
+            "heading": "He projects as a player who can provide:",
+            "body": ""
+          },
+          {
+            "heading": "pick-and-pop spacing,",
+            "body": ""
+          },
+          {
+            "heading": "trail threes,",
+            "body": ""
+          },
+          {
+            "heading": "skilled finishing,",
+            "body": "and frontcourt passing.\n\nThe uncertainty is whether his defense and rebounding will translate against SEC physicality."
+          },
+          {
+            "heading": "Brandon Garrison: Projected interior size",
+            "body": "Garrison gives Alabama a more traditional interior option."
+          },
+          {
+            "heading": "His projected functions include:",
+            "body": "screening,"
+          },
+          {
+            "heading": "paint finishing,",
+            "body": ""
+          },
+          {
+            "heading": "physical defense,",
+            "body": "rebounding,\n\nand rim protection.\n\nThe offensive spacing around him will be important because his role differs from Fielder’s stretch profile."
+          },
+          {
+            "heading": "Jamarion Davis-Fleming: Projected rim protection and rebounding",
+            "body": ""
+          },
+          {
+            "heading": "Davis-Fleming’s previous production included:",
+            "body": ""
+          },
+          {
+            "heading": "3.7 points per game,",
+            "body": ""
+          },
+          {
+            "heading": "4.8 rebounds per game,",
+            "body": "1.3 blocks per game."
+          },
+          {
+            "heading": "He projects as a developmental defensive big with:",
+            "body": "length,"
+          },
+          {
+            "heading": "vertical athleticism,",
+            "body": ""
+          },
+          {
+            "heading": "offensive rebounding,",
+            "body": "and rim-protection potential.\n\nThose descriptions remain projections rather than guarantees of immediate SEC impact."
+          },
+          {
+            "heading": "Cole Cloer: Developmental wing scoring and size",
+            "body": "Cloer is a 6-foot-8 wing coming from an NC State redshirt season."
+          },
+          {
+            "heading": "His projected value is based on:",
+            "body": "size,"
+          },
+          {
+            "heading": "scoring potential,",
+            "body": ""
+          },
+          {
+            "heading": "basketball feel,",
+            "body": "and positional versatility.\n\nHe does not yet have a meaningful college sample proving immediate high-level impact."
+          },
+          {
+            "heading": "Tarris Bouie, Jaxon Richardson, and Qayden Samuels",
+            "body": "The three 6-foot-6 additions increase Alabama’s perimeter size."
+          },
+          {
+            "heading": "Their projected value includes combinations of:",
+            "body": "athleticism,\n\nshooting,"
+          },
+          {
+            "heading": "transition play,",
+            "body": ""
+          },
+          {
+            "heading": "defensive versatility,",
+            "body": "and developmental creation.\n\nTerms such as creator, rim protector, or reliable shooter should remain projections until supported by meaningful college samples."
+          },
+          {
+            "heading": "Collins Onyejiaka: Medical-status variable",
+            "body": "Collins Onyejiaka remains a medical-status variable following the cardiac issue that kept him out.\n\nHe should not yet be counted as confirmed rotation depth without medical clearance."
+          },
+          {
+            "heading": "Potential continuity pieces",
+            "body": "London Jemison, Keitenn Bristow, and Preston Murphy Jr. were members of the 2025–26 roster and had not been publicly confirmed as departures at the time of writing.\n\nThey should be treated as potential continuity pieces until Alabama publishes its complete official 2026–27 roster."
+          },
+          {
+            "heading": "2026–27 Functional Roster Map",
+            "body": ""
+          },
+          {
+            "heading": "Player or group",
+            "body": ""
+          },
+          {
+            "heading": "Current status",
+            "body": ""
+          },
+          {
+            "heading": "Projected primary value",
+            "body": ""
+          },
+          {
+            "heading": "Main question",
+            "body": ""
+          },
+          {
+            "heading": "Amari Allen",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed returner",
+            "body": ""
+          },
+          {
+            "heading": "Connective creation, rebounding, size",
+            "body": "Can he scale into a primary offensive role?"
+          },
+          {
+            "heading": "Aden Holloway*",
+            "body": ""
+          },
+          {
+            "heading": "Suspended; status unresolved",
+            "body": ""
+          },
+          {
+            "heading": "Shooting and guard creation",
+            "body": "Will he be reinstated and available?"
+          },
+          {
+            "heading": "Drew Fielder",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed newcomer",
+            "body": ""
+          },
+          {
+            "heading": "Stretch-big scoring and spacing",
+            "body": "Can his defense and rebounding translate?"
+          },
+          {
+            "heading": "Brandon Garrison",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed newcomer",
+            "body": ""
+          },
+          {
+            "heading": "Interior size and physicality",
+            "body": "Can Alabama maintain spacing around him?"
+          },
+          {
+            "heading": "Jamarion Davis-Fleming",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed newcomer",
+            "body": ""
+          },
+          {
+            "heading": "Rim-protection and rebounding upside",
+            "body": "How quickly can he become SEC-ready?"
+          },
+          {
+            "heading": "Cole Cloer",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed newcomer",
+            "body": ""
+          },
+          {
+            "heading": "Wing size and scoring upside",
+            "body": "Is he ready for immediate rotation minutes?"
+          },
+          {
+            "heading": "Bouie, Richardson, Samuels",
+            "body": ""
+          },
+          {
+            "heading": "Confirmed newcomers",
+            "body": ""
+          },
+          {
+            "heading": "Perimeter size and developmental two-way value",
+            "body": "Which player becomes a reliable rotation shooter?\n\nOnyejiaka"
+          },
+          {
+            "heading": "Medical status unresolved",
+            "body": ""
+          },
+          {
+            "heading": "Potential interior depth",
+            "body": "Will he receive medical clearance?"
+          },
+          {
+            "heading": "Jemison, Bristow, Murphy",
+            "body": ""
+          },
+          {
+            "heading": "Potential continuity",
+            "body": ""
+          },
+          {
+            "heading": "System familiarity and depth",
+            "body": "Will they appear on the completed official roster?\n\n*Projected basketball role only if reinstated and available.\n\nThe likely roster strength is size and optionality.\n\nThe primary uncertainty is creation hierarchy."
+          },
+          {
+            "heading": "The 2025–26 team had established answers for:",
+            "body": ""
+          },
+          {
+            "heading": "primary creation,",
+            "body": ""
+          },
+          {
+            "heading": "secondary creation,",
+            "body": "spacing,\n\nconnection,\n\nand frontcourt structure.\n\nThe new group has more physical profiles but fewer proven role relationships."
+          },
+          {
+            "heading": "Oats must establish quickly:",
+            "body": ""
+          },
+          {
+            "heading": "who begins possessions,",
+            "body": ""
+          },
+          {
+            "heading": "who finishes difficult possessions,",
+            "body": ""
+          },
+          {
+            "heading": "who provides credible shooting gravity,",
+            "body": "and which frontcourt combinations can defend and rebound without shrinking the offense.",
+            "images": [
+              {
+                "src": "assets/images/alabamas-202627-reset-media-10.png",
+                "alt": "The 2026–27 roster provides greater size and optionality, but its creation hierarchy, shooting reliability, and several availability questions remain unresolved.",
+                "caption": "The 2026–27 roster provides greater size and optionality, but its creation hierarchy, shooting reliability, and several availability questions remain unresolved."
+              }
+            ]
+          },
+          {
+            "heading": "Part IV — Final Scouting Read",
+            "body": ""
+          },
+          {
+            "heading": "15. Final Conclusion",
+            "body": "Alabama’s 2025–26 offense was supported by both efficiency and structure.\n\nThe team created high-value attempts, protected possessions, attacked the offensive glass, and maintained strong efficiency through the first 19 seconds of the shot clock."
+          },
+          {
+            "heading": "Its main vulnerabilities appeared when:",
+            "body": ""
+          },
+          {
+            "heading": "opponents forced possessions into the final 10 seconds,",
+            "body": ""
+          },
+          {
+            "heading": "stronger rebounders extended possessions,",
+            "body": "and the defense failed to create enough disruption.\n\nThe roster reset addresses the physical side of that problem through greater size and frontcourt depth.\n\nIt does not yet provide a proven answer to the creation problem.\n\nAllen’s confirmed return provides an important bridge. Holloway could provide major guard value only if reinstated and available. Fielder, Garrison, and Davis-Fleming offer different frontcourt solutions, while the incoming wings create developmental upside.\n\nThe best-case version of the 2026–27 team is larger, more versatile, and more capable of finishing defensive possessions without abandoning Alabama’s spacing and pace.\n\nThe main risk is that improved size comes with reduced shooting or that the team lacks a dependable creator when high-level defenses remove the first action.\n\nThe season will ultimately be decided by whether Alabama can build a new functional hierarchy around its confirmed personnel rather than merely assembling a collection of physical and talented pieces."
+          },
+          {
+            "heading": "16. Methodology and Limitations",
+            "body": "This report uses NCAA box-score, play-by-play, shot-location, reconstructed lineup, opponent-adjusted, and roster-reference information processed through a custom Python basketball analytics pipeline.\n\nAll team and opponent comparisons use the same internal formulas across the full dataset. Values may therefore differ slightly from external databases using different possession, turnover-rate, rebounding-rate, or shot-classification definitions."
+          },
+          {
+            "heading": "Possessions, Pace, and Efficiency",
+            "body": "Possessions are estimated from box-score inputs."
+          },
+          {
+            "heading": "The team possession estimate is:",
+            "body": "Team Possessions Estimate = FGA − ORB + TOV + 0.475 × FTA"
+          },
+          {
+            "heading": "The same formula is applied to the opponent:",
+            "body": "Opponent Possessions Estimate = Opponent FGA − Opponent ORB + Opponent TOV + 0.475 × Opponent FTA"
+          },
+          {
+            "heading": "Game-level possessions are defined as the mean of the two estimates:",
+            "body": ""
+          },
+          {
+            "heading": "Game Possessions Average = Mean(Team Possessions Estimate, Opponent Possessions Estimate)",
+            "body": "Game pace is equal to this averaged possession estimate."
+          },
+          {
+            "heading": "At season level:",
+            "body": ""
+          },
+          {
+            "heading": "Season Pace = Sum of Game Possessions Average ÷ Games",
+            "body": "Offensive Rating = 100 × Team Points ÷ Sum of Game Possessions Average\n\nDefensive Rating = 100 × Opponent Points ÷ Sum of Game Possessions Average\n\nThese are box-score-based possession estimates rather than exact possession counts from play-by-play."
+          },
+          {
+            "heading": "Effective Field-Goal Percentage",
+            "body": "Effective field-goal percentage accounts for the additional value of made three-point shots:"
+          },
+          {
+            "heading": "eFG% = (FGM + 0.5 × 3PM) ÷ FGA",
+            "body": ""
+          },
+          {
+            "heading": "Three-Point Attempt Rate",
+            "body": "Three-point attempt rate measures the share of all field-goal attempts taken from three:"
+          },
+          {
+            "heading": "3PAr = 3PA ÷ FGA",
+            "body": ""
+          },
+          {
+            "heading": "Turnover Rate",
+            "body": ""
+          },
+          {
+            "heading": "Turnover rate is calculated as:",
+            "body": ""
+          },
+          {
+            "heading": "TOV Rate = Turnovers ÷ Game Possessions Average",
+            "body": "It is not calculated using the alternative denominator of FGA + weighted FTA + TOV.\n\nThe same calculation is applied to opponent turnovers for the defensive turnover-rate measure."
+          },
+          {
+            "heading": "Free Throw Rate",
+            "body": ""
+          },
+          {
+            "heading": "Free throw rate is calculated as:",
+            "body": ""
+          },
+          {
+            "heading": "FT Rate = FTA ÷ FGA",
+            "body": "The metric measures free throw attempts relative to field-goal attempts.\n\nIt does not use made free throws in the numerator."
+          },
+          {
+            "heading": "Offensive Rebound Percentage",
+            "body": "Offensive rebound percentage measures the share of available offensive rebounds recovered by the team:"
+          },
+          {
+            "heading": "ORB% = Team ORB ÷ (Team ORB + Opponent DRB)",
+            "body": ""
+          },
+          {
+            "heading": "Defensive Rebound Percentage",
+            "body": "Defensive rebound percentage measures the share of available defensive rebounds recovered by the team:"
+          },
+          {
+            "heading": "DRB% = Team DRB ÷ (Team DRB + Opponent ORB)",
+            "body": ""
+          },
+          {
+            "heading": "Net Versus Expected",
+            "body": ""
+          },
+          {
+            "heading": "The current game-level formula is:",
+            "body": "Net Versus Expected = (Game ORtg − Opponent Season DRtg) + (Opponent Season ORtg − Game DRtg)\n\nThe first component measures how far Alabama’s game offense performed above or below the opponent’s full-season defensive rating.\n\nThe second measures the defensive side by comparing the opponent’s full-season offensive rating with Alabama’s game defensive rating.\n\nA positive combined result does not necessarily mean that both components were individually positive.\n\nOne component can compensate for a weaker result in the other.\n\nThe current opponent season baselines include the game against Alabama itself. This creates a small amount of self-inclusion or data leakage.\n\nThe metric remains useful as an internal context layer, but a future methodological improvement would be to calculate leave-one-out opponent baselines that remove the Alabama game from each opponent’s season averages.\n\nThe output should not be interpreted as an official external schedule-adjusted rating."
+          },
+          {
+            "heading": "Shot-Clock Categories",
+            "body": ""
+          },
+          {
+            "heading": "Shot-clock field-goal attempts are grouped as:",
+            "body": ""
+          },
+          {
+            "heading": "early clock: at least 20 seconds remaining,",
+            "body": ""
+          },
+          {
+            "heading": "middle clock: 11–19 seconds remaining,",
+            "body": "late clock: 10 or fewer seconds remaining.\n\nRecorded shot-clock values were available for 2,311 of Alabama’s 2,312 field-goal attempts.\n\nThe analysis is therefore strong for field-goal attempts.\n\nIt does not provide an exact full-possession classification for turnovers, fouls, offensive-rebound resets, or possessions ending without a field-goal attempt."
+          },
+          {
+            "heading": "Shot-Location Data and Coordinate Handling",
+            "body": "The shot-location layer uses data from the CBB Analytics public GS shot feed.\n\nThe pipeline does not rotate, re-orient, rescale, or otherwise normalize the court coordinates.\n\nThe following fields are taken as provided by the source and converted into numeric form where appropriate:\n\nx,\n\ny,\n\nshotDist,\n\nzones6,\n\nzones13,\n\nzones17.\n\nThe original xRaw and yRaw fields are retained as contextual fields, but they are not used to transform the coordinates.\n\nShot classification follows an ordered decision process. Earlier rules take priority over later fallback rules."
+          },
+          {
+            "heading": "Shot-Zone Definitions",
+            "body": ""
+          },
+          {
+            "heading": "Shot zone",
+            "body": ""
+          },
+          {
+            "heading": "Classification used by the pipeline",
+            "body": ""
+          },
+          {
+            "heading": "Free throw",
+            "body": "Any shot whose shotType is FT."
+          },
+          {
+            "heading": "Corner three",
+            "body": "A three-point attempt with zones13 equal to lc3 or rc3. For other three-point attempts, it is also classified as a corner three when zones17 is lc3 or rc3, or when numeric coordinates satisfy abs(y) ≥ 21 and abs(x) ≥ 30."
+          },
+          {
+            "heading": "Above-the-break three",
+            "body": "Any three-point attempt not classified as a corner three by the preceding rules.\n\nRim\n\nA shot whose zones6 or shot-range label contains rim. A two-point attempt is also classified as rim when shotDist ≤ 4."
+          },
+          {
+            "heading": "Paint non-rim",
+            "body": "A shot whose zones6 or shot-range label contains paint. A two-point attempt is also classified as paint non-rim when shotDist ≤ 10, provided it was not already classified as rim. As a later fallback, a valid non-fake two-point location with abs(y) ≤ 12 and abs(x) ≥ 30 is also classified as paint non-rim.\n\nMidrange\n\nA two-point attempt that was not classified as rim or paint non-rim by any preceding rule.\n\nUnknown\n\nAn unclassified non-free-throw event retains the available shot-range label or is classified as unknown."
+          },
+          {
+            "heading": "The zone classifier therefore uses a combination of:",
+            "body": ""
+          },
+          {
+            "heading": "the listed shot type,",
+            "body": "zones6,\n\nzones13,\n\nzones17,"
+          },
+          {
+            "heading": "shot distance,",
+            "body": "and source coordinates.\n\nThe coordinate-based conditions are fallback rules. The source-provided zone labels and shot type take priority when they already determine a classification."
+          },
+          {
+            "heading": "Opponent Archetypes",
+            "body": "Top defenses are opponents in the best quartile of full-season defensive rating across the complete NCAA dataset.\n\nThe elite-rebounding bucket is built from percentile ranks across the full team dataset."
+          },
+          {
+            "heading": "For each team:",
+            "body": "Offensive rebound percentage is converted into a percentile rank.\n\nDefensive rebound percentage is converted into a percentile rank.\n\nThe two percentile ranks are averaged."
+          },
+          {
+            "heading": "Combined Rebounding Proxy = Mean(ORB% Percentile Rank, DRB% Percentile Rank)",
+            "body": "Teams at or above the 75th percentile of the combined rebounding proxy are classified as elite-rebounding teams.\n\nThe physical-frontcourt proxy is calculated as an equal-weight mean of the available percentile-ranked components:"
+          },
+          {
+            "heading": "offensive rebound percentage,",
+            "body": ""
+          },
+          {
+            "heading": "defensive rebound percentage,",
+            "body": "blocked shots per game.\n\nPhysical Frontcourt Proxy = Mean(ORB% Percentile Rank, DRB% Percentile Rank, Blocks per Game Percentile Rank)\n\nIf one of the components is unavailable, the mean is calculated from the remaining available components.\n\nTeams at or above the 75th percentile of the resulting proxy are included in the physical-frontcourt bucket.\n\nThis is a box-score-derived proxy. It does not directly measure player size, strength, contact, or physicality.\n\nOpponent archetype buckets are not mutually exclusive. The same opponent may qualify for multiple categories."
+          },
+          {
+            "heading": "Lineups and Pairings",
+            "body": "Lineups and player pairings are reconstructed from substitution and play-by-play sequences.\n\nThe estimated possessions attached to each lineup stint are not exact possession-by-possession counts."
+          },
+          {
+            "heading": "For every valid reconstructed lineup stint:",
+            "body": "Stint Estimated Possessions = Team Possessions Estimate × Stint Duration Seconds ÷ Total Game Stint Duration Seconds\n\nPairing possession estimates are then calculated by summing the stint estimated possessions from all valid lineup stints containing the relevant players."
+          },
+          {
+            "heading": "The correct interpretation is therefore:",
+            "body": "Lineup-stint estimated possessions allocated proportionally by playing time from the team box-score possession estimate.\n\nThey should not be described as exact possessions directly tracked from play-by-play."
+          },
+          {
+            "heading": "A project sample is labeled reliable when it reaches:",
+            "body": ""
+          },
+          {
+            "heading": "at least 100 estimated possessions,",
+            "body": "or:\n\nat least 50 minutes across at least five games.\n\nPairing and multi-player group samples overlap and should not be treated as independent experiments."
+          },
+          {
+            "heading": "Results are affected by:",
+            "body": ""
+          },
+          {
+            "heading": "teammate combinations,",
+            "body": ""
+          },
+          {
+            "heading": "opponent strength,",
+            "body": ""
+          },
+          {
+            "heading": "game state,",
+            "body": "substitutions,\n\ninjuries,"
+          },
+          {
+            "heading": "foul trouble,",
+            "body": "and sample size."
+          },
+          {
+            "heading": "Assisted and Unassisted Makes",
+            "body": "A made field goal is labeled assisted when the shot-location event contains a recorded assisterId."
+          },
+          {
+            "heading": "Unassisted make rate is calculated as:",
+            "body": "Unassisted Make Rate = Made Field Goals Without a Recorded assisterId ÷ All Made Field Goals\n\nThe denominator includes made two-point and three-point shots from the shot-location feed.\n\nFree throws are not included.\n\nUnassisted make rate is used only as an individual-creation proxy."
+          },
+          {
+            "heading": "It is affected by:",
+            "body": ""
+          },
+          {
+            "heading": "assist-recording consistency,",
+            "body": ""
+          },
+          {
+            "heading": "official scorer interpretation,",
+            "body": ""
+          },
+          {
+            "heading": "missing or imperfect event labels,",
+            "body": ""
+          },
+          {
+            "heading": "transition finishes,",
+            "body": "putbacks,"
+          },
+          {
+            "heading": "post actions,",
+            "body": ""
+          },
+          {
+            "heading": "broken plays,",
+            "body": "and cuts without a recorded assist.\n\nIt is not an official self-created-shot measure."
+          },
+          {
+            "heading": "Shot-Location Validation",
+            "body": ""
+          },
+          {
+            "heading": "Shot-location validation produced:",
+            "body": ""
+          },
+          {
+            "heading": "FGA agreement in 33 of 35 games,",
+            "body": ""
+          },
+          {
+            "heading": "FGM agreement in 33 of 35,",
+            "body": ""
+          },
+          {
+            "heading": "3PA agreement in 33 of 35,",
+            "body": ""
+          },
+          {
+            "heading": "3PM agreement in 34 of 35,",
+            "body": "one game with missing shot-location coverage.\n\nShot-profile findings are useful but not perfectly complete."
+          },
+          {
+            "heading": "Offensive-Rebound-Extended Possessions",
+            "body": "The possession parser flags an entire parsed possession when at least one offensive rebound occurs before that possession ends.\n\nThe flagged unit begins at the original possession start and ends at the parser-defined possession ending.\n\nThe current layer does not isolate points scored after the offensive rebound."
+          },
+          {
+            "heading": "For this reason:",
+            "body": ""
+          },
+          {
+            "heading": "second-chance PPP is not reported,",
+            "body": ""
+          },
+          {
+            "heading": "points from flagged possessions are not treated as post-rebound points,",
+            "body": "and conversion rates from the previous output are omitted.\n\nThe report uses standard ORB%, DRB%, opponent splits, and flagged-possession frequency instead."
+          },
+          {
+            "heading": "Roster Projections",
+            "body": "The 2026–27 role analysis is based on prior production, physical profile, confirmed roster movement, availability status, and projected fit.\n\nThe complete official 2026–27 roster had not yet been published at the time of writing."
+          },
+          {
+            "heading": "Players are therefore labeled as:",
+            "body": ""
+          },
+          {
+            "heading": "confirmed returners,",
+            "body": ""
+          },
+          {
+            "heading": "confirmed newcomers,",
+            "body": ""
+          },
+          {
+            "heading": "status unresolved,",
+            "body": ""
+          },
+          {
+            "heading": "medical-status variables,",
+            "body": "or potential continuity pieces.\n\nProjected roles are not guarantees of future performance."
+          },
+          {
+            "heading": "17. Source Notes",
+            "body": "The statistical analysis is based on NCAA men’s basketball data and the CBB Analytics public shot feed."
+          },
+          {
+            "heading": "NCAA sources used by the project include:",
+            "body": ""
+          },
+          {
+            "heading": "NCAA Division I men’s basketball statistical pages,",
+            "body": ""
+          },
+          {
+            "heading": "NCAA scoreboards,",
+            "body": ""
+          },
+          {
+            "heading": "individual NCAA game pages,",
+            "body": "NCAA gamecenter data retrieved through the sdataprod.ncaa.com host."
+          },
+          {
+            "heading": "These sources provide:",
+            "body": "schedules,"
+          },
+          {
+            "heading": "final scores,",
+            "body": ""
+          },
+          {
+            "heading": "team and player box scores,",
+            "body": ""
+          },
+          {
+            "heading": "play-by-play events,",
+            "body": ""
+          },
+          {
+            "heading": "scoreboard information,",
+            "body": "and season statistics.\n\nShot-location data is obtained from the CBB Analytics public GS API."
+          },
+          {
+            "heading": "The project uses:",
+            "body": ""
+          },
+          {
+            "heading": "the CBB Analytics play-by-play shots feed,",
+            "body": ""
+          },
+          {
+            "heading": "the teams endpoint,",
+            "body": "and the competitions endpoint."
+          },
+          {
+            "heading": "This feed provides fields such as:",
+            "body": ""
+          },
+          {
+            "heading": "shot type,",
+            "body": ""
+          },
+          {
+            "heading": "shot success,",
+            "body": ""
+          },
+          {
+            "heading": "shot clock,",
+            "body": ""
+          },
+          {
+            "heading": "shot distance,",
+            "body": ""
+          },
+          {
+            "heading": "source zone labels,",
+            "body": "coordinates,\n\nand recorded assister identifiers where available.\n\nRoster movement, availability, departures, and additions are based on the previously prepared Alabama roster research reference and the roster-status verification completed through June 19, 2026.\n\nBecause Alabama had not yet published a complete official 2026–27 roster, unresolved availability cases, medical-status variables, and potential continuity players are labeled explicitly."
+          },
+          {
+            "heading": "18. Portfolio Note",
+            "body": "This report is part of my basketball analytics and scouting portfolio.\n\nThe project studies how teams function beyond the box score by connecting:"
+          },
+          {
+            "heading": "possession-based efficiency,",
+            "body": ""
+          },
+          {
+            "heading": "shot distribution,",
+            "body": ""
+          },
+          {
+            "heading": "shot timing,",
+            "body": ""
+          },
+          {
+            "heading": "player roles,",
+            "body": ""
+          },
+          {
+            "heading": "lineup context,",
+            "body": ""
+          },
+          {
+            "heading": "opponent quality,",
+            "body": ""
+          },
+          {
+            "heading": "roster construction,",
+            "body": "and basketball interpretation.\n\nThe objective is not only to describe what happened.\n\nIt is to identify the mechanisms behind team performance, distinguish stable strengths from context-dependent results, and show how data can support a more rigorous scouting evaluation."
+          }
+        ]
+      }
     }
   ],
   "players": []

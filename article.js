@@ -48,6 +48,7 @@ function hasSectionContent(section) {
   return Boolean(
     String(section.body || "").trim() ||
       toArray(section.bullets).length ||
+      toArray(section.blocks).length ||
       toArray(section.images).length ||
       section.chart?.src
   );
@@ -114,32 +115,89 @@ function renderInlineStructure(sections, currentIndex) {
   `;
 }
 
-function renderSection(section, index, sections = []) {
-  if (isImportedOutlinePlaceholder(section, index, sections)) return "";
+function renderArticleImage(image) {
+  return `
+    <figure class="article-chart">
+      <img src="${attr(image.src)}" alt="${attr(image.alt || image.caption || "Report image")}" />
+      <figcaption>${escapeHtml(image.caption || "")}</figcaption>
+    </figure>
+  `;
+}
+
+function tableCellHtml(value) {
+  return escapeHtml(value).replace(/\n/g, "<br>");
+}
+
+function renderArticleTable(rows) {
+  const cleanRows = toArray(rows)
+    .map((row) => toArray(row).map((cell) => String(cell ?? "").trim()))
+    .filter((row) => row.some(Boolean));
+
+  if (!cleanRows.length) return "";
+
+  const [header, ...bodyRows] = cleanRows;
+  const columnCount = Math.max(...cleanRows.map((row) => row.length));
+  const normalizedHeader = Array.from({ length: columnCount }, (_, index) => header[index] || "");
+  const normalizedBody = bodyRows.map((row) =>
+    Array.from({ length: columnCount }, (_, index) => row[index] || "")
+  );
+
+  return `
+    <div class="article-table-wrap">
+      <table class="article-table">
+        <thead>
+          <tr>${normalizedHeader.map((cell) => `<th>${tableCellHtml(cell)}</th>`).join("")}</tr>
+        </thead>
+        <tbody>
+          ${normalizedBody
+            .map((row) => `<tr>${row.map((cell) => `<td>${tableCellHtml(cell)}</td>`).join("")}</tr>`)
+            .join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderSectionContent(section, sections, index) {
+  if (isStructureSection(section)) return renderInlineStructure(sections, index);
+
+  if (toArray(section.blocks).length) {
+    return section.blocks
+      .map((block) => {
+        if (block.type === "paragraph") return paragraphs(block.text);
+        if (block.type === "subheading") return `<h3 class="article-subheading">${escapeHtml(block.text)}</h3>`;
+        if (block.type === "list") {
+          const tag = block.kind === "ordered" ? "ol" : "ul";
+          return `<${tag}>${toArray(block.items).map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</${tag}>`;
+        }
+        if (block.type === "table") return renderArticleTable(block.rows);
+        if (block.type === "image" && block.image?.src) return renderArticleImage(block.image);
+        return "";
+      })
+      .join("");
+  }
 
   const images = [
     ...(section.chart ? [section.chart] : []),
     ...toArray(section.images),
   ];
+  return `
+    ${section.body ? paragraphs(section.body) : ""}
+    ${isStructureSection(section) ? renderInlineStructure(sections, index) : ""}
+    ${Array.isArray(section.bullets) ? `<ul>${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+    ${images.map(renderArticleImage).join("")}
+  `;
+}
+
+function renderSection(section, index, sections = []) {
+  if (isImportedOutlinePlaceholder(section, index, sections)) return "";
   const sectionClasses = ["article-section"];
   if (isStructureSection(section)) sectionClasses.push("article-section-structure");
   if (isPartHeading(section) && !hasSectionContent(section)) sectionClasses.push("article-part-divider");
   return `
     <section class="${sectionClasses.join(" ")}" id="${attr(sectionId(section, index))}">
       ${section.heading ? `<h2>${escapeHtml(section.heading)}</h2>` : ""}
-      ${section.body ? paragraphs(section.body) : ""}
-      ${isStructureSection(section) ? renderInlineStructure(sections, index) : ""}
-      ${Array.isArray(section.bullets) ? `<ul>${section.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-      ${images
-        .map(
-          (image) => `
-            <figure class="article-chart">
-              <img src="${attr(image.src)}" alt="${attr(image.alt || image.caption || "Report image")}" />
-              <figcaption>${escapeHtml(image.caption || "")}</figcaption>
-            </figure>
-          `
-        )
-        .join("")}
+      ${renderSectionContent(section, sections, index)}
     </section>
   `;
 }
