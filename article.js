@@ -61,10 +61,39 @@ function isStructureSection(section) {
   return /^report structure$/i.test(section.heading || "");
 }
 
+function importedOutlineKeepIndex(sections, structureIndex) {
+  const firstContentIndex = sections.findIndex(
+    (section, index) => index > structureIndex && hasSectionContent(section)
+  );
+  if (firstContentIndex === -1) return sections.length;
+  const previousSection = sections[firstContentIndex - 1];
+  if (
+    previousSection &&
+    isPartHeading(previousSection) &&
+    !hasSectionContent(previousSection)
+  ) {
+    return firstContentIndex - 1;
+  }
+  return firstContentIndex;
+}
+
+function isImportedOutlinePlaceholder(section, index, sections) {
+  if (isStructureSection(section) || hasSectionContent(section)) return false;
+  const structureIndex = sections.findIndex(isStructureSection);
+  if (structureIndex === -1 || index <= structureIndex) return false;
+  return index < importedOutlineKeepIndex(sections, structureIndex);
+}
+
 function renderInlineStructure(sections, currentIndex) {
   const items = sections
     .map((section, index) => ({ section, index }))
-    .filter((item) => item.index > currentIndex && item.section.heading && (hasSectionContent(item.section) || isPartHeading(item.section)));
+    .filter(
+      (item) =>
+        item.index > currentIndex &&
+        item.section.heading &&
+        !isImportedOutlinePlaceholder(item.section, item.index, sections) &&
+        (hasSectionContent(item.section) || isPartHeading(item.section))
+    );
   if (!items.length) return "";
   return `
     <nav class="article-structure" aria-label="Report structure">
@@ -86,6 +115,8 @@ function renderInlineStructure(sections, currentIndex) {
 }
 
 function renderSection(section, index, sections = []) {
+  if (isImportedOutlinePlaceholder(section, index, sections)) return "";
+
   const images = [
     ...(section.chart ? [section.chart] : []),
     ...toArray(section.images),
