@@ -1,0 +1,20 @@
+.DS_Store
+
+# Local admin/CMS source. The public GitHub Pages site should not expose this.
+admin.html
+admin.js
+admin.css
+visual-admin.html
+visual-admin.js
+visual-admin.css
+tools/
+
+# Uploaded private/source report files are not part of the public website.
+assets/reports/
+
+# Local/server/build noise
+node_modules/
+dist/
+build/
+_site/
+*.log

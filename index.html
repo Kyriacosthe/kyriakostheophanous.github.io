@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyriakos Theophanous | Basketball Analytics Portfolio</title>
+    <meta
+      name="description"
+      content="Basketball analytics and scouting reports built from possession-based data, roster context, player roles, shot profiles, lineup impact, and team identity."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav" data-nav>
+      <a class="brand" href="#home" aria-label="Kyriakos Theophanous home">
+        <span>
+          <strong>Kyriakos Theophanous</strong>
+          <small>Basketball Analytics</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" data-nav-links>
+        <a href="#projects">Data Projects</a>
+        <a href="#reports">Reports</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="court-grid" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Basketball intelligence portfolio</p>
+          <h1>Basketball Analytics & Scouting Portfolio</h1>
+          <p class="hero-lede">
+            I analyze teams and players through possession-based metrics, roster context, shot profiles,
+            lineup signals, and scouting-style interpretation.
+          </p>
+          <p class="hero-note">
+            The goal is not to describe stats. The goal is to explain how a team functions, where its
+            advantages repeat, and where the film or roster context should be checked next.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="btn primary" href="#reports">View Reports</a>
+            <a class="btn secondary" href="#projects">Data Projects</a>
+            <a class="btn ghost" href="#methodology">Methodology</a>
+          </div>
+          <div class="proof-strip" aria-label="Portfolio data snapshot">
+            <div>
+              <strong data-counter="1">0</strong>
+              <span>published team report</span>
+            </div>
+            <div>
+              <strong data-counter="3">0</strong>
+              <span>report files</span>
+            </div>
+            <div>
+              <strong data-counter="5">0</strong>
+              <span>chart assets</span>
+            </div>
+            <div>
+              <strong data-counter="1">0</strong>
+              <span>NCAA pipeline</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-panel report-preview-panel reveal" aria-label="Featured report preview">
+          <div class="guide-header">
+            <span>Featured Report</span>
+            <strong>North Carolina</strong>
+          </div>
+          <div class="report-preview-cover">
+            <span class="badge team">Team Report</span>
+            <h2>North Carolina Identity Reset</h2>
+            <p>
+              A possession-based read of offensive structure, frontcourt pressure, context splits, and
+              roster transition.
+            </p>
+            <div class="mini-metrics">
+              <span><b>115.5</b> ORtg</span>
+              <span><b>+11.7</b> Net</span>
+              <span><b>54.3%</b> eFG</span>
+            </div>
+          </div>
+          <div class="report-preview-evidence">
+            <div><span>Source</span><strong>Original analysis</strong></div>
+            <div><span>Data</span><strong>NCAA box score, play-by-play, shot locations, lineup estimates</strong></div>
+            <div><span>Format</span><strong>Interactive article + full report</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="snapshot section-shell reveal" aria-labelledby="snapshot-title">
+        <div class="section-kicker">What This Site Is</div>
+        <div class="section-heading">
+          <h2 id="snapshot-title">Three things, clearly separated.</h2>
+          <p>
+            The portfolio should not repeat itself. The work is organized as finished reports, technical
+            data projects, and methodology/validation notes.
+          </p>
+        </div>
+        <div class="site-map-grid">
+          <article class="profile-card">
+            <span>Reports</span>
+            <strong>Readable basketball analysis: team reports, player reports, opponent scouting.</strong>
+            <p>These are the final products a coach, analyst, professor, or admissions reader would open.</p>
+          </article>
+          <article class="profile-card">
+            <span>Data Projects</span>
+            <strong>The technical work behind the reports: scraping, cleaning, metrics, validation.</strong>
+            <p>This shows that the analysis is built, not guessed.</p>
+          </article>
+          <article class="profile-card">
+            <span>Methodology</span>
+            <strong>Definitions, assumptions, limitations, and what is exact vs estimated.</strong>
+            <p>This is where credibility comes from.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured section-shell" id="projects" aria-labelledby="featured-title">
+        <div class="section-kicker">Data Projects</div>
+        <div class="section-heading reveal">
+          <h2 id="featured-title">The systems behind the analysis.</h2>
+          <p>
+            Projects are the technical builds: scrapers, pipelines, validation layers, metrics, and
+            dashboards. Reports are the finished basketball reads and live in the next section.
+          </p>
+        </div>
+
+        <article class="case-study reveal">
+          <div class="case-copy">
+            <span class="badge model">Featured Data Project</span>
+            <h3>NCAA Men's Basketball Analytics Pipeline</h3>
+            <p>
+              A full data pipeline that turns public NCAA box score, play-by-play, shot-location, and lineup
+              data into validated team/player/report tables.
+            </p>
+            <div class="question-box">
+              <span>Technical question</span>
+              <strong>Can the raw data become trustworthy enough to support basketball claims?</strong>
+            </div>
+            <div class="metric-row">
+              <div><b>5</b><span>data projects</span></div>
+              <div><b>5</b><span>report types</span></div>
+              <div><b>3</b><span>validation layers</span></div>
+              <div><b>1</b><span>refresh flow</span></div>
+            </div>
+            <div class="button-row">
+              <a class="btn primary" href="#methodology">View Methodology</a>
+              <a class="btn secondary" href="#reports">See Final Reports</a>
+            </div>
+          </div>
+          <div class="chart-stack" aria-label="Generated chart previews">
+            <figure>
+              <img src="assets/charts/four_factors_comparison.svg" alt="Four factors comparison chart" />
+              <figcaption>Four Factors context</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/charts/shot_profile_bar.svg" alt="Shot profile bar chart" />
+              <figcaption>Shot profile distribution</figcaption>
+            </figure>
+          </div>
+        </article>
+
+        <div class="filter-bar" aria-label="Project filters">
+          <button class="active" type="button" data-filter="all">All</button>
+          <button type="button" data-filter="pipeline">Pipeline</button>
+          <button type="button" data-filter="metrics">Metrics</button>
+          <button type="button" data-filter="lineup">Lineups</button>
+          <button type="button" data-filter="shot">Shots</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-project="pipeline">
+            <span class="badge model">Pipeline</span>
+            <h3>NCAA Data Collection Pipeline</h3>
+            <p>Scrapes and organizes NCAA team, player, game, box score, and play-by-play data into analysis-ready tables.</p>
+            <dl>
+              <div><dt>Build</dt><dd>CSV outputs, team/player layers, reproducible scripts</dd></div>
+              <div><dt>Used for</dt><dd>Every downstream team and player report</dd></div>
+            </dl>
+            <strong class="insight">Why it matters: analysis starts with clean, auditable data.</strong>
+          </article>
+          <article class="project-card reveal" data-project="metrics">
+            <span class="badge model">Metrics</span>
+            <h3>Advanced Team & Player Metrics</h3>
+            <p>Calculates pace, ratings, Four Factors, usage estimates, role indicators, and rolling trends.</p>
+            <dl>
+              <div><dt>Build</dt><dd>team_season, player_season, team_game, scouting layers</dd></div>
+              <div><dt>Used for</dt><dd>Team identity and player role interpretation</dd></div>
+            </dl>
+            <strong class="insight">Why it matters: box score totals become pace-neutral context.</strong>
+          </article>
+          <article class="project-card reveal" data-project="lineup">
+            <span class="badge lineup">Lineups</span>
+            <h3>Lineup Reconstruction Layer</h3>
+            <p>Turns substitution and PBP sequences into lineup stints, five-man groups, and on/off context.</p>
+            <dl>
+              <div><dt>Build</dt><dd>lineup_stints, five_man_lineups, player_on_off</dd></div>
+              <div><dt>Used for</dt><dd>Lineup reports and player context notes</dd></div>
+            </dl>
+            <strong class="insight">Why it matters: lineups need sample flags before interpretation.</strong>
+          </article>
+          <article class="project-card reveal" data-project="shot">
+            <span class="badge shot">Shots</span>
+            <h3>Shot Location & Shot Clock Layer</h3>
+            <p>Processes field-goal locations, zone labels, assisted flags, and real shot-clock attempt splits.</p>
+            <dl>
+              <div><dt>Build</dt><dd>team/player shot profiles, shot-clock FGA tables</dd></div>
+              <div><dt>Used for</dt><dd>Shot diet, spacing, and player scoring profiles</dd></div>
+            </dl>
+            <strong class="insight">Why it matters: shot profile shows how offense is actually created.</strong>
+          </article>
+          <article class="project-card reveal" data-project="pipeline">
+            <span class="badge team">Reports</span>
+            <h3>Automated Team Focus Packages</h3>
+            <p>Generates one folder per team with focused tables, charts, validation notes, and report markdown.</p>
+            <dl>
+              <div><dt>Build</dt><dd>team_focus folders and report-ready assets</dd></div>
+              <div><dt>Used for</dt><dd>Team reports and scouting summaries</dd></div>
+            </dl>
+            <strong class="insight">Why it matters: one pipeline can refresh every team consistently.</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="showcase section-shell reveal" aria-labelledby="team-title">
+        <div class="section-kicker">Team Analysis Showcase</div>
+        <div class="section-heading">
+          <h2 id="team-title">Team identity snapshot.</h2>
+          <p>One team card should quickly communicate production, identity, strengths, concerns, and staff takeaway.</p>
+        </div>
+        <div class="team-layout">
+          <article class="identity-card">
+            <div>
+              <span class="badge team">NCAA Team</span>
+              <h3>North Carolina</h3>
+              <p>2025-26 profile / 2026-27 reset</p>
+            </div>
+            <div class="identity-label">High-ceiling offense, context-dependent repeatability</div>
+            <div class="metric-tiles">
+              <div><span>Pace</span><strong>69.0</strong></div>
+              <div><span>ORtg</span><strong>115.5</strong></div>
+              <div><span>DRtg</span><strong>103.8</strong></div>
+              <div><span>Net</span><strong>+11.7</strong></div>
+              <div><span>eFG</span><strong>54.3%</strong></div>
+              <div><span>ORB</span><strong>31.2%</strong></div>
+            </div>
+            <div class="takeaway-grid">
+              <div><span>Main strength</span><strong>Rim pressure + frontcourt structure</strong></div>
+              <div><span>Main concern</span><strong>Half-court stability when easy rhythm is removed</strong></div>
+              <div><span>Staff takeaway</span><strong>The question is whether advantages become repeatable mechanisms.</strong></div>
+            </div>
+          </article>
+          <figure class="large-chart">
+            <img src="assets/charts/net_rating_trend.svg" alt="Net rating trend chart" />
+            <figcaption>Generated trend chart preview from the analysis pipeline.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="reports section-shell" id="reports" aria-labelledby="reports-title">
+        <div class="section-kicker">Reports Library</div>
+        <div class="section-heading reveal">
+          <h2 id="reports-title">A library for articles, PDFs, charts, and methodology.</h2>
+          <p>
+            Short public reads can sit next to full reports, source notes, validation summaries, and code links.
+          </p>
+        </div>
+        <div class="filter-bar report-filters" aria-label="Report filters">
+          <button class="active" type="button" data-report-filter="all">All</button>
+          <button type="button" data-report-filter="team">Team Reports</button>
+          <button type="button" data-report-filter="method">Methodology</button>
+        </div>
+        <div class="report-grid">
+          <article class="report-card reveal" data-report="team">
+            <span class="badge team">Team Analysis</span>
+            <h3>North Carolina's 2026-27 Reset</h3>
+            <p>UNC's profile was strong but context-dependent; the reset asks whether advantages can repeat.</p>
+            <ul>
+              <li>Data: box scores, PBP, shot-location, lineup estimates</li>
+              <li>Skills: Four Factors, context splits, roster transition</li>
+            </ul>
+            <a href="article.html?slug=north-carolina-2026-reset-short">Read Short Article</a>
+          </article>
+          <article class="report-card reveal" data-report="method">
+            <span class="badge model">Methodology</span>
+            <h3>NCAA Analytics Pipeline</h3>
+            <p>Data ingestion, validation, possession logic, shot profile processing, and report exports.</p>
+            <ul>
+              <li>Data: NCAA.com, CBB shot feed, generated validation tables</li>
+              <li>Skills: Python, pandas, pipeline design, checks</li>
+            </ul>
+            <a href="article.html?slug=ncaa-pipeline-methodology">Read Methodology</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="methodology section-shell" id="methodology" aria-labelledby="method-title">
+        <div class="section-kicker">Methodology & Validation</div>
+        <div class="section-heading reveal">
+          <h2 id="method-title">Credibility comes from showing the assumptions.</h2>
+          <p>
+            The methodology page should make clear what is exact, what is reconstructed, what is a proxy, and
+            what should be checked on film.
+          </p>
+        </div>
+        <div class="method-grid">
+          <article class="method-card reveal">
+            <h3>Possession-Based Efficiency</h3>
+            <p>Pace-neutral ORtg, DRtg, net rating, and Four Factors form the team identity baseline.</p>
+          </article>
+          <article class="method-card reveal">
+            <h3>Shot Zone Classification</h3>
+            <p>Rim, paint non-rim, midrange, corner three, and above-break three profiles explain shot diet.</p>
+          </article>
+          <article class="method-card reveal">
+            <h3>Lineup Estimates</h3>
+            <p>Lineup stints are reconstructed from substitutions and must be read with sample-size flags.</p>
+          </article>
+          <article class="method-card reveal">
+            <h3>Opponent Adjustment</h3>
+            <p>Context splits separate raw production from opponent strength, venue, and recent-form effects.</p>
+          </article>
+        </div>
+        <div class="validation-panel reveal">
+          <div>
+            <span class="badge model">Validation</span>
+            <h3>Validation before every report</h3>
+            <p>Before a report becomes a basketball claim, the pipeline checks scoring totals, player totals, PBP scoring, and shot-chart coverage where available.</p>
+          </div>
+          <ul>
+            <li><strong>Box score</strong><span>team totals reconcile to game results</span></li>
+            <li><strong>Player totals</strong><span>player production reconciles to team totals</span></li>
+            <li><strong>PBP scoring</strong><span>play-by-play points are checked before possession claims</span></li>
+            <li><strong>Shot chart</strong><span>FGA, FGM, 3PA, and 3PM coverage is verified where shot data exists</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills section-shell reveal" aria-labelledby="skills-title">
+        <div class="section-kicker">Technical Stack</div>
+        <div class="section-heading">
+          <h2 id="skills-title">Technical skills connected to basketball use.</h2>
+          <p>Every tool should lead to a cleaner basketball question, chart, table, or scouting read.</p>
+        </div>
+        <div class="skill-grid">
+          <article><h3>Python</h3><p>Metric calculation, pipeline scripts, validation checks, automated reports.</p></article>
+          <article><h3>pandas</h3><p>Grouped metrics, rolling trends, joins across box score, PBP, shots, and lineups.</p></article>
+          <article><h3>SQL-ready Modeling</h3><p>Team, player, game, possession, lineup, and shot tables designed for analysis.</p></article>
+          <article><h3>Visualization</h3><p>Four Factors, shot profiles, player comparisons, lineup charts, trend graphics.</p></article>
+          <article><h3>Reporting</h3><p>Short articles, full scouting reports, methodology notes, PDF-ready outputs.</p></article>
+          <article><h3>Basketball Framework</h3><p>Role context, repeatability, roster construction, opponent tendencies.</p></article>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="about-panel reveal">
+          <div>
+            <div class="section-kicker">About</div>
+            <h2 id="about-title">Student analyst building serious basketball work.</h2>
+            <p>
+              My name is Kyriakos Theophanous. I am a Computer Science student building a basketball analytics
+              and scouting portfolio focused on college basketball, team identity, player roles, and
+              possession-based analysis.
+            </p>
+            <p>
+              I am especially interested in the connection between data and basketball decisions: how a team
+              creates advantages, how player roles affect lineup function, how shot profiles reveal identity,
+              and how roster construction changes the way a team can play.
+            </p>
+          </div>
+          <div class="target-list">
+            <h3>Current focus</h3>
+            <span>NCAA men's basketball analytics</span>
+            <span>Team identity reports</span>
+            <span>Player role evaluation</span>
+            <span>Shot profiles</span>
+            <span>Opponent scouting</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-layout reveal">
+          <div>
+            <div class="section-kicker">Contact</div>
+            <h2 id="contact-title">Let’s talk basketball analysis.</h2>
+            <p class="contact-copy">
+              For basketball analytics, scouting, team reports, player evaluation, or project discussions,
+              reach me through the links below.
+            </p>
+            <div class="contact-links" aria-label="Contact links">
+              <a href="mailto:kyriacosthe@gmail.com">Email</a>
+              <a href="https://www.linkedin.com/in/kyriakos-theophanous-17b260353/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/Kyriacosthe" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <form class="contact-form" data-contact-form>
+            <h3>Contact me</h3>
+            <label>
+              <span>Name</span>
+              <input name="name" type="text" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>What do you need?</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-status" data-contact-status></p>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Kyriakos Theophanous</strong>
+        <span>Basketball Analytics & Scouting Portfolio</span>
+      </div>
+      <p>
+        All analysis is independent and based on publicly available data, public reporting, and original
+        calculations. Team names are used for identification and analysis only.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

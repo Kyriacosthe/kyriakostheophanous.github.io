@@ -1,0 +1,842 @@
+{
+  "site": {
+    "brandName": "Kyriakos Theophanous",
+    "brandSubtitle": "Basketball Analytics",
+    "hero": {
+      "eyebrow": "Basketball intelligence portfolio",
+      "title": "Basketball Analytics & Scouting Portfolio",
+      "lede": "I analyze teams and players through possession-based metrics, roster context, shot profiles, lineup signals, and scouting-style interpretation.",
+      "note": "The goal is not to describe stats. The goal is to explain how a team functions, where its advantages repeat, and where the film or roster context should be checked next.",
+      "primaryLabel": "View Reports",
+      "primaryHref": "#reports",
+      "secondaryLabel": "Data Projects",
+      "secondaryHref": "#projects",
+      "tertiaryLabel": "Methodology",
+      "tertiaryHref": "#methodology"
+    },
+    "featuredReport": {
+      "kicker": "Featured Report",
+      "team": "North Carolina",
+      "badge": "Team Report",
+      "title": "North Carolina’s 2026–27 Reset",
+      "summary": "North Carolina enters the 2026–27 season as one of the most interesting transition cases in college basketball. This is not just a coaching change, and it is not just a roster reshuffle. UNC is trying to move from a talented but context-dependent team into a more structured basketball identity.",
+      "metrics": [
+        {
+          "value": "115.5",
+          "label": "ORtg"
+        },
+        {
+          "value": "+11.7",
+          "label": "Net"
+        },
+        {
+          "value": "54.3%",
+          "label": "eFG"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "Source",
+          "value": "Original analysis"
+        },
+        {
+          "label": "Data",
+          "value": "NCAA box score, play-by-play, shot locations, lineup estimates"
+        },
+        {
+          "label": "Format",
+          "value": "Interactive article + full report"
+        }
+      ]
+    },
+    "siteMap": {
+      "kicker": "What This Site Is",
+      "title": "THREE LAYERS OF THE WORK.",
+      "description": "Reports communicate the basketball conclusions. Data projects show how the analysis was built. Methodology explains what is measured, reconstructed, or estimated.",
+      "cards": [
+        {
+          "label": "Reports",
+          "title": "Readable basketball analysis: team reports, player reports, opponent scouting.",
+          "body": "These are the final products a coach, analyst, professor, or admissions reader would open."
+        },
+        {
+          "label": "Data Projects",
+          "title": "The technical work behind the reports: scraping, cleaning, metrics, validation.",
+          "body": "This shows that the analysis is built, not guessed."
+        },
+        {
+          "label": "Methodology",
+          "title": "Definitions, assumptions, limitations, and what is exact vs estimated.",
+          "body": "This is where credibility comes from."
+        }
+      ]
+    },
+    "projectsSection": {
+      "kicker": "Data Projects",
+      "title": "The systems behind the analysis.",
+      "description": "Projects are the technical builds: scrapers, pipelines, validation layers, metrics, and report-ready outputs. Reports are the finished basketball reads and live in the next section.",
+      "featured": {
+        "badge": "Featured Data Project",
+        "title": "NCAA Men's Basketball Analytics Pipeline",
+        "summary": "A full data pipeline that turns public NCAA box score, play-by-play, shot-location, and lineup data into validated team/player/report tables.",
+        "questionLabel": "Technical question",
+        "question": "Can the raw data become trustworthy enough to support basketball claims?",
+        "metrics": [
+          {
+            "value": "5",
+            "label": "data layers"
+          },
+          {
+            "value": "3",
+            "label": "report files"
+          },
+          {
+            "value": "5",
+            "label": "chart assets"
+          },
+          {
+            "value": "1",
+            "label": "refresh flow"
+          }
+        ],
+        "primaryLabel": "View Methodology",
+        "primaryHref": "#methodology",
+        "secondaryLabel": "See Reports",
+        "secondaryHref": "#reports",
+        "charts": [
+          {
+            "src": "assets/charts/Figure2.png",
+            "alt": "Four Factors context",
+            "caption": "Four Factors context"
+          },
+          {
+            "src": "assets/charts/Figure3.png",
+            "alt": "Shot profile distribution",
+            "caption": "Shot Zone distribution"
+          }
+        ]
+      }
+    },
+    "teamShowcase": {
+      "kicker": "Team Analysis Showcase",
+      "title": "Team identity snapshot.",
+      "description": "A report card should quickly communicate production, identity, strengths, concerns, and staff takeaway.",
+      "badge": "NCAA Team",
+      "team": "North Carolina",
+      "subtitle": "2025-26 profile / 2026-27 reset",
+      "identity": "High-ceiling offense, context-dependent repeatability",
+      "metrics": [
+        {
+          "label": "Pace",
+          "value": "69.0"
+        },
+        {
+          "label": "ORtg",
+          "value": "115.5"
+        },
+        {
+          "label": "DRtg",
+          "value": "103.8"
+        },
+        {
+          "label": "Net",
+          "value": "+11.7"
+        },
+        {
+          "label": "eFG",
+          "value": "54.3%"
+        },
+        {
+          "label": "ORB",
+          "value": "31.2%"
+        }
+      ],
+      "takeaways": [
+        {
+          "label": "Main strength",
+          "value": "Rim pressure + frontcourt structure"
+        },
+        {
+          "label": "Main concern",
+          "value": "Half-court stability when easy rhythm is removed"
+        },
+        {
+          "label": "Staff takeaway",
+          "value": "The question is whether advantages become repeatable mechanisms."
+        }
+      ],
+      "chart": {
+        "src": "assets/charts/Figure8.png",
+        "alt": "Generated trend chart from the analysis pipeline.",
+        "caption": "Top Lineups by Net Rating"
+      }
+    },
+    "reportsSection": {
+      "kicker": "Reports Library",
+      "title": "Published reports and methodology.",
+      "description": "Explore concise team analyses, complete technical reports, and the methodology supporting each basketball conclusion."
+    },
+    "methodology": {
+      "kicker": "Methodology & Validation",
+      "title": "Credibility comes from showing the assumptions.",
+      "description": "The methodology page makes clear what is exact, what is reconstructed, what is a proxy, and what should be checked on film.",
+      "cards": [
+        {
+          "title": "Possession-Based Efficiency",
+          "body": "Pace-neutral ORtg, DRtg, net rating, and Four Factors form the team identity baseline."
+        },
+        {
+          "title": "Shot Zone Classification",
+          "body": "Rim, paint non-rim, midrange, corner three, and above-break three profiles explain shot diet."
+        },
+        {
+          "title": "Lineup Estimates",
+          "body": "Lineup stints are reconstructed from substitutions and must be read with sample-size flags."
+        },
+        {
+          "title": "Opponent Adjustment",
+          "body": "Compares team performance with opponent strength, venue, and recent form."
+        }
+      ],
+      "validation": {
+        "badge": "Validation",
+        "title": "Validation before every report",
+        "body": "Before a report becomes a basketball claim, the pipeline checks scoring totals, player totals, PBP scoring, and shot-chart coverage where available.",
+        "items": [
+          {
+            "label": "Box score",
+            "value": "team totals reconcile to game results"
+          },
+          {
+            "label": "Player totals",
+            "value": "player production reconciles to team totals"
+          },
+          {
+            "label": "PBP scoring",
+            "value": "play-by-play points are checked before possession claims"
+          },
+          {
+            "label": "Shot chart",
+            "value": "Shot totals are checked against official box scores, with gaps reported."
+          }
+        ]
+      }
+    },
+    "skills": {
+      "kicker": "Technical Stack",
+      "title": "Technical skills connected to basketball use.",
+      "description": "Every tool should lead to a cleaner basketball question, chart, table, or scouting read.",
+      "items": [
+        {
+          "title": "Python",
+          "body": "Metric calculation, pipeline scripts, validation checks, automated reports."
+        },
+        {
+          "title": "pandas",
+          "body": "Grouped metrics, rolling trends, joins across box score, PBP, shots, and lineups."
+        },
+        {
+          "title": "SQL-ready Modeling",
+          "body": "Team, player, game, possession, lineup, and shot tables designed for analysis."
+        },
+        {
+          "title": "Visualization",
+          "body": "Four Factors, shot profiles, player comparisons, lineup charts, trend graphics."
+        },
+        {
+          "title": "Reporting",
+          "body": "Short articles, full scouting reports, methodology notes, PDF-ready outputs."
+        },
+        {
+          "title": "Basketball Framework",
+          "body": "Role context, repeatability, roster construction, opponent tendencies."
+        }
+      ]
+    },
+    "about": {
+      "kicker": "About",
+      "title": "BUILDING BASKETBALL ANALYSIS BEYOND THE BOX SCORE.",
+      "paragraphs": [
+        "My name is Kyriakos Theophanous, and I am a Computer Science student focused on basketball analytics and scouting intelligence.",
+        "I build projects that turn raw basketball data into team reports, player evaluations, shot profiles, lineup analysis, dashboards, and decision-ready scouting insights. My work focuses on understanding how teams function beyond the box score: possessions, efficiency, player roles, lineup context, shot quality, and repeatable basketball patterns.",
+        "I connect technical data work with real basketball interpretation, producing analysis designed to support coaches, scouts, analysts, and front-office decision makers."
+      ],
+      "focusTitle": "Current focus",
+      "focusItems": [
+        "NCAA men's basketball analytics",
+        "Team identity reports",
+        "Player role evaluation",
+        "Shot profiles",
+        "Opponent scouting"
+      ]
+    },
+    "footer": {
+      "name": "Kyriakos Theophanous",
+      "label": "Basketball Analytics & Scouting Portfolio",
+      "disclaimer": "All analysis is independent and based on publicly available data, public reporting, and original calculations. Team names are used for identification and analysis only."
+    },
+    "contact": {
+      "kicker": "Contact",
+      "title": "Let’s talk basketball analysis.",
+      "body": "For basketball analytics, scouting, team reports, player evaluation, or project discussions, reach me through the links below.",
+      "links": [
+        {
+          "label": "Email",
+          "href": "mailto:kyriacosthe@gmail.com"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/in/kyriakos-theophanous-17b260353/"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/Kyriacosthe"
+        }
+      ],
+      "panelTitle": "Open to",
+      "email": "kyriacosthe@gmail.com",
+      "items": [
+        "Basketball analytics internships",
+        "Scouting and player evaluation projects",
+        "NCAA team and opponent reports",
+        "Data pipeline and visualization work"
+      ]
+    }
+  },
+  "homeStats": [
+    {
+      "value": "1",
+      "label": "published team report"
+    },
+    {
+      "value": "1",
+      "label": "web articles"
+    },
+    {
+      "value": "8",
+      "label": "chart assets"
+    },
+    {
+      "value": "1",
+      "label": "data projects"
+    }
+  ],
+  "projects": [
+    {
+      "category": "pipeline",
+      "badge": "Pipeline",
+      "badgeClass": "model",
+      "title": "NCAA Data Collection Pipeline",
+      "summary": "Collects, normalizes, validates, and organizes NCAA team, player, game, box-score, shot, and play-by-play data into analysis-ready tables.",
+      "build": "CSV outputs, team/player layers, reproducible scripts",
+      "usedFor": "All NCAA team reports, team focus packages, methodology tables",
+      "insight": "Why it matters: analysis starts with clean, auditable data."
+    },
+    {
+      "category": "metrics",
+      "badge": "Metrics",
+      "badgeClass": "model",
+      "title": "Advanced Team & Player Metrics",
+      "summary": "Calculates pace, ratings, Four Factors, usage estimates, estimated role indicators, and rolling trends.",
+      "build": "team_season, player_season, team_game, scouting layers",
+      "usedFor": "Published team analysis and generated charts",
+      "insight": "Why it matters: box score totals become pace-neutral basketball context."
+    },
+    {
+      "category": "lineup",
+      "badge": "Lineups",
+      "badgeClass": "lineup",
+      "title": "Lineup Reconstruction Layer",
+      "summary": "Reconstructs lineup stints from substitution and play-by-play sequences; outputs are interpreted with validation and sample-size flags.",
+      "build": "lineup_stints, five_man_lineups, player_on_off",
+      "usedFor": "Lineup context inside all NCAA reports packages",
+      "insight": "Why it matters: lineup value needs sample flags before interpretation."
+    },
+    {
+      "category": "shot",
+      "badge": "Shots",
+      "badgeClass": "shot",
+      "title": "Shot Location & Shot Clock Layer",
+      "summary": "Processes field-goal locations, shot zones, assisted flags, and real shot-clock timing for field-goal attempts.",
+      "build": "Team/player shot profiles and shot-clock FGA splits",
+      "usedFor": "Shot profile and spacing analysis inside the report package",
+      "insight": "Why it matters: shot profile shows how offense is actually created."
+    },
+    {
+      "category": "pipeline",
+      "badge": "Reports",
+      "badgeClass": "team",
+      "title": "Automated Team Focus Package",
+      "summary": "Generates focused tables, charts, validation notes, and report markdown for a selected team.",
+      "build": "team_focus folder, charts, report markdown, validation summary",
+      "usedFor": "All NCAA team reports assets",
+      "insight": "Why it matters: report output can be refreshed from the same source data."
+    }
+  ],
+  "reports": [
+    {
+      "slug": "north-carolina-2026-reset-short",
+      "category": "team",
+      "badge": "Team Analysis",
+      "badgeClass": "team",
+      "title": "North Carolina’s 2026–27 Reset: What the 2025–26 Season Reveals About the Malone Era",
+      "subtitle": "",
+      "summary": "North Carolina enters the 2026–27 season as one of the most interesting transition cases in college basketball. This is not just a coaching change, and it is not just a roster reshuffle. UNC is trying to move from a talented but context-dependent team into a more structured basketball identity.",
+      "date": "2026-06-18",
+      "readTime": "11 min",
+      "tags": [
+        "team analysis",
+        "North Carolina",
+        "roster reset"
+      ],
+      "data": "NCAA box score, play-by-play, shot locations, lineup estimates",
+      "skills": "Data Storytelling, Analytical Writing, Data Interpretation, Visual Communication, Basketball Analysis.",
+      "linkLabel": "Read Short Article",
+      "media": [
+        {
+          "src": "assets/images/north-carolina-2026-reset-short-media-1.png",
+          "alt": "UNC’s opponent-adjusted profile was strong overall, but the home/away, conference and late-season splits show why the team was better described as context-dependent than fully stable.",
+          "caption": "UNC’s opponent-adjusted profile was strong overall, but the home/away, conference and late-season splits show why the team was better described as context-dependent than fully stable."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-short-media-2.png",
+          "alt": "UNC’s offense had a real statistical foundation: efficient shooting, solid ball security, offensive rebounding and free throw pressure. Lower is better for TOV%; higher is better for the other three metrics.",
+          "caption": "UNC’s offense had a real statistical foundation: efficient shooting, solid ball security, offensive rebounding and free throw pressure. Lower is better for TOV%; higher is better for the other three metrics."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-short-media-3.png",
+          "alt": "Wilson and Veesaar were not just productive scorers; their efficiency and on/off signals help explain why the frontcourt shaped the team’s offensive structure.",
+          "caption": "Wilson and Veesaar were not just productive scorers; their efficiency and on/off signals help explain why the frontcourt shaped the team’s offensive structure."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-short-media-4.png",
+          "alt": "UNC’s additions do not replace last season’s losses one-for-one. They point toward a bigger, more flexible roster built around creation, spacing and frontcourt upside.",
+          "caption": "UNC’s additions do not replace last season’s losses one-for-one. They point toward a bigger, more flexible roster built around creation, spacing and frontcourt upside."
+        }
+      ],
+      "content": {
+        "sections": [
+          {
+            "heading": "Overview",
+            "body": "North Carolina enters the 2026–27 season as one of the most interesting transition cases in college basketball. This is not just a coaching change, and it is not just a roster reshuffle. UNC is trying to move from a talented but context-dependent team into a more structured basketball identity.\n\nLast season’s Carolina was not a bad team. In fact, the overall profile was clearly positive. UNC played at roughly 69 possessions per game, posted an offensive rating around 115.5, a defensive rating around 103.8, and finished with a net rating around +11.7. The opponent-adjusted profile was even stronger: UNC was about +18.66 in net versus expected, which suggests the team’s quality was real and not just a product of pace or schedule noise.\n\nBut the deeper question is not whether UNC had talent. It did. The real question is why that talent did not always translate into a stable basketball identity."
+          },
+          {
+            "heading": "Last Season’s UNC Was Good, but Context-Dependent",
+            "body": "The clearest issue with last season’s North Carolina was the gap between ceiling and consistency. At home, UNC was around +25.74 in net versus expected. Away from home, that number dropped to about +4.51. That is more than a normal home-court difference. It suggests that Carolina’s identity did not travel with the same reliability.\n\nThe conference split tells a similar story. UNC was around +28.79 in non-conference play but dropped to about +11.20 in conference games. That does not mean the team was bad in the ACC. It means opponents that knew Carolina better, prepared more specifically, and forced the game into more familiar matchups were able to reduce its advantages.\n\nThe late-season profile also matters. UNC’s overall +18.66 net versus expected fell to about +10.69 over the final five games and +8.85 over the final ten. Good teams usually want their identity to become clearer late in the season. Carolina’s picture became less convincing instead.\n\nThat is why the fairest description of last season’s UNC is not simply “inconsistent.” It was context-dependent. When the game opened up, when the frontcourt could impose pressure, and when Carolina could play with rhythm, it looked dangerous. When the game slowed down and demanded half-court structure, the answers were not always as clear.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-short-media-1.png",
+                "alt": "UNC’s opponent-adjusted profile was strong overall, but the home/away, conference and late-season splits show why the team was better described as context-dependent than fully stable.",
+                "caption": "UNC’s opponent-adjusted profile was strong overall, but the home/away, conference and late-season splits show why the team was better described as context-dependent than fully stable."
+              }
+            ]
+          },
+          {
+            "heading": "The Offense Had a Real Foundation",
+            "body": "UNC’s offense was not empty production. The Four Factors show a team with real offensive structure: 54.3% eFG, 13.9% turnover rate, 31.2% offensive rebound rate, and a 0.371 free throw rate. Carolina created good shot value, protected the ball reasonably well, generated second chances, and got to the line.\n\nThe shot profile was also modern. UNC took about 26.1% of its shots at the rim, 24.0% in the paint outside the rim, only 7.6% from midrange, and 42.2% from three. That distribution makes sense analytically. Carolina was not living on low-value shots.\n\nThe issue was not shot selection. The issue was repeatability.\n\nUNC finished extremely well at the rim, around 73.5%, but shot about 34.2% from three. That is solid, not elite. So Carolina’s offense was most dangerous when rim pressure, frontcourt finishing, offensive rebounding, and inside-out creation were functioning. When opponents limited those sources, UNC did not always have enough elite perimeter shot-making or half-court creation to fully compensate.\n\nThe assisted scoring profile reinforces this. About 85.9% of UNC’s made threes were assisted, meaning many perimeter looks came after the defense had already been bent. Meanwhile, only about 44.5% of made twos were assisted, showing how much physical and self-created scoring came through drives, mismatches, offensive rebounds, and frontcourt pressure.\n\nIn other words, the frontcourt was not just finishing plays. It was shaping the offense.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-short-media-2.png",
+                "alt": "UNC’s offense had a real statistical foundation: efficient shooting, solid ball security, offensive rebounding and free throw pressure. Lower is better for TOV%; higher is better for the other three metrics.",
+                "caption": "UNC’s offense had a real statistical foundation: efficient shooting, solid ball security, offensive rebounding and free throw pressure. Lower is better for TOV%; higher is better for the other three metrics."
+              }
+            ]
+          },
+          {
+            "heading": "Wilson and Veesaar Were the Basketball Backbone",
+            "body": "The two most important frontcourt pieces were Caleb Wilson and Henri Veesaar. Wilson averaged about 19.8 points and 9.4 rebounds, while Veesaar added about 17.0 points and 8.7 rebounds. Both were highly efficient, with Wilson around 63.7% TS and Veesaar around 67.1% TS.\n\nBut their importance went beyond scoring.\n\nVeesaar had the strongest team-impact signal. With him on the floor, UNC was about +20.1 in net rating. Without him, it dropped to about -11.5. That is an on/off swing of about +31.6. On/off numbers should never be read as perfect individual value because they depend on lineups, opponents, and timing. But when that signal is paired with efficiency, size, spacing, and role importance, it becomes hard to ignore.\n\nWilson also had a positive on/off signal, around +9.45. As the leading scorer, he gave Carolina rim pressure, foul pressure, scoring gravity, and physicality. Together, Wilson and Veesaar gave UNC a frontcourt foundation that created much of the team’s offensive logic.\n\nThat is why their departures are so important. UNC is not just losing two productive players. It is losing the structure behind a large part of last season’s offense.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-short-media-3.png",
+                "alt": "Wilson and Veesaar were not just productive scorers; their efficiency and on/off signals help explain why the frontcourt shaped the team’s offensive structure.",
+                "caption": "Wilson and Veesaar were not just productive scorers; their efficiency and on/off signals help explain why the frontcourt shaped the team’s offensive structure."
+              }
+            ]
+          },
+          {
+            "heading": "The Defense Controlled, but Did Not Disrupt",
+            "body": "Defensively, UNC had useful traits. Opponents shot about 48.3% eFG, Carolina grabbed about 72.2% of available defensive rebounds, and the opponent free throw rate was only about 0.238. Those are good signs. UNC could control possessions, avoid fouling too much, and finish defensive stops with rebounds.\n\nThe weakness was disruption. Opponents had a turnover rate of only about 13.6%. Carolina did not force enough mistakes.\n\nThat matters because a team that wants to run needs a defense that creates transition. Live-ball turnovers, steals, rushed decisions, and bad shots are the easiest ways to generate early offense. UNC had a fast identity, but it did not always have the defensive pressure required to make that fast identity repeatable.\n\nSo the defense was not bad. It was incomplete. It controlled several things, but it did not consistently impose chaos."
+          },
+          {
+            "heading": "Why Michael Malone Matters",
+            "body": "This is where the Michael Malone change becomes interesting. The point is not that UNC will automatically become slower or more “NBA-style.” The more important question is not fast versus slow. It is random versus repeatable.\n\nMalone’s best Denver teams were not just built on talent. They had structure, spacing, reads, cuts, handoffs, screening angles, and clear roles. The offense had mechanisms that helped players make decisions from advantage instead of relying only on individual creation.\n\nFor UNC, that could show up in practical ways: more dribble handoff actions to create cleaner guard decisions, weak-side cuts when the defense loads up on the ball, bigs used as connectors instead of only finishers, and more controlled early offense after defensive rebounds. The goal is not to slow the game down, but to make the first advantage more organized.\n\nThat matters in two areas.\n\nFirst, transition needs to become more responsible. Carolina can still run, but ideally it runs through better defensive stops, cleaner rebounds, stronger outlet decisions, and organized early offense. Pace should become a product of structure, not just a preference.\n\nSecond, the half-court offense has to become more reliable. Last season’s UNC had rim pressure and frontcourt production, but when the first advantage disappeared, the team did not always have a second or third answer. Under Malone, the goal should be clearer spacing, better reads, more useful cuts, more purposeful big-man involvement, and fewer possessions that end with someone simply trying to rescue the clock.\n\nThe same applies to roles. UNC had players whose value went beyond scoring, such as Kyan Evans, whose on/off swing was around +12.5 despite low scoring volume. It also had higher-usage players whose production did not always translate cleanly to lineup success. Malone’s job is to define who creates, who connects, who spaces, who pressures the rim, and who anchors the defensive structure.\n\nThat role clarity may matter as much as any tactical change."
+          },
+          {
+            "heading": "The Departures Create a Real Reset",
+            "body": "The departures make the transition more difficult. Wilson and Veesaar are the headline losses because they remove a huge part of the frontcourt scoring, rebounding, spacing, rim pressure, and inside-out structure. Ivan Matlekovic is not a main-rotation loss, but losing another 7-footer still reduces size and depth.\n\nThe perimeter turnover also matters. Derek Dixon, Jonathan Powell, James Brown, Zayden High, Luka Bogavac, and Kyan Evans all departed, while Isaiah Denis and Jaydon Young returned. That means UNC loses shooting volume, secondary creation, guard reps, wing depth, and some of the connective pieces that helped lineups function.\n\nBogavac, for example, provided about 9.8 points per game and 52 made threes. Evans was not a big scorer, but his functional impact was strong. These are not all star-level losses, but collectively they change the rotation.\n\nThis is why Carolina should not be treated as a continuity team. It is a reset team. The coach is changing, the frontcourt production is changing, the perimeter rotation is changing, and the possession hierarchy is changing."
+          },
+          {
+            "heading": "The Additions Point to a Different Model",
+            "body": "The additions do not simply replace what was lost. They point toward a different type of roster.\n\nNeo Avdalas brings size and playmaking. At Virginia Tech, he averaged 12.1 points, 3.1 rebounds, and 4.6 assists in 31.7 minutes. His 24.7% assist rate and 2.06 assist-to-turnover ratio are especially interesting for a 6-foot-9 player. He is not just a wing who can pass; he profiles as a jumbo initiator who can see over defenses and create passing angles.\n\nThe limitation is scoring efficiency. Avdalas had a 49.5% TS, 46.0% eFG, and shot 31.4% from three. So the value is not that UNC is getting a guaranteed scorer. The value is that UNC is getting a big creator who can change the geometry of the offense if used correctly.\n\nTerrence Brown brings a different skill set: high-usage scoring and downhill creation. At Utah, he averaged 19.9 points and 3.8 assists with a usage rate around 33.5%. He was not just a spot-up scorer. His rim rate was about 39.8%, and his free throw rate was about 0.415, showing that he can pressure the paint and draw contact. With Wilson and Veesaar gone, UNC needs new sources of rim pressure. Brown can help provide that from the perimeter.\n\nMatt Able is more of a fit piece. At NC State, he averaged 8.8 points and 3.4 rebounds in 21.7 minutes, shot 35.5% from three, and made 49 threes. His three-rate was about 55.2%, and about 87.8% of his made threes were assisted. That makes him a spacing target, relocation shooter, and connector next to creators like Brown and Avdalas.\n\nTogether, Brown, Avdalas, and Able give UNC a clearer perimeter structure: creation, size, and spacing.\n\nThe frontcourt is more projection-based. Jarin Stevenson returns as the main continuity piece, with 8.1 points and 4.4 rebounds. Sayon Keita brings length, rim protection, vertical spacing, and developmental upside. Alexandros Samodurov brings a more skilled international big profile, with 17.6 points, 5.7 rebounds, 2.7 assists, and 1.4 blocks at the U20 EuroBasket. Cade Bennerman, based on the available Northwestern sample, should be treated as a developmental depth piece rather than a proven impact player.\n\nThis new frontcourt has size and upside, but it does not yet have the proven ACC production of Wilson and Veesaar.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-short-media-4.png",
+                "alt": "UNC’s additions do not replace last season’s losses one-for-one. They point toward a bigger, more flexible roster built around creation, spacing and frontcourt upside.",
+                "caption": "UNC’s additions do not replace last season’s losses one-for-one. They point toward a bigger, more flexible roster built around creation, spacing and frontcourt upside."
+              }
+            ]
+          },
+          {
+            "heading": "Final Read",
+            "body": "The new UNC has a high ceiling, but it is not a plug-and-play contender. Last season’s team had moments, but it was too context-dependent. This season’s team needs mechanisms.\n\nThe upside is real. Brown can bring scoring pressure, Avdalas can bring jumbo playmaking, Able can improve spacing, and the frontcourt can become longer and more defensively flexible. That fits the direction Malone likely wants: clearer roles, more decision-makers, and a more structured identity.\n\nThe risk is just as real. Brown has to turn high usage into winning efficiency. Avdalas has to improve his shot consistency without losing his playmaking value. The frontcourt has to replace the rim pressure, rebounding, and spacing that Wilson and Veesaar provided. And Malone has to build chemistry quickly with a roster that is more reset than continuation.\n\nSo the central question is simple: can North Carolina turn individual talent, size, and upside into repeatable team function?\n\nIf the answer is yes, UNC can become more balanced and harder to prepare for than last season. If not, the talent will still be there, but the same old issue may remain: a high ceiling without a fully stable identity.\n\nThis article is the short version of a longer UNC team analysis. The full report includes the complete data methodology, source notes, possession-based tables, shot profile charts, lineup estimates, player on/off signals and a deeper roster-transition breakdown."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "north-carolina-2026-reset-full",
+      "category": "team",
+      "badge": "Full Report",
+      "badgeClass": "team",
+      "title": "North Carolina’s 2026–27 Reset",
+      "subtitle": "What the 2025–26 Season Reveals About the Malone Era",
+      "summary": "This report evaluates North Carolina’s 2025–26 season through a possession-based and scouting-oriented framework, then uses that analysis to understand the program’s 2026–27 reset under Michael Malone.",
+      "date": "2026-06-18",
+      "readTime": "41 min",
+      "tags": [
+        "North Carolina",
+        "full report",
+        "team analysis",
+        "Malone era",
+        "roster reset"
+      ],
+      "data": "NCAA box score, play-by-play, shot locations, lineup estimates",
+      "skills": "Python, pandas, Data Analysis, Data Validation, Data Visualization, Statistical Analysis, Play-by-Play Analysis, Shot Profile Analysis, Lineup/On-Off Analysis, Technical Report Writing.",
+      "linkLabel": "Read Full Report",
+      "media": [
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-1.png",
+          "alt": "UNC was strong overall, but the gap between home, away, conference, non-conference, and late-season performance shows why the team was better described as context-dependent than fully stable.",
+          "caption": "UNC was strong overall, but the gap between home, away, conference, non-conference, and late-season performance shows why the team was better described as context-dependent than fully stable."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-2.png",
+          "alt": "The offense had real foundations — shooting value, ball security, offensive rebounding, and free throw pressure — so the issue was not offensive quality, but repeatability.",
+          "caption": "The offense had real foundations — shooting value, ball security, offensive rebounding, and free throw pressure — so the issue was not offensive quality, but repeatability."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-3.png",
+          "alt": "UNC had a modern shot profile, but its offensive ceiling still depended heavily on rim pressure, frontcourt finishing, and advantage-created threes rather than elite perimeter shot-making alone.",
+          "caption": "UNC had a modern shot profile, but its offensive ceiling still depended heavily on rim pressure, frontcourt finishing, and advantage-created threes rather than elite perimeter shot-making alone."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-4.png",
+          "alt": "UNC’s threes were mostly created by prior advantage, while its two-point scoring relied more on physical pressure, self-created finishes, and frontcourt activity.",
+          "caption": "UNC’s threes were mostly created by prior advantage, while its two-point scoring relied more on physical pressure, self-created finishes, and frontcourt activity."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-5.png",
+          "alt": "Wilson and Veesaar were not just productive bigs; they carried much of the offensive structure, which makes their departures a roster-function problem, not just a scoring loss.",
+          "caption": "Wilson and Veesaar were not just productive bigs; they carried much of the offensive structure, which makes their departures a roster-function problem, not just a scoring loss."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-6.png",
+          "alt": "Player value cannot be reduced to scoring. Evans’ signal suggests stabilizing value, while Trimble’s case shows why production must be interpreted through role and lineup context.",
+          "caption": "Player value cannot be reduced to scoring. Evans’ signal suggests stabilizing value, while Trimble’s case shows why production must be interpreted through role and lineup context."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-7.png",
+          "alt": "UNC’s defense controlled several parts of the possession, but the lack of forced turnovers limited its ability to turn defense into repeatable offense.",
+          "caption": "UNC’s defense controlled several parts of the possession, but the lack of forced turnovers limited its ability to turn defense into repeatable offense."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-8.png",
+          "alt": "UNC had strong lineup combinations, but its most-used group was not its most dominant. That supports the idea of talent without a fully settled identity five.",
+          "caption": "UNC had strong lineup combinations, but its most-used group was not its most dominant. That supports the idea of talent without a fully settled identity five."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-9.png",
+          "alt": "UNC’s losses are not only about replacing points. They are about replacing basketball functions: rim pressure, frontcourt spacing, secondary creation, shooting volume, size, and lineup stability.",
+          "caption": "UNC’s losses are not only about replacing points. They are about replacing basketball functions: rim pressure, frontcourt spacing, secondary creation, shooting volume, size, and lineup stability."
+        },
+        {
+          "src": "assets/images/north-carolina-2026-reset-full-media-10.png",
+          "alt": "The incoming roster does not replace last season’s losses one-for-one. UNC is shifting toward a bigger, more flexible model built around creation, spacing, and projected frontcourt upside.",
+          "caption": "The incoming roster does not replace last season’s losses one-for-one. UNC is shifting toward a bigger, more flexible model built around creation, spacing, and projected frontcourt upside."
+        }
+      ],
+      "content": {
+        "sections": [
+          {
+            "heading": "Report Purpose",
+            "body": "This report evaluates North Carolina’s 2025–26 season through a possession-based and scouting-oriented framework, then uses that analysis to understand the program’s 2026–27 reset under Michael Malone."
+          },
+          {
+            "heading": "Executive Summary",
+            "body": "North Carolina enters the 2026–27 season as one of the most interesting transition cases in college basketball. This is not simply a coaching change, and it is not simply a roster reshuffle. UNC is entering a new basketball phase in which the main question is whether a talented but context-dependent team can become a more stable, repeatable basketball machine.\n\nThe 2025–26 team was not bad. Its possession-based profile was clearly positive: roughly 69 possessions per game, an offensive rating around 115.5, a defensive rating around 103.8, and a net rating around +11.7. Its opponent-adjusted profile was even stronger, around +18.66 net versus expected. That suggests UNC had real quality, not just pace-inflated production.\n\nThe issue was not whether Carolina had talent. It did. The issue was repeatability. UNC was much stronger at home than away, much stronger in non-conference play than conference play, and less convincing late in the season. That pattern points toward a team whose identity depended heavily on context: rhythm, location, frontcourt pressure, transition chances, and whether the game allowed it to avoid difficult half-court possessions.\n\nOffensively, UNC had a real foundation. The team produced strong shooting value, protected the ball relatively well, attacked the offensive glass, got to the free throw line, and had a modern shot profile. It avoided excessive midrange volume, finished extremely well at the rim, and generated a high volume of threes. However, the offense was not always equally stable when opponents slowed the game down, removed early advantages, or forced Carolina into late-clock decision-making.\n\nThe clearest basketball backbone was the Wilson–Veesaar frontcourt. Caleb Wilson provided scoring gravity, rim pressure, physicality, rebounding, and foul pressure. Henri Veesaar added efficiency, size, spacing, inside-out value, and one of the strongest structural on/off signals on the team. Their departures mean UNC is not simply losing production. It is losing a major part of last season’s offensive architecture.\n\nDefensively, UNC had control traits but lacked disruption. It limited some shot quality, rebounded well, and avoided sending opponents to the line too often. But it did not force enough turnovers to consistently create easy transition offense. That made its fast identity less repeatable than it could have been.\n\nMichael Malone’s arrival should therefore be understood as an attempt to move UNC from context-dependent talent toward a more structured basketball identity. The key question is not whether UNC becomes fast or slow. The key question is whether it becomes more repeatable.\n\nThe new roster points toward a different model. Terrence Brown brings high-usage scoring and downhill rim pressure. Neo Avdalas brings jumbo playmaking and passing angles. Matt Able brings spacing and connector value. The new frontcourt, including Jarin Stevenson, Sayon Keita, Alexandros Samodurov, and Cade Bennerman, brings length and upside but less proven ACC production than Wilson and Veesaar.\n\nThe final conclusion is that North Carolina has a high ceiling, but this is not a plug-and-play transition. The 2026–27 season will depend on whether Malone can turn new talent, size, and role diversity into repeatable team function."
+          },
+          {
+            "heading": "One-Sentence Thesis",
+            "body": "UNC’s 2025–26 team had real talent and strong offensive indicators, but its identity was too context-dependent; the Malone-era reset is about turning talent, size, and roster flexibility into repeatable team function."
+          },
+          {
+            "heading": "Key Findings",
+            "body": "UNC was good overall, but context-dependent. The team’s opponent-adjusted profile was strong, but the gap between home/away, non-conference/conference, and late-season performance shows that its identity was not fully stable.\n\nThe offense had a real foundation. UNC had strong eFG%, low turnover rate, offensive rebounding, free throw pressure, and modern shot distribution. The problem was not offensive quality; it was repeatability.\n\nThe shot profile was modern, but the perimeter shooting was not elite enough to solve every problem. UNC took efficient shot types, avoided excessive midrange volume, and finished extremely well at the rim. But its three-point percentage was good rather than elite, which made the offense vulnerable when rim pressure and transition were limited.\n\nWilson and Veesaar were structural pieces, not just productive players. Their efficiency, rebounding, rim pressure, spacing, and on/off signals show that the frontcourt shaped much of UNC’s offensive logic.\n\nSome lower-scoring players helped the team function better. Kyan Evans is a good example of a player whose low scoring average did not fully reflect his stabilizing value. His on/off signal suggests functional importance beyond the box score.\n\nThe defense controlled possessions but did not disrupt enough. UNC rebounded and avoided fouling, but its low opponent turnover rate limited its ability to create repeatable transition opportunities.\n\nThe lineup data showed talent, but not a clear identity five. UNC had strong five-man groups, but the most-used lineup was not the most dominant. That suggests talent existed, but the best collective formula was not fully stabilized.\n\nThe Malone era is a structural reset. The goal is not simply to become slower or more “NBA-style.” The goal is to build clearer roles, better half-court mechanisms, stronger defensive foundations, and more repeatable possessions.\n\nThe roster additions point toward a different model. Brown, Avdalas, Able, and the new frontcourt do not replace last season’s losses one-for-one. They point toward more size, more multi-handler creation, more spacing needs, and a projection-based frontcourt rebuild."
+          },
+          {
+            "heading": "Report Structure",
+            "body": ""
+          },
+          {
+            "heading": "Part I — 2025–26 Team Identity",
+            "body": ""
+          },
+          {
+            "heading": "Introduction",
+            "body": ""
+          },
+          {
+            "heading": "Overall Team Profile",
+            "body": ""
+          },
+          {
+            "heading": "Offensive Foundation",
+            "body": ""
+          },
+          {
+            "heading": "Shot Profile",
+            "body": ""
+          },
+          {
+            "heading": "Assisted Scoring",
+            "body": ""
+          },
+          {
+            "heading": "Frontcourt Impact",
+            "body": ""
+          },
+          {
+            "heading": "Functional Value Beyond Scoring",
+            "body": ""
+          },
+          {
+            "heading": "Defensive Profile",
+            "body": ""
+          },
+          {
+            "heading": "Lineup Analysis",
+            "body": ""
+          },
+          {
+            "heading": "2025–26 Team Identity Conclusion",
+            "body": ""
+          },
+          {
+            "heading": "Part II — The Malone Transition 11. What Changes With Michael Malone",
+            "body": ""
+          },
+          {
+            "heading": "Part III — Roster Reset 12. Departures and Lost Functions 13. Additions and New Roster Profile",
+            "body": ""
+          },
+          {
+            "heading": "Part IV — Final Scouting Read 14. Final Conclusion 15. Methodology and Limitations 16. Source Notes 17. Portfolio Note",
+            "body": ""
+          },
+          {
+            "heading": "Part I — 2025–26 Team Identity",
+            "body": ""
+          },
+          {
+            "heading": "1. Introduction: What This Analysis Is Trying to Answer",
+            "body": "As a Computer Science student with a strong interest in college basketball and sports data analysis, I decided to conduct an in-depth study of North Carolina. The choice of team is not random. UNC is one of the most historic programs in the NCAA, but at the same time, it is entering a period of major basketball transition.\n\nNorth Carolina enters this new era with significant interest, not only because it is changing head coach, but because almost its entire basketball context is changing. Last season’s team had enough quality to win big games, enough talent to look dangerous against strong opponents, and enough offensive production that it cannot be described as a failure in a simple way. Even so, the season left more of an impression of a team that never fully stabilized its basketball identity.\n\nThe goal of this analysis is not simply to repeat the basic facts of the season or describe the roster through points, rebounds, and percentages. The goal is to read Carolina as a possession-based team: how it created advantages, when those advantages were repeatable, where its function broke down, which players truly affected the overall picture, and how all of this explains the need for a new coaching direction.\n\nThe logic of this analysis is possession-based. In other words, we are not only interested in how many points UNC scored, but how efficient it was per possession, what types of possessions it generated, how well it avoided turnovers, how often it created second chances, what quality of shots it produced, and how its performance changed depending on context.\n\nA team can score a lot because it plays fast, but that does not necessarily mean it has an elite offense. Similarly, a player can have excellent individual percentages while the team functions worse when he is on the floor. That is why this analysis does not stop at the box score. It tries to connect the statistics with team function.\n\nThe first part examines last season’s UNC: its real basketball identity, positive patterns, negative patterns, the difference between ceiling and consistency, and the elements that make the transition to a new head coach so important. The following parts move into the impact of the coaching change, the departures, the additions, and what kind of team Carolina appears to be trying to build."
+          },
+          {
+            "heading": "2. The Overall Picture: A Good Team, but Not a Fully Stable Basketball Machine",
+            "body": "Last season’s North Carolina was not a mediocre team that simply had a big name. At the season level, its overall profile was clearly positive. The team played at a pace of roughly 69 possessions, had an offensive rating of about 115.5, a defensive rating of about 103.8, and a net rating of about +11.7. That is the profile of a team with real quality, not simply a team that looks better because it plays at a fast tempo.\n\nThe most important element, however, is the opponent-adjusted profile. Based on net versus expected, UNC was roughly +18.66 overall. That means its performance, relative to the level of its opponents, was clearly positive. So Carolina was not “fake good.” It had real strength, real ceiling, and enough elements to explain why on certain nights it looked like a high-level team.\n\nBut that same picture changes dramatically when broken down by context. At home, Carolina was roughly +25.74 in net versus expected. Away from home, it fell to about +4.51. That gap is not just home-court effect. It is evidence that the team’s basketball identity did not travel with the same reliability. In Chapel Hill, it could impose energy, rhythm, physicality, and confidence. Away from those conditions, the same team lost a large part of its clarity.\n\nThe same thing appears in the conference split. In non-conference games, UNC was roughly +28.79 in net versus expected, while in conference games it dropped to about +11.20. That does not mean it was bad in the ACC. It means that when opponents knew it better, when scouting reports were more targeted, and when the game moved into more familiar matchups, its advantage decreased. Carolina could punish teams that could not match its size, transition game, and frontcourt quality, but it did not always have enough structure to repeatedly solve problems against opponents that had already read it.\n\nThe late-season profile is even more revealing. The overall +18.66 dropped to roughly +10.69 over the last five games and +8.85 over the last ten. That matters because good teams usually want to enter the end of the season with a clearer identity, not more noise. In UNC’s case, the season did not end with a sense of full stabilization. Instead, the team seemed to lose part of its initial offensive burst and had not found a stable enough way to win when conditions were not ideal.\n\nThe first major conclusion, then, is that last season’s UNC was not simply “inconsistent.” It was context-dependent. It had real quality, but that quality depended heavily on where it played, who the opponent was, how much it could run, how effectively the frontcourt functioned, and whether the game allowed it to avoid the most difficult half-court questions.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-1.png",
+                "alt": "UNC was strong overall, but the gap between home, away, conference, non-conference, and late-season performance shows why the team was better described as context-dependent than fully stable.",
+                "caption": "UNC was strong overall, but the gap between home, away, conference, non-conference, and late-season performance shows why the team was better described as context-dependent than fully stable."
+              }
+            ]
+          },
+          {
+            "heading": "3. The Offense: A Real Foundation, Not Just Fast Scoring",
+            "body": "Offensively, Carolina had a strong foundation. The Four Factors show this clearly. The team had an eFG% of about 54.3%, a turnover rate of about 13.9%, an offensive rebound rate of about 31.2%, and a free throw rate of about 0.371. In simple terms, it was above average in shooting value, protected the ball relatively well, created second chances, and got to the line at a solid rate.\n\nThis is important because it prevents a superficial reading. UNC was not simply a team that scored a lot because it played fast. Its offense had real foundations. It created enough good shots, did not waste too many possessions, pressured the offensive glass, and earned free throws. These are signs of a team that can build an efficient offense in more than one way.\n\nThe problem was not that it lacked offense. The problem was that the offense was not equally stable across all environments. When Carolina could run, find early offense, put its bigs in advantageous positions, and create pressure at the rim, the offense looked natural. But when the game slowed down, when opponents cut off transition, and when possessions moved into late-clock decision-making, the picture became less clear.\n\nThis is one of the key basketball points of last season. UNC had enough offensive power, but it was not always a fully organized half-court machine. Transition and the natural advantage of the frontcourt provided solutions, but they did not eliminate the question: who consistently creates advantage when the defense is set? Who makes the decision at the end of the possession? How well does the ball move when there is no immediate advantage? How repeatable is the shot quality when the game does not open up?\n\nThis is where the difference between a good offense and a great offense appears. A good offense can score a lot when conditions help it. A great offense finds answers even when the opponent removes its first advantage. Last season’s Carolina was closer to the first than the second.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-2.png",
+                "alt": "The offense had real foundations — shooting value, ball security, offensive rebounding, and free throw pressure — so the issue was not offensive quality, but repeatability.",
+                "caption": "The offense had real foundations — shooting value, ball security, offensive rebounding, and free throw pressure — so the issue was not offensive quality, but repeatability."
+              }
+            ]
+          },
+          {
+            "heading": "4. Shot Profile: Modern Distribution, but Not Elite Perimeter Shot-Making",
+            "body": "The shot profile explains the character of the offense more clearly. UNC took about 26.1% of its attempts at the rim, 24.0% in paint non-rim areas, only 7.6% from midrange, and 42.2% from three. Of those threes, about 16.7% were corner threes and 25.5% were above-the-break threes.\n\nThis shows a team with fairly modern shot selection. Carolina largely avoided the midrange, looked for rim pressure, took a high volume of threes, and tried to build its offense around higher-value attempts. That by itself is positive. This was not an offense stuck in old, low-value areas of the floor.\n\nBut the efficiency profile tells a more nuanced story. UNC finished extremely well at the basket, with a rim FG% of about 73.5%. That is a very strong number and shows that when it truly reached the rim, it had finishing quality. The midrange was limited in volume and around 41.3% in efficiency. The three-point percentage was about 34.2%. That is not bad, but it is not elite enough to say the team lived off outstanding perimeter shot-making.\n\nSo the correct reading is not that “UNC was a three-point team.” The correct reading is that UNC had a modern shot distribution, but the center of gravity of its offense was pressure toward the rim, frontcourt finishing, second chances, free throws, and threes created from an already existing advantage. The three-point shot was an important part of the distribution, but not efficient enough to fully cover the problems when the team did not find rhythm.\n\nThat makes UNC’s offense both interesting and vulnerable. Interesting, because the shot selection was moving in the right direction. Vulnerable, because if the opponent limited rim pressure and slowed down transition, Carolina did not always have elite shooting to punish consistently from the perimeter.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-3.png",
+                "alt": "UNC had a modern shot profile, but its offensive ceiling still depended heavily on rim pressure, frontcourt finishing, and advantage-created threes rather than elite perimeter shot-making alone.",
+                "caption": "UNC had a modern shot profile, but its offensive ceiling still depended heavily on rim pressure, frontcourt finishing, and advantage-created threes rather than elite perimeter shot-making alone."
+              }
+            ]
+          },
+          {
+            "heading": "5. Assisted Scoring: What It Tells Us About Creation",
+            "body": "The assisted scoring profile gives an even better picture of how UNC created offense. Of the team’s 925 made shots, 529 were assisted, about 57.2%. By itself, this shows an offense with a good amount of team creation, but not one completely dependent on assisted finishes.\n\nThe most interesting split is by shot type. About 85.9% of made threes were assisted. That means most of Carolina’s threes were not self-created pull-ups or individual solutions without prior creation. They mainly came from kick-outs, ball movement, paint touches, drive-and-kick actions, inside-out actions, or possessions where an advantage had already been created.\n\nBy contrast, only about 44.5% of made twos were assisted. This is very important. It shows that UNC’s two-point game was not simply the result of ready-made passes near the basket. There was plenty of self-created or physical scoring through drives, post or face-up actions, offensive rebounds, and mismatches. In other words, Carolina had players who could finish plays through individual or physical superiority.\n\nThis explains why the frontcourt was so central. UNC’s bigs were not just pass recipients. They were part of the structure that created pressure, changed defensive decisions, and opened the rest of the floor. When the frontcourt functioned, Carolina could generate rim pressure, second chances, and kick-out threes without needing elite guard creation every time.\n\nThis is also the point where the analysis moves beyond the simple box score. A player is not evaluated only by whether he scored a lot. He is evaluated by whether his presence made the team’s possessions more efficient, cleaner, and harder to guard. For UNC, the frontcourt appears to have had that kind of functional value.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-4.png",
+                "alt": "UNC’s threes were mostly created by prior advantage, while its two-point scoring relied more on physical pressure, self-created finishes, and frontcourt activity.",
+                "caption": "UNC’s threes were mostly created by prior advantage, while its two-point scoring relied more on physical pressure, self-created finishes, and frontcourt activity."
+              }
+            ]
+          },
+          {
+            "heading": "6. The Frontcourt as the Basketball Backbone",
+            "body": "The two main frontcourt pillars, Caleb Wilson and Henri Veesaar, were not simply the most productive players. They were the basketball center of gravity of the team.\n\nWilson had about 19.8 points per game with a TS% of about 63.7%. Veesaar had about 17.0 points per game with a TS% of about 67.1%. Those numbers show high production and high efficiency. But the most important point is not only their individual efficiency. It is that their production appeared to be connected to the team’s overall function.\n\nVeesaar gives the clearest signal. With him on the floor, UNC had an on-net rating of about +20.1. Without him, the off-net rating was about -11.5. The on/off swing was about +31.6. That is a huge difference. Obviously, on/off does not prove absolute individual value by itself, because it is affected by teammates, opponents, lineups, and timing. But when such a large on/off signal is combined with high efficiency, size, spacing, and a central frontcourt role, it cannot be ignored.\n\nVeesaar should not be read simply as an efficient scorer. More accurately, he should be read as a structural player. He provided finishing, size, spacing and inside-out ability, rebounding presence, and likely helped the overall balance of lineups. When he was on the floor, Carolina seemed to have a clearer way to organize its offense around a physical advantage.\n\nWilson also had a positive on/off signal, around +9.45. It was not as extreme as Veesaar’s, but it confirms that his production was not empty. As the leading scorer and a high-efficiency forward, he gave the team rim pressure, foul pressure, and scoring gravity. His presence made Carolina more dangerous, especially when he played next to lineups that gave him space and support.\n\nThe biggest conclusion about the frontcourt is that last season’s UNC did not simply have “good bigs.” It had bigs who carried a large part of the offensive logic. When they functioned, the team had a much clearer identity. When that advantage was limited, injured, or unable to translate into specific matchups, the rest of the offense had to prove it could create consistently without relying so heavily on frontcourt pressure. That is where the questions appeared.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-5.png",
+                "alt": "Wilson and Veesaar were not just productive bigs; they carried much of the offensive structure, which makes their departures a roster-function problem, not just a scoring loss.",
+                "caption": "Wilson and Veesaar were not just productive bigs; they carried much of the offensive structure, which makes their departures a roster-function problem, not just a scoring loss."
+              }
+            ]
+          },
+          {
+            "heading": "7. The Players Who Helped the Function Beyond Scoring",
+            "body": "One of the most interesting elements is that some players with lower individual production appeared to have functional value greater than what the box score shows.\n\nKyan Evans is the clearest example. He averaged only about 4.0 points per game. If someone looked only at the raw scoring numbers, they would consider him a minor part of the team. But his on/off numbers show a different picture. With him on the floor, UNC had an on-net rating of about +18.7. Without him, it was about +6.2. The on/off swing was about +12.5.\n\nThis does not mean Evans was a hidden star. It does mean, however, that he likely provided functional stability that is not visible through points. He may have provided better organization, better balance, cleaner decisions, better spacing at the right timing, or defensive and positional consistency. Whatever the exact mechanism, the signal says his presence was connected to a better overall picture.\n\nThis is very important for the report, because it shows the correct way of thinking. We are not only looking for who scored. We are looking for who made the team function better. On many teams, especially teams with multiple scorers, connectors and low-usage stabilizers are the players who provide cohesion. Evans appears to belong in that category.\n\nOn the other hand, there were players with greater production whose overall lineup impact was not as positive. Seth Trimble, for example, averaged about 14.0 points per game and had a significant role. But his on/off was negative: on-net around +5.4, off-net around +20.8, meaning an on/off of about -15.4.\n\nThis should not be read lazily as “Trimble was bad.” That interpretation would be superficial. Possible explanations are that he played in more difficult lineup contexts, had a larger creation burden, took on tougher possessions, or was placed in units that did not have the same balance. The more careful conclusion is that Trimble’s individual production did not always translate into better overall lineup function.\n\nThis is exactly the type of analysis last season’s UNC requires. It is not enough to say who had points. You have to see who made the team cleaner, who stabilized it, who made it more predictable or more vulnerable, and which lineups produced the best collective result.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-6.png",
+                "alt": "Player value cannot be reduced to scoring. Evans’ signal suggests stabilizing value, while Trimble’s case shows why production must be interpreted through role and lineup context.",
+                "caption": "Player value cannot be reduced to scoring. Evans’ signal suggests stabilizing value, while Trimble’s case shows why production must be interpreted through role and lineup context."
+              }
+            ]
+          },
+          {
+            "heading": "8. The Defense: Good at Control, Not Disruptive Enough",
+            "body": "Defensively, UNC also had an interesting but uneven profile. In the Four Factors, the defense had several positives. Opponent eFG% was about 48.3%, defensive rebound rate was about 72.2%, and opponent free throw rate was about 0.238. These are good signs. Carolina did not give opponents easy value, cleaned up the defensive glass fairly well, and did not send opponents to the line too often.\n\nThe weak point was opponent turnover rate, about 13.6%. In other words, UNC did not force opponents into many mistakes. That changes the interpretation of the defense. It was not a defense that destroyed possessions. It was more of a control defense: it limited, protected, finished possessions with rebounds, but did not create chaos often enough.\n\nThis is directly connected to its offensive style. A team that wants to run ideally needs a defense that generates transition. Live-ball turnovers, steals, rushed opponent decisions, and bad shots are the most stable way to create easy points. If your defense only controls but does not steal possessions, then your transition depends more on defensive rebounds, misses, and the natural flow of the game.\n\nUNC wanted to play fast, but its defense was not disruptive enough to make that fast game fully repeatable. This is one of the biggest tactical insights of the season. Carolina had a fast identity, but not necessarily the defensive base that consistently produces fast-break environments.\n\nThe defensive shot profile reinforces this. Opponents had a rim rate of about 22.1%, meaning they did not get to the basket at an excessive rate. That is positive. UNC controlled access to the rim to a degree. But when opponents did reach the rim, they shot about 62.2%, which is not a shutdown number. Opponents also had a 3PA rate of about 37.0% and shot about 34.7% from three. So the defense did not fully erase the perimeter, nor was it completely dominant at the rim.\n\nThe correct wording is that UNC was defensively capable of controlling several things, but not capable enough of imposing its own terms consistently. It could protect the paint in terms of volume, avoid sending too many opponents to the line, and rebound. But it could not always pressure the ball, force mistakes, and turn defense into a stable source of offense.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-7.png",
+                "alt": "UNC’s defense controlled several parts of the possession, but the lack of forced turnovers limited its ability to turn defense into repeatable offense.",
+                "caption": "UNC’s defense controlled several parts of the possession, but the lack of forced turnovers limited its ability to turn defense into repeatable offense."
+              }
+            ]
+          },
+          {
+            "heading": "9. The Lineups: There Was Material, but No Clear Identity Five",
+            "body": "The lineup data show that UNC had good units, but did not necessarily find one completely dominant and stable identity lineup.\n\nThe most-used lineup was Veesaar – Stevenson – Derek Dixon – Luka Bogavac – Seth Trimble. It played about 220 estimated possessions and had a net rating of about +4.1. That is positive, but not dominant. It is important because it shows that the team’s most frequent lineup was not the one that broke the season open in its favor.\n\nBy contrast, other lineups had much stronger results. The lineup of Kyan Evans – Veesaar – Stevenson – Luka Bogavac – Caleb Wilson played about 191 estimated possessions and had a net rating of about +26.1. The lineup of Kyan Evans – Veesaar – Stevenson – Seth Trimble – Caleb Wilson played about 95 estimated possessions and had a net rating of about +33.7. These lineups show that UNC could find much stronger five-man groups when it combined the frontcourt with more balance and perhaps a cleaner functional connection.\n\nThis does not mean the best lineups necessarily should have always played more. Lineups are affected by injuries, matchups, foul trouble, availability, and roles. But they show something useful: Carolina had enough material to produce elite stretches, yet its most frequent five-man group was not its strongest. That is a classic sign of a team with talent that is still searching for its most repeatable collective formula.\n\nEvans’ presence in several of the most positive lineups connects with his on/off signal. The presence of Veesaar and Wilson also connects with the idea that the frontcourt was the team’s basketball backbone. The problem was not that good lineups did not exist. The problem was that the team did not seem to stabilize quickly enough around a lineup that combined production, defense, spacing, decision-making, and late-game reliability.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-8.png",
+                "alt": "UNC had strong lineup combinations, but its most-used group was not its most dominant. That supports the idea of talent without a fully settled identity five.",
+                "caption": "UNC had strong lineup combinations, but its most-used group was not its most dominant. That supports the idea of talent without a fully settled identity five."
+              }
+            ]
+          },
+          {
+            "heading": "10. Overall Basketball Conclusion About Last Season’s UNC",
+            "body": "Last season’s North Carolina was a team with real talent and a real offensive foundation. It had a strong frontcourt, excellent finishing at the basket, modern shot distribution, strong offensive rebounding, good free throw pressure, and enough quality to produce big performances. It was not a team that simply looked good in raw points.\n\nBut it was not a fully stable great team either. Its performance depended heavily on context. At home, it was much stronger than on the road. In non-conference games, it was much more impressive than in the conference environment. Toward the end of the season, the picture declined instead of becoming clearer. Its defense controlled several things, but did not create many turnovers. Its offense had a good foundation, but did not always have the same half-court clarity. And the lineups showed that there were very good units, but not necessarily a fully stabilized identity five.\n\nThe fairest conclusion is that Carolina had a high ceiling but not a sufficiently repeatable basketball machine. It could win big games, look dangerous against strong opponents, and had players who created real advantages. But when the game demanded structure, ball pressure, half-court decision-making, and stable execution away from ideal conditions, the team did not always have an answer.\n\nThat is the real background of the change that follows. The new head coach is not taking over a team without quality. He is taking over a program that had enough tools, but needed a clearer basketball hierarchy, a more stable defensive base, and a more repeatable way to create good possessions. The challenge of the new era is not simply to replace the players who left. It is to turn context-dependent talent into a more cohesive and reliable basketball identity."
+          },
+          {
+            "heading": "Part II — The Malone Transition",
+            "body": ""
+          },
+          {
+            "heading": "11. What Changes With Michael Malone: From a Context-Dependent Team to a More Structured Basketball Identity",
+            "body": "The coaching change at North Carolina should not be read simply as a change of face on the bench. Based on last season’s team profile, it looks more like an attempt to change the functional model. UNC did not simply need more energy or more points. It needed a clearer basketball hierarchy, a more stable defensive base, better organization in the half court, and a more repeatable way to generate good possessions when the game did not give it transition.\n\nThat is why the arrival of Michael Malone is particularly interesting. His previous coaching imprint with the Denver Nuggets was not based simply on speed or individual talent. The best Denver teams functioned with structure, spacing, reads, cuts, handoffs, screening angles, and consistent use of their main creators. The most characteristic element was that the offense did not look like a simple sequence of individual attempts. It had a center of gravity, roles, and mechanisms that helped players make decisions from advantage.\n\nThis does not mean North Carolina will necessarily become a slower team. The main question is not “fast or slow.” It is “random or repeatable.” Last season’s UNC could run and become dangerous when the floor opened up, but its fast game did not always come from consistent defensive control. The team did not force enough turnovers, did not have consistently disruptive perimeter defense, and often relied more on rebounds, misses, and the natural flow of the game than on pressure that creates live-ball opportunities.\n\nWith Malone, the change is probably not about removing the fast game, but about making it more responsible. In other words, UNC can continue looking for early offense, but through better stops, better defensive rebounding, better outlet passes, and cleaner decisions. Transition has to become a product of defensive foundation, not simply a tempo choice. That would be a major difference from last season’s Carolina, which had a fast identity but not always the defensive pressure that makes pace repeatable.\n\nIn practical terms, that could show up through more controlled early offense after defensive rebounds, cleaner outlet organization, earlier spacing into lanes, and fewer possessions where speed becomes rushed decision-making. The goal is not to slow the game down. The goal is to make the first advantage more organized.\n\nThe second important point is the half-court offense. Last season’s UNC had a real offensive foundation, but not always a clean half-court machine. It had frontcourt scoring, rim pressure, offensive rebounding, and enough created threes, but when the opponent removed the first advantage, the team did not always have a second and third answer. In close games, away environments, and late in the season, this became more visible.\n\nThis is where Malone’s style can have a direct effect. The offense does not necessarily need to be filled with many set plays. It needs better principles: proper spacing, better reads, more useful weak-side cuts, more dribble handoff actions to create cleaner guard decisions, better use of bigs as screeners or connectors, and less dependence on difficult individual attempts late in the clock. The idea is for the team not simply to look for one player to “save” the possession, but to have a structure that creates advantage before the possession reaches a difficult shot.\n\nA big part of this is how the new roster uses its size. Avdalas can function as a jumbo initiator. Brown can pressure the rim from the perimeter. Able can space and relocate. Stevenson, Keita, Samodurov, and Bennerman represent a frontcourt group that may not reproduce Wilson and Veesaar immediately, but can create different forms of size, screening, rim protection, and connectivity. If Malone can connect those pieces, UNC can become less dependent on one frontcourt advantage and more balanced in how it creates shots.\n\nDefensively, the change can be just as important. Last season’s UNC had control elements: good defensive rebounding, low opponent free throw rate, and relatively good limitation of shot quality. But it was not disruptive enough. It did not force enough mistakes and did not often turn defense into easy offense. Malone can try to build a more disciplined and more active defensive base, not necessarily through chaotic pressure, but through better point-of-attack defense, communication, rotations, physicality, and cleaner protection of the defensive glass.\n\nThe third piece is roles. Last season’s UNC had talent, but not always a clear basketball hierarchy. There were players with low scoring who helped the overall function, scorers whose production did not always translate into better team output, and lineups that functioned much better than the most frequently used group. That points to a need for better role definition.\n\nWith Malone, the goal will be for every player to have a clearer function. Who organizes? Who functions as a connector? Who spaces the floor? Who pressures the rim? Who takes the difficult possessions? Who holds the defensive structure? These questions are more important than simply asking who will have the most points.\n\nThere is, of course, risk. Malone brings experience and structure, but the transition into a college environment is not automatic. UNC is changing head coach, changing a significant part of the roster, and will need to rebuild chemistry, spacing, roles, and basketball connections. The new players will need to learn when to run, when to organize, how to defend within the system, and how to make decisions without damaging the overall function.\n\nSo the correct conclusion is not that Carolina is simply becoming slower or more “NBA-style.” The correct conclusion is that it is trying to become more structured. Last season’s UNC had a high ceiling, but depended heavily on context. The new version needs to become more repeatable: to run from better defensive foundations, execute more clearly in the half court, and have roles that serve the overall function, not just individual production.\n\nIn that sense, the Malone change is not a shift from “fast” to “slow” basketball. It is an attempt to move from spontaneous quality to a more controlled identity. Last season’s Carolina had several impressive moments. The next one needs to rely less on moments and more on mechanisms."
+          },
+          {
+            "heading": "Part III — Roster Reset",
+            "body": ""
+          },
+          {
+            "heading": "12. The Departures and What They Mean",
+            "body": "The departures explain almost as much as the coaching change does why North Carolina is changing face. Last season’s UNC is not simply losing depth or a few rotation players. It is losing a large part of the production, size, frontcourt identity, and inside-out structure that made its offense dangerous.\n\nThe biggest change is in the frontcourt. Henri Veesaar is a massive loss because he was not just a productive center. He provided about 17.0 points and 8.7 rebounds, had very high efficiency, and spaced the floor with 40+ made threes at around 42–43% from deep. At the same time, his on/off numbers show how strongly he was connected to the team’s overall function: with him on the floor, UNC had a net rating of about +20.1, while without him it dropped to about -11.5. The swing of about +31.6 should not be read by itself as absolute individual value, but together with his production, spacing, and size, it shows that Veesaar was a structural piece of last season’s Carolina.\n\nCaleb Wilson was not just another good forward. He was the team’s most productive player, with about 19.8 points and 9.4 rebounds per game, along with high efficiency and significant rim pressure. If Veesaar was the inside-out big who opened the structure, Wilson was the primary frontcourt scorer who pressured the paint, earned contact, provided physicality, and drew defensive attention.\n\nThis is the most important point of the section. UNC is not losing one player. It is losing almost the entire frontcourt backbone of last season’s team. The team’s offense had a rim FG% of about 73.5%, an offensive rebound rate of about 31.2%, and a free throw rate of about 0.371. Those numbers were not random. They were connected to the size, efficiency, and physical pressure provided by Wilson and Veesaar. Without them, the new Carolina must find from scratch who will create pressure in the paint, who will hold the defensive rebounding, who will function as a scoring hub, and who will open space for the guards.\n\nIn the same context, Ivan Matlekovic’s departure is not a main-rotation loss, but it matters as a loss of size and depth. When you are already losing Wilson and Veesaar, even the loss of a secondary 7-footer makes the frontcourt reset more intense. Carolina is not simply changing starters. It is changing its entire size structure.\n\nOn the perimeter, the turnover is also significant. Derek Dixon, Jonathan Powell, James Brown, Zayden High, Luka Bogavac, and Kyan Evans departed, while Isaiah Denis and Jaydon Young ultimately returned. Several destinations are now clear: Dixon to Arizona, Powell to Pittsburgh, Bogavac to Oklahoma State, High to South Florida, Evans to Minnesota, and Brown to Howard. This means UNC loses shooting volume, secondary creation, guard reps, wing depth, and several complementary pieces that kept the rotation functional.\n\nKyan Evans is a characteristic case. He was not a major scorer, but he had a positive functional footprint. With him on the floor, UNC was about +18.7, while without him it was about +6.2, meaning an on/off swing of about +12.5. This shows that the team is also losing players who may not have looked impressive in the box score, but helped the overall balance.\n\nSimilarly, Luka Bogavac provided about 9.8 points per game and 52 made threes. He was not the primary creator, but he was an important part of the spacing and perimeter threat. Zayden High, although he did not have a consistently large role throughout the season, had late-season production and provided energy, rebounding, and frontcourt activity. These losses are not on the same scale as Wilson and Veesaar, but cumulatively they change the team’s second unit significantly.\n\nThe biggest meaning of all this is that this season’s UNC will not be a continuity team. It will be a reset team. The coach is not simply changing on top of a core that already knows how to play together. The frontcourt production is changing, the perimeter rotation is changing, the possession hierarchy is changing, the shot profile is changing, and the basketball hierarchy is changing.\n\nThat is why Malone’s first season looks more like a high-ceiling build-year than a plug-and-play continuation of last season’s Carolina. The challenge is not simply to replace the players who left. It is to replace their functions: rim pressure, spacing, rebounding, shooting volume, decision-making, connector play, and lineup stability.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-9.png",
+                "alt": "UNC’s losses are not only about replacing points. They are about replacing basketball functions: rim pressure, frontcourt spacing, secondary creation, shooting volume, size, and lineup stability.",
+                "caption": "UNC’s losses are not only about replacing points. They are about replacing basketball functions: rim pressure, frontcourt spacing, secondary creation, shooting volume, size, and lineup stability."
+              }
+            ]
+          },
+          {
+            "heading": "13. The Additions and the New Roster Profile",
+            "body": "If the departures show what North Carolina is losing, the additions show what kind of team it is trying to build. The new UNC does not appear to be simply replacing names. It is moving toward a different roster profile: more size on the perimeter, more players who can handle the ball, more switchability, and a frontcourt with a high ceiling but less proven college production than last season’s Wilson–Veesaar duo.\n\nOn the perimeter, the most interesting addition from a structural standpoint is Neo Avdalas. At Virginia Tech, he averaged 12.1 points, 3.1 rebounds, and 4.6 assists in 31.7 minutes per game. His assist profile is the most important element: he had 142 total assists, an assist rate of about 24.7%, and an assist-to-turnover ratio of about 2.06. For a 6-foot-9 player, those numbers indicate a real jumbo-initiator profile. He is not just a wing who can pass. He is a player who can organize possessions, see over defenses, and create passing angles that a smaller guard does not always have.\n\nThere is also a limitation. Avdalas does not arrive as a ready-made elite scorer. His TS% was about 49.5%, his eFG% about 46.0%, and his three-point percentage 31.4% on 156 attempts. His shot profile leaned heavily toward the three, with a three-rate of about 46.7%, but the efficiency was not yet stable enough. So his value for UNC should not be presented as “a guaranteed scorer is arriving.” More accurately, he is a big creator who can change the geometry of the offense, as long as Carolina puts him in a role where his passing, size, and decision-making value are not cancelled out by poor shot selection.\n\nAvdalas’ on/off is positive and helps the picture. With him on the floor, Virginia Tech had a net rating of about +7.1, while without him it dropped to about -2.0. The on/off swing was about +9.1. This does not prove that he changed the team by himself, but it does show that his size and creation were connected to better overall function.\n\nTerrence Brown brings something different: primary scoring and high-usage creation. At Utah, he averaged 19.9 points, 3.8 assists, and 2.4 rebounds in 31.5 minutes. His strongest element is usage. With a usage rate of about 33.5%, he was clearly a primary creator and finisher of possessions. UNC lost a large portion of shot creation and frontcourt scoring, so a guard who has proven he can carry offensive weight is necessary.\n\nBrown’s profile is not a pure perimeter-shooter profile. He shot 32.7% from three on 98 attempts, and his three-rate was only 19.9%. By contrast, his rim rate was about 39.8% and his free throw rate about 0.415. That shows a guard who pressures the paint, earns contact, and produces points through downhill pressure, not only through pull-up shooting. This fits the gap left by last season’s UNC: without Wilson and Veesaar, the team needs a new source of rim pressure. Brown does not replace frontcourt scoring, but he can create paint touches from the perimeter.\n\nHere too, the on/off is positive. Utah was about -2.6 with him on the floor and about -14.9 without him, meaning an on/off swing of about +12.3. The important point is not that Utah was elite with him. It was not. The important point is that without him, it collapsed much more. That shows how much offensive weight he carried.\n\nMatt Able is a different type of addition. He is not coming in to be the primary initiator like Avdalas or the high-usage scorer like Brown. At NC State, he averaged 8.8 points and 3.4 rebounds in 21.7 minutes, without starting, but with clear rotation value. His most useful element is the shooting profile: 49 made threes, 35.5% from three, and a three-rate of about 55.2%. That means more than half of his shot diet came from three.\n\nFor UNC, that matters a lot. Last season’s team lost shooting volume from Bogavac, spacing from Veesaar, and a lot of perimeter stability. Able can cover part of that gap as a wing or guard who does not need to hold the ball to affect the offense. His assisted scoring profile shows that clearly: about 87.8% of his made threes were assisted. So this is a player who can function as a spacing target, relocation shooter, and connector next to creators like Brown and Avdalas.\n\nAble’s on/off was positive but more modest: about +10.1 on-net, +6.9 off-net, and a +3.2 swing. That fits his role. He is not a player who carries a team by himself, but he can make lineups more functional because he spaces the floor, plays without excessive usage, and provides defensive-event value. His 1.2 steals per game and defensive-event-plus profile show that he is not only a shooter.\n\nIn the frontcourt, the new picture is more project-based. Jarin Stevenson is the main continuity piece from last season’s team, with 8.1 points and 4.4 rebounds. His value increases because almost the entire front line around him is changing. He does not necessarily need to become a first option, but he has to become a stable connector: spacing the floor, defending multiple positions, rebounding, and helping the new frontcourt pieces fit in.\n\nSayon Keita brings a different type of upside. He arrives from the Barcelona environment as a 7-footer with major wingspan, rim-running, shot-blocking, and defensive potential. He should not be presented as an immediate production replacement for Veesaar or Wilson. We do not have an NCAA sample, and we do not have proof that he can provide 17–20 points from day one. His logic is different: length, rim protection, vertical spacing, transition rim-running, and long-term NBA upside. If UNC wants a more athletic and more defensive frontcourt, Keita is an important part of that direction.\n\nAlexandros Samodurov provides a more skilled frontcourt profile. With 17.6 points, 5.7 rebounds, 2.7 assists, and 1.4 blocks at the U20 EuroBasket, he arrives as a big with a European feel for the game, passing flashes, and more complexity than a simple rim-runner. But international U20 production should not be confused with an immediate guarantee of ACC production. It is a useful sign of skill level, not an automatic translation into the same numbers in college.\n\nCade Bennerman is the case where we need to be more careful. From the Northwestern team focus, there is no meaningful sample: 3 games, 0.0 minutes, zero production, and no reliable on/off or shot profile. So he cannot be placed in the same category as Avdalas, Brown, and Able as a proven NCAA addition. In the report, he should be presented as a developmental 7-footer or depth big, not as a player with proven impact.\n\nAmong the newer roster pieces, Maximo Adams, Kevin Thomas, and Malloy Smith show the second line of the size-and-skill model. Adams adds forward size and multi-position upside. Thomas brings a wing profile with shooting and defensive activity, having been reported with 15.5 points, 60 threes, and 2.0 steals in high school. Smith is more of a developmental combo guard and legacy piece. These players should not be analyzed like transfers, because they do not have a college sample. They should be included as depth, upside, and long-term roster construction.\n\nOverall, the additions show that the new UNC is trying to build differently from last season. Last season’s team already had proven frontcourt production. The new team appears to have more perimeter creation, more size among its handlers, and a more athletic, project-based frontcourt. This may fit better with Malone’s logic: clearer roles, more decision-makers, better spacing around creators, and a frontcourt that can become more defensive.\n\nThe risk is that several of the most important pieces are projections. Brown has proven production, but he comes from a team where he had enormous usage. Avdalas has size and playmaking, but he needs to improve his efficiency and shooting consistency. Able is a clean fit piece, but not a primary creator. Keita, Samodurov, and Bennerman do not have proven ACC impact. So the new Carolina has a high ceiling, but it is not a plug-and-play continuation of last season’s team.\n\nThe correct conclusion is that the additions do not replace exactly what was lost. Instead of rebuilding the same model, UNC appears to be shifting toward a bigger, more multi-handler, and more flexible roster. Whether that will be better than last season will depend on three things: whether Brown can turn high usage into winning efficiency, whether Avdalas can become a stable jumbo initiator without damaging the spacing, and whether the new frontcourt can provide enough defense, rebounding, and finishing so that the losses of Wilson and Veesaar are not felt too heavily.",
+            "images": [
+              {
+                "src": "assets/images/north-carolina-2026-reset-full-media-10.png",
+                "alt": "The incoming roster does not replace last season’s losses one-for-one. UNC is shifting toward a bigger, more flexible model built around creation, spacing, and projected frontcourt upside.",
+                "caption": "The incoming roster does not replace last season’s losses one-for-one. UNC is shifting toward a bigger, more flexible model built around creation, spacing, and projected frontcourt upside."
+              }
+            ]
+          },
+          {
+            "heading": "Part IV — Final Scouting Read",
+            "body": ""
+          },
+          {
+            "heading": "14. Final Conclusion: High Ceiling, but Not a Plug-and-Play Transition",
+            "body": "North Carolina enters the new season as a reset team, not a continuity team. Last season’s UNC had real quality, a strong offensive foundation, and a high ceiling, but its performance was heavily context-dependent. It could look very strong when it found rhythm, when its frontcourt pressured the paint, and when the game opened up, but it did not always have the same half-court clarity or the same stability away from ideal conditions.\n\nThe Malone change comes directly into that problem. The goal is not for UNC to simply become slower or more “NBA-style,” but more repeatable: a better defensive base, more organized possessions, clearer roles, and more stable production when transition is not available.\n\nThe departures make the transition difficult. With Wilson and Veesaar leaving, Carolina loses a large part of last season’s frontcourt production, rim pressure, rebounding, inside-out game, and spacing from the bigs. At the same time, the perimeter departures remove shooting volume, secondary creation, and lineup continuity.\n\nThe additions point in a different direction. Brown brings high-usage scoring and downhill creation, Avdalas brings size and playmaking, Able brings spacing and connective value, while the new frontcourt has length, upside, and greater defensive potential. But several of these pieces are projections, not proven ACC production.\n\nSo the new UNC has a high ceiling, but it is not a plug-and-play contender. The season will be decided by whether Malone can turn a new, big, multi-tool roster into a cohesive basketball identity. Last season’s Carolina had moments. This season’s Carolina needs mechanisms.\n\nThe final question is simple: can North Carolina turn its individual talent and new roster size into repeatable team function?\n\nIf the answer is yes, UNC can become more balanced, more adaptable, and harder to prepare for than last season. If the answer is no, the talent will still be there, but the same issue may remain: a high ceiling without a fully stable identity."
+          },
+          {
+            "heading": "15. Methodology and Limitations",
+            "body": "This report uses publicly available NCAA box score, play-by-play, shot-location, roster, and transfer-related information. Team and player metrics were processed through a custom Python analytics pipeline.\n\nThe analysis focuses on possession-based interpretation rather than raw box-score totals. Metrics such as offensive rating, defensive rating, net rating, Four Factors, shot profile, assisted scoring, lineup estimates, and on/off signals are used to understand how North Carolina functioned as a team."
+          },
+          {
+            "heading": "Methodological Notes",
+            "body": "Pace and efficiency: Team quality is evaluated through possession-based metrics rather than raw scoring totals.\n\nOpponent-adjusted profile: Net versus expected is used to estimate how UNC performed relative to opponent strength and game context.\n\nShot profile: Attempts are grouped into rim, paint non-rim, midrange, corner three, and above-the-break three zones.\n\nAssisted scoring: Assisted made twos and assisted made threes are used to understand how shots were created.\n\nLineup estimates: Lineup data are used to evaluate five-man group performance, but sample size matters.\n\nOn/off signals: On/off numbers are interpreted as team-function indicators, not perfect measures of individual value.\n\nRoster analysis: Departures and additions are evaluated by player function, not only by raw production.\n\nLimitations\n\nOn/off and lineup metrics are context-sensitive. They are affected by teammates, opponents, role, substitution patterns, game state, injuries, foul trouble, and sample size.\n\nShot-location data should be interpreted carefully and ideally validated against box-score totals. Public data may contain missing or imperfect event labels.\n\nPlayer projections for the 2026–27 roster are not guarantees. They are based on previous production, role indicators, physical profile, public reporting, and expected fit. New team context, coaching role, conference adjustment, and chemistry can change outcomes.\n\nThis report should therefore be read as an independent basketball analytics and scouting analysis, not as a definitive prediction."
+          },
+          {
+            "heading": "16. Source Notes",
+            "body": "This report is based on publicly available basketball data and roster information. The statistical analysis uses NCAA men’s basketball box score and play-by-play data, shot-location data where available, and player/team statistical outputs processed through a custom Python analytics pipeline.\n\nRoster movement, player additions, player departures, transfer destinations, coaching context, and roster construction notes were cross-checked through public sources such as official school roster pages, official team announcements, public player-stat pages, transfer-related public reporting, and publicly available college basketball coverage.\n\nBecause offseason roster information can change quickly, the roster section should be read as reflecting the public roster picture available at the time of writing. Player projections are analytical interpretations based on previous production, role indicators, physical profile, statistical fit, and expected team context, not guarantees of future performance."
+          },
+          {
+            "heading": "17. Portfolio Note",
+            "body": "This report is part of my basketball analytics and scouting portfolio. The goal of the project is to study how teams function beyond the box score by connecting possession-based data, player roles, shot profiles, lineup context, roster construction, and tactical interpretation.\n\nThe purpose is not only to describe what happened, but to explain why it happened, which basketball functions mattered most, and how data can support a deeper scouting read of team identity."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ncaa-pipeline-methodology",
+      "category": "method",
+      "badge": "Methodology",
+      "badgeClass": "model",
+      "title": "NCAA Analytics Pipeline Methodology",
+      "subtitle": "How the portfolio's NCAA data pipeline turns public data into report-ready basketball analysis.",
+      "summary": "Covers data ingestion, validation, possession logic, shot-profile processing, and reproducible report generation.",
+      "date": "2026-06-18",
+      "readTime": "8 min",
+      "data": "NCAA.com-derived datasets, CBB Analytics shot data, and generated validation tables",
+      "skills": "Python, pandas, pipeline design, validation checks",
+      "linkLabel": "Read Methodology",
+      "content": {
+        "sections": [
+          {
+            "heading": "Data Sources",
+            "body": "The pipeline starts with NCAA.com basketball pages for team, player, game, box score, and play-by-play data. Shot locations and field-goal shot-clock values come from a separate CBB Analytics shot feed and are validated against official field-goal totals where possible."
+          },
+          {
+            "heading": "Metric Layers",
+            "body": "The analysis exports team season, team game, player season, player game, possession, lineup, shot profile, scouting, and team-focus layers. Each layer has a different reliability level depending on whether it comes from official totals, shot-feed events, reconstructed lineups, or play-by-play-derived estimates."
+          },
+          {
+            "heading": "Validation",
+            "body": "Before a report is published, team totals, player totals, play-by-play scoring, and shot-chart coverage are checked against official box-score results."
+          },
+          {
+            "heading": "Limitations",
+            "body": "Public data is useful but not perfect. Lineups are reconstructed from substitutions, some possession classifications are proxies, and shot-location data covers field-goal attempts rather than every possession ending.\n\nShot-clock splits are based on real shot-clock values for field-goal attempts. Full late-clock possessions cannot be identified exactly from NCAA play-by-play and are treated only as duration-based proxies."
+          },
+          {
+            "heading": "Opponent Adjustment",
+            "body": "Opponent-adjusted outputs compare each game’s offensive and defensive performance with the opponent’s season-level offensive and defensive baselines.\n\nThis provides context beyond raw net rating and is kept separate from venue splits, rolling form, and opponent-archetype analysis."
+          }
+        ]
+      },
+      "tags": [
+        "methodology",
+        "pipeline",
+        "validation"
+      ]
+    }
+  ],
+  "players": []
+}
