@@ -236,8 +236,8 @@
           "body": "Grouped metrics, rolling trends, joins across box score, PBP, shots, and lineups."
         },
         {
-          "title": "SQL-ready Modeling",
-          "body": "Team, player, game, possession, lineup, and shot tables designed for analysis."
+          "title": "SQLite & Relational Data Modeling",
+          "body": "Team, player, game, possession, lineup, and shot tables structured for reproducible querying and analysis."
         },
         {
           "title": "Visualization",
@@ -305,20 +305,20 @@
   },
   "homeStats": [
     {
-      "value": "1",
-      "label": "published team report"
+      "value": "2",
+      "label": "published team reports"
     },
     {
-      "value": "1",
+      "value": "2",
       "label": "web articles"
     },
     {
-      "value": "10",
+      "value": "20",
       "label": "chart assets"
     },
     {
       "value": "1",
-      "label": "data projects"
+      "label": "data project"
     }
   ],
   "projects": [
@@ -330,7 +330,9 @@
       "summary": "Collects, normalizes, validates, and organizes NCAA team, player, game, box-score, shot, and play-by-play data into analysis-ready tables.",
       "build": "CSV outputs, team/player layers, reproducible scripts",
       "usedFor": "All NCAA team reports, team focus packages, methodology tables",
-      "insight": "Why it matters: analysis starts with clean, auditable data."
+      "insight": "Why it matters: analysis starts with clean, auditable data.",
+      "codeLabel": "View Code",
+      "codeHref": "https://github.com/Kyriacosthe/ncaa-basketball-analytics"
     },
     {
       "category": "metrics",
@@ -340,7 +342,9 @@
       "summary": "Calculates pace, ratings, Four Factors, usage estimates, estimated role indicators, and rolling trends.",
       "build": "team_season, player_season, team_game, scouting layers",
       "usedFor": "Published team analysis and generated charts",
-      "insight": "Why it matters: box score totals become pace-neutral basketball context."
+      "insight": "Why it matters: box score totals become pace-neutral basketball context.",
+      "codeLabel": "View Code",
+      "codeHref": "https://github.com/Kyriacosthe/ncaa-basketball-analytics"
     },
     {
       "category": "lineup",
@@ -350,7 +354,9 @@
       "summary": "Reconstructs lineup stints from substitution and play-by-play sequences; outputs are interpreted with validation and sample-size flags.",
       "build": "lineup_stints, five_man_lineups, player_on_off",
       "usedFor": "Lineup context inside all NCAA reports packages",
-      "insight": "Why it matters: lineup value needs sample flags before interpretation."
+      "insight": "Why it matters: lineup value needs sample flags before interpretation.",
+      "codeLabel": "View Code",
+      "codeHref": "https://github.com/Kyriacosthe/ncaa-basketball-analytics"
     },
     {
       "category": "shot",
@@ -360,7 +366,9 @@
       "summary": "Processes field-goal locations, shot zones, assisted flags, and real shot-clock timing for field-goal attempts.",
       "build": "Team/player shot profiles and shot-clock FGA splits",
       "usedFor": "Shot profile and spacing analysis inside the report package",
-      "insight": "Why it matters: shot profile shows how offense is actually created."
+      "insight": "Why it matters: shot profile shows how offense is actually created.",
+      "codeLabel": "View Code",
+      "codeHref": "https://github.com/Kyriacosthe/ncaa-basketball-analytics"
     },
     {
       "category": "pipeline",
@@ -370,7 +378,9 @@
       "summary": "Generates focused tables, charts, validation notes, and report markdown for a selected team.",
       "build": "team_focus folder, charts, report markdown, validation summary",
       "usedFor": "All NCAA team reports assets",
-      "insight": "Why it matters: report output can be refreshed from the same source data."
+      "insight": "Why it matters: report output can be refreshed from the same source data.",
+      "codeLabel": "View Code",
+      "codeHref": "https://github.com/Kyriacosthe/ncaa-basketball-analytics"
     }
   ],
   "reports": [

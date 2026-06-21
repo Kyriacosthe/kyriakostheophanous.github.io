@@ -687,6 +687,8 @@ figcaption {
 
 .project-card {
   min-height: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover,
@@ -731,6 +733,11 @@ figcaption {
   display: block;
   margin-top: 18px;
   color: var(--gold);
+}
+
+.project-actions {
+  margin-top: auto;
+  padding-top: 18px;
 }
 
 .team-layout,

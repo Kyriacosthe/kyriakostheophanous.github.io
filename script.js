@@ -310,6 +310,11 @@ function renderProjects(projects) {
             <div><dt>Used for</dt><dd>${escapeHtml(project.usedFor)}</dd></div>
           </dl>
           <strong class="insight">${escapeHtml(project.insight)}</strong>
+          ${
+            project.codeHref
+              ? `<div class="project-actions"><a class="btn ghost" href="${attr(project.codeHref)}"${linkTargetAttributes(project.codeHref)}>${escapeHtml(project.codeLabel || "View Code")}</a></div>`
+              : ""
+          }
         </article>
       `
     )
